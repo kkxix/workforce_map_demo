@@ -1,0 +1,39 @@
+svg path:hover {
+    fill: #D8D9DE !important;
+    cursor: pointer; 
+}
+.us_map {
+    height: 426;
+    width: 700;
+    overflow: hidden;
+    position: relative;
+    left: -0.222237px;
+    top: -0.590332px;
+}
+.state {
+    fill: #6E7889;
+    stroke: "#ffffff" ;
+    stroke-width: 1;
+    opacity: 100;
+}
+#MD {
+    background-color: #FCDABE;
+}
+#PJ {
+    background-color: #F2C7CC;
+}
+#DB {
+    background-color: #C0C2E2;
+}
+#VP {
+    background-color: #C2E7F1;
+}
+#DM {
+    background-color: #D7F2CE;
+}
+#DD {
+    background-color: #F3FBD2;
+}
+#notes_div{
+    width: 650px;
+}
