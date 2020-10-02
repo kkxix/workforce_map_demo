@@ -9,7 +9,7 @@
 // global.$ = require('jquery/dist/jquery')(jsdom().createWindow());
 
 
-$(document).ready(function () {
+(function($){
     $(".state").each(function () {
         $(this).on("click", function (e) {
             var element_state_id = this.id;
@@ -45,4 +45,4 @@ $(document).ready(function () {
             });
         });
     });
-});
+})(jQuery);
