@@ -9,9 +9,10 @@
 // global.$ = require('jquery/dist/jquery')(jsdom().createWindow());
 
 
-(function($){
+$().ready(function(){
     $(".state").each(function () {
         $(this).on("click", function (e) {
+            $("notesModal").modal()
             var element_state_id = this.id;
             $.getJSON("../data/us_state_data_static.json", function (data) {
                 var notes = [];
