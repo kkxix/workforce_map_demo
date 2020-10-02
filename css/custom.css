@@ -19,6 +19,14 @@ svg path:hover {
   opacity: 100;
 }
 
+.inner cover {
+  margin-top: 3rem;
+}
+
+.modal {
+  color: black;
+}
+
 #MD {
   background-color: #FCDABE;
 }
