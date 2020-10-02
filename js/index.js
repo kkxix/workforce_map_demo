@@ -9,7 +9,7 @@
 // global.$ = require('jquery/dist/jquery')(jsdom().createWindow());
 
 
-$().ready(function(){
+(function(){
     $(".state").each(function () {
         $(this).on("click", function (e) {
             $("notesModal").modal()
