@@ -10,8 +10,8 @@
 
 
 (function(){
-    $(".state").each(function () {
-        $(this).on("click", function (e) {
+    // $(".state").each(function () {
+        $(document.body).on("click", '.state', function () {
             $("#notesModal").modal()
             var element_state_id = this.id;
             $.getJSON("../data/us_state_data_static.json", function (data) {
@@ -133,5 +133,6 @@
                 $(".modal-body").html(notes)
             });
         });
-    });
+    // }
+    // );
 })(jQuery);

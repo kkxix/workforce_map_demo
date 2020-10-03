@@ -2,7 +2,7 @@ svg path:hover {
     fill: #D8D9DE !important;
     cursor: pointer; 
 }
-.us_map {
+#us_map {
     height: 426;
     width: 700;
     overflow: hidden;
@@ -18,6 +18,12 @@ svg path:hover {
 }
 .inner cover {
     margin-top: 3rem;
+}
+.cover-container {
+    width: percentage(2/3);
+}
+.map {
+    width: percentage(7/8)
 }
 .modal {
     color: black; 

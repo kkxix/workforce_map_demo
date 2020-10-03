@@ -3,7 +3,7 @@ svg path:hover {
   cursor: pointer;
 }
 
-.us_map {
+#us_map {
   height: 426;
   width: 700;
   overflow: hidden;
@@ -21,6 +21,14 @@ svg path:hover {
 
 .inner cover {
   margin-top: 3rem;
+}
+
+.cover-container {
+  width: 66.6666666667%;
+}
+
+.map {
+  width: 87.5%;
 }
 
 .modal {
