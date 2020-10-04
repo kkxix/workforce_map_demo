@@ -10,12 +10,20 @@
 
 
 (function(){
-    // $(".state").each(function () {
+    var active_map = 'US';
+    $('.nav-link').click(function() {
+        // TODO: if nav link is clicked, change active map 
+        alert($(this).text())
+    })
         $(document.body).on("click", '.state', function () {
             $("#notesModal").modal()
             var element_state_id = this.id;
-            $.getJSON("../data/us_state_data_static.json", function (data) {
+            
+         
+            if(active_map == 'US'){
+                $.getJSON("../data/us_state_data_static.json", function (data) {
                 var notes = [];
+                var all_types = [];
                 var state_names = {
                     "AL": "Alabama",
                     "AK": "Alaska",
@@ -79,60 +87,76 @@
                 };
                 // Find statename value based on type-code key
                 var state_name = state_names[element_state_id];
-                // notes.push("<br><h1>" + state_name + "</h1>")
-                $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `)
 
-                // $('.modal-items').html(`
-                //     <div class="dropdown show">
-                //         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                //             aria-haspopup="true" aria-expanded="false">
-                //             Filter by Category
-                //                 </a>
-
-                //         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                //             <a class="dropdown-item" href="#" data-filters="MD">Mentions Digital Literacy/Computer Skills</a>
-                //             <a class="dropdown-item" href="#" data-filters="PJ">Projected Job Growth/Occupation Outlook</a>
-                //             <a class="dropdown-item" href="#" data-filters="DB">Digital Badging, Skilling-type website offered by State or State Programs in place</a>
-                //             <a class="dropdown-item" href="#" data-filters="VP">Veterans population or prison population</a>
-                //             <a class="dropdown-item" href="#" data-filters="DM">Direct mention of Microsoft</a>
-                //             <a class="dropdown-item" href="#" data-filters="DD">Digital Divide</a>
-                //         </div>
-                //     </div>
-                //     `);
+                $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
 
                 $.each(data, function (idx, obj) {
                     if (element_state_id === obj.STATE_ID) {
                         var type = obj.TYPE;
                         var types = type.split(";");
-                        var first_type = types[0]
-                        var first_type_words = first_type.split(" ")
-                        var type_code = first_type_words[0][0].toUpperCase() + first_type_words[1][0].toUpperCase()
-                        // notes.push("<p>" + type_code + "<p/>")
+                        var type_codes = []
+                        $.each(types, function(i, t){
+                            all_types.push(t)
+                            t = $.trim(t);
+                            var words = t.split(" ");
+                            var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                            type_codes.push(type_code);
+                        })
 
-
-                        // Add text
-                        notes.push("<p id='" + type_code + "' data-filters='" + type_code + "' >" + obj.NOTE + "</p>");
+                        // this will be irrelevant soon
+                        // var first_type = types[0]
+                        // var first_type_words = first_type.split(" ")
+                        // var type_code = first_type_words[0][0].toUpperCase() + first_type_words[1][0].toUpperCase()
+                        type_codes = unique(type_codes);
+                        var data_filters = type_codes.join();
+                        // Add text, link 
+                        if(obj.LINK){
+                            notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </br> <a href='${obj.LINK}'> More information </a> </p>`); 
+                            // notes.push(`<p id="note-link${idx}">${obj.LINK}</p>`)
+                        } else {
+                            notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </p>`); 
+                        }
                     }
                 });
-                $("<ul/>", {
-                    "class": "my-new-list",
-                    html: notes.join("")
-                });
-                // $("#state_notes").html(notes)
-                $(".modal-key").html(`
-                    <h5>Key:</h5>
-                    <ul>
-                        <li id="MD">Mentions Digital Literacy/Computer Skills</li>
-                        <li id="PJ">Projected Job Growth/Occupation Outlook</li>
-                        <li id="DB">Digital Badging, Skilling-type website offered by State or State Programs in place</li>
-                        <li id="VP">Veterans population or prison population</li>
-                        <li id="DM">Direct mention of Microsoft</li>
-                        <li id="DD">Digital Divide</li>
-                    </ul>
-                `)
+                
+                // Create Dropdown out of relevant filter types
+                all_types = unique(all_types);
+                types_html = []
+                $.each(all_types, function(i, t){
+                    // add codes as data filters^^^
+                    var words = t.split(" ");
+                    var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                    types_html.push(`<a class='dropdown-item' data-filters='${type_code}' href='#'>${t}</a>`)
+                })
+                $(".dropdown-menu").html(types_html.join(''));
+
+                // TODO : Remove once filter implemented
+                // $(".modal-key").html(`
+                //     <h5>Key:</h5>
+                //     <ul>
+                //         <li id="MD">Mentions Digital Literacy/Computer Skills</li>
+                //         <li id="PJ">Projected Job Growth/Occupation Outlook</li>
+                //         <li id="DB">Digital Badging, Skilling-type website offered by State or State Programs in place</li>
+                //         <li id="VP">Veterans population or prison population</li>
+                //         <li id="DM">Direct mention of Microsoft</li>
+                //         <li id="DD">Digital Divide</li>
+                //     </ul>
+                // `)
                 $(".modal-body").html(notes)
             });
+            }
         });
-    // }
-    // );
+
+
+        // remove duplicates:
+    function unique(list) {
+        var result = [];
+        $.each(list, function (i, e) {
+            var trimmed = $.trim(e);
+            if($.inArray(trimmed, result) == -1){
+                result.push(trimmed);
+            } 
+        });
+        return result;
+    }
 })(jQuery);

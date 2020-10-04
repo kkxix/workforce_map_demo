@@ -35,6 +35,11 @@ svg path:hover {
   color: black;
 }
 
+.note {
+  text-align: left !important;
+  color: black;
+}
+
 #MD {
   background-color: #FCDABE;
 }
