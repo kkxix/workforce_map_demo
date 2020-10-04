@@ -13,7 +13,7 @@
     var active_map = 'US';
     $('.nav-link').click(function() {
         // TODO: if nav link is clicked, change active map 
-        alert($(this).text())
+        // alert($(this).text())
     })
         $(document.body).on("click", '.state', function () {
             $("#notesModal").modal()
@@ -129,19 +129,6 @@
                     types_html.push(`<a class='dropdown-item' data-filters='${type_code}' href='#'>${t}</a>`)
                 })
                 $(".dropdown-menu").html(types_html.join(''));
-
-                // TODO : Remove once filter implemented
-                // $(".modal-key").html(`
-                //     <h5>Key:</h5>
-                //     <ul>
-                //         <li id="MD">Mentions Digital Literacy/Computer Skills</li>
-                //         <li id="PJ">Projected Job Growth/Occupation Outlook</li>
-                //         <li id="DB">Digital Badging, Skilling-type website offered by State or State Programs in place</li>
-                //         <li id="VP">Veterans population or prison population</li>
-                //         <li id="DM">Direct mention of Microsoft</li>
-                //         <li id="DD">Digital Divide</li>
-                //     </ul>
-                // `)
                 $(".modal-body").html(notes)
             });
             }
