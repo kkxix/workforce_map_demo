@@ -1,6 +1,5 @@
 (function () {
-    if ($('.nav-link active').text() == 'US') {
-        $('.map').html(`
+    $('.map').html(`
                 <svg class="us_map"  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 964 630"
                         preserveAspectRatio="xMinYMin">
                         <!-- <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc>
@@ -292,7 +291,6 @@
                             -->
                     </svg>
             `);
-    }
     $('.nav-link').click(function () {
         if($(this).text()=='US'){
             $('#world').attr('class', 'nav-link');

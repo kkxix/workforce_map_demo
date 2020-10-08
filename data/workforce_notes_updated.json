@@ -1,0 +1,851 @@
+[
+    {
+        "UNIQUE_ID": "DE1",
+        "STATE_ID": "DE",
+        "NOTE": "New Castle County had most of the state’s job gains in the Professional, Scientific, and Technical Services sector, adding 460 .",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "DE2",
+        "STATE_ID": "DE",
+        "NOTE": "Basic Computer/Job Surfing. Delaware offers a two-part basic computer class designed for the customer who is deficient in basic computer skills. There are several points in the service delivery system where candidates are assessed for this training. Individuals may self-refer or be mandatory for this course. This training will help job seekers/career service customers use self-service tools, such as creating a resume in Delaware JobLink, job searching on the internet, and applying for jobs through the internet.",
+        "TYPE": "Addresses need for digital skills; Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "DE3",
+        "STATE_ID": "DE",
+        "NOTE": "In September 2018, DOL,DOL-DET made arrangements for Microsoft Staff to train DET’s OneStop staff on LinkedIn  at the State’s Buena Vista conference center. Training workshop topics included – LinkedIn: Grow your Network. ",
+        "TYPE": "Has Microsoft partnerships",
+        "SUB_TYPE": "Linkedin"
+    },
+    {
+        "UNIQUE_ID": "DE4",
+        "STATE_ID": "DE",
+        "NOTE": " Improving Access to Postsecondary Credentials. The DWDB will continue to require all providers ensure post–secondary credentials result from all approved training. In addition, working with the Business Services and job placement staff of the One–Stop partners, Delaware continues to work with employers to identify the credentials that are in demand and to target the training necessary to meet the requirements for the same. Delaware will, when opportunities present themselves, target specific career lattices as potential training areas, identifying and strategizing ways for customer to obtain key credentials. Examples will include: • Guaranteeing adult customers, that obtain a secondary credential or high school diploma, an ITA leading to an in-demand credential • Guaranteeing a second ITA opportunity to an individual who through an ITA obtains a postsecondary credential in a targeted career area, and who successfully completes at least 12 months of employment in the targeted area that will enable a second more advanced credential through a combination of work and training/education. • Enable employers to create targeted credentials in high demand areas. • DOL-DET – has increased the poverty levels for working adults. Adult Education Title II programs will continue to improve access in several ways: • Upon entry into programs, each student will have an individualized learning plan which includes career goals and a career development plan. Each student will also have access to the wide array of partners via the One-Stop partner referral system. • Programs will provide academic instruction to increase academic skills through career lattice or demand occupation contexts, reinforcing the relevance of the skills being taught. • Some programs will collaborate with other specific skills trainers to co–enroll learners so that academic and specific skills can be taught concurrently. • Some programs will braid their various funding to provide academic and specific skills training at the one location through the same provider.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "DE5",
+        "STATE_ID": "DE",
+        "NOTE": "The working relationship with the AJC helped the Registered Apprenticeship staff better understand the jobseeker. • Support Related Instruction of Registered Apprenticeship through AJCs. Delaware is currently working on a policy and procedure to braid WIOA Adult and USDOL Apprenticeship grant that provides the funding for tuition and supportive services to targeted populations (e.g. Unemployed, Low Income, and Dislocated Workers) for the related instruction component of Registered Apprenticeship as well as case management and job placement support. The AJC staff will help recruit and refer candidates to this program. So far, the process is mirrored off the WIOA Adult ITA process. Having processes in place that are similar help further integrate Registered Apprenticeship into the service design and delivery of Delaware’s workforce system. This process and the Apprenticeship grant supporting it requires similar data collection and reporting as other USDOL workforce programs. This further integrates Registered Apprenticeship and as we work through this process, new items of alignment are expected to pop up.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "unemployed; low income; dislocated workers"
+    },
+    {
+        "UNIQUE_ID": "DE6",
+        "STATE_ID": "DE",
+        "NOTE": "These efforts are expected to result in more viable job orders, increased employment placement of veterans, and possible certification opportunities for veterans and placement of veterans in apprenticeships. In coordination with the One-Stop Area Operations Manager, LVER staff will also monitor the provision of services to veterans through the center and assist in the preparation of the quarterly Managers Report on Services to Veterans.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "veterans"
+    },
+    {
+        "UNIQUE_ID": "TN1",
+        "STATE_ID": "TN",
+        "NOTE": "Workforce Preparation Activities Activities: programs, or services designed to help an individual acquire a combination of basic skills, including digital literacy skills.",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "TN2",
+        "STATE_ID": "TN",
+        "NOTE": "Where specific needs are identified via employers, providers will adapt and contextualize instruction for literacy and arithmetic for the employer needs. Providers will provide general soft skill and workplace preparation activities, such as digital literacy, where specific employer or industry needs are not identified.  ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "TN3",
+        "STATE_ID": "TN",
+        "NOTE": "Utilizing Tennessee Department of Labor and Workforce Development (TDLWD) staff and resources such as Google Suite and various digital literacy vendor products, instructors will have the opportunity to learn how to implement technology through instruction.",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "TN4",
+        "STATE_ID": "TN",
+        "NOTE": "Professional and Business Services: Expected to be the second fastest-growing major industry sector through 2020 at 1.7 percent, its growth will be propelled by several expanding business services industries including Computer systems design and related services (5.4 percent). ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN5",
+        "STATE_ID": "TN",
+        "NOTE": "The largest occupation was computer user support specialists (10, 590) in 2018, followed by computer systems analysts. Among the computer occupations, the fastest growing are software developers, applications (4.3 percent) and software develop-ers, systems (3.0 percent). ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN6",
+        "STATE_ID": "TN",
+        "NOTE": "Rapidly growing jobs include computer and information system managers (4.6 percent), increasing in numbers as the technology sector expands. ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN7",
+        "STATE_ID": "TN",
+        "NOTE": "Tennessee Emerging Industries Include:  data processing; hosting, and related services; computer programming and systems design services",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN8",
+        "STATE_ID": "TN",
+        "NOTE": "Tennessee STEM employment is expected to increase from 138,100 in 2016 to 167,950 in 2026. TDLWD’s recently released publication on STEM Occupations identifies 28 STEM occupations expected to have rapid employment growth during this period, including software developers, applications; information security analysts, computer user support specialists, and electrical and electronics engineering technicians. STEM occupations are growing faster than all occupations on average, and have higher average wages. ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN9",
+        "STATE_ID": "TN",
+        "NOTE": "Construction is expected to create more than 5,500 jobs during the 2018-2020 projection period; related to construction are the architecture and engineering occupations, including many STEM occupations. More rapid growth in the professional and business services, financial activities, and leisure and hospitality industries will boost employment in the computer and mathematical and business and financial occupations. ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN10",
+        "STATE_ID": "TN",
+        "NOTE": "In-demand middle skilled occupations include Computer user support specialists.",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN11",
+        "STATE_ID": "TN",
+        "NOTE": "Training has become a large part of the agriculture industry. Welding, industrial maintenance and even computers have become common practice to keep up to date on the modern farm.",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN12",
+        "STATE_ID": "TN",
+        "NOTE": "Participants' training positions for SCSEP include computer assistants.",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "TN13",
+        "STATE_ID": "TN",
+        "NOTE": "The Tennessee Department of Education, Division of Career and Technical Education will follow up on youth completers with the emphasis toward continuing competency models in STEM fields",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "TN14",
+        "STATE_ID": "TN",
+        "NOTE": "MAC offers an entry level information technology credential, CompTIA A+ Certification, for adults interested in a career in IT. The certification includes an internship placement with local tech companies. ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "TN15",
+        "STATE_ID": "TN",
+        "NOTE": "Encourage employers in professions requiring licensure or certification to develop OJT and/or apprenticeship programs for Veterans.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "veterans"
+    },
+    {
+        "UNIQUE_ID": "TN16",
+        "STATE_ID": "TN",
+        "NOTE": "The Center is completing the final year of a 3-year strategic plan that includes objectives and action steps to improve access to and increase enrollment in apprenticeship programs and is currently working with one of its national partners, CVS, to develop pre-apprentice programs that could lead to registered apprenticeship certificates for TRC students.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "TN17",
+        "STATE_ID": "TN",
+        "NOTE": "A new ApprenticeshipTN website is launching in 2020. This website will also be a tool for staff members to locate active apprenticeship programs in TN as they work with individuals seeking employment in apprenticeship programs. Through our collaborative partnerships the ApprenticeshipTN website and other state agency websites will be linked to present a unified effort on Apprenticeships.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "TN18",
+        "STATE_ID": "TN",
+        "NOTE": "Through the Registered Electrical Apprenticeship Preparation (REAP) initiative, in partnership with Amtek, an electrical contracting and engineering career pathway was established at Lake County High. Graduating seniors expressing an interest in an electrician career participated in a 10-week preapprenticeship program to learn the fundamentals of basic electricity and construction applications. Those who successfully completed the program were eligible for hire and could be accepted into the 4-year registered apprenticeship program.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "SC1",
+        "STATE_ID": "SC",
+        "NOTE": "The term workforce preparation activities means activities, programs, or services designed to help an individual acquire a combination of basic skills, including digital literacy skills.",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "SC2",
+        "STATE_ID": "SC",
+        "NOTE": "Annually, statewide training opportunities are offered during the spring and fall for both paid and volunteer adult education practitioners. Professional development has focused on WIOA, standards, career pathways, digital literacy, math and reading instruction, and other topics related to the specific needs of adult learners.",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "SC3",
+        "STATE_ID": "SC",
+        "NOTE": "During the summer, graduate level courses are offered as an additional learning opportunity for all adult education practitioners at low to no cost. The following graduate-level courses are offered: Blending College and Career Standards with Technology to Expand Adult Education Instruction and Digital Literacy in Adult Education. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "SC4",
+        "STATE_ID": "SC",
+        "NOTE": "Occupational categories with the highest average hourly wages were Management ($49.57), Architecture and Engineering ($38.44), and Computer and Mathematical ($35.59). These three occupation groups jointly encompass about 8.2 percent of all workers in the state. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "SC5",
+        "STATE_ID": "SC",
+        "NOTE": "People who have been imprisoned face several challenges re-entering society, such as overcoming their past criminal history when seeking employment, including poor computer skills.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": " prison population"
+    },
+    {
+        "UNIQUE_ID": "SC6",
+        "STATE_ID": "SC",
+        "NOTE": "Onsite Reemployment Services. This provides customized services which address workers’ unique needs for reducing unemployment. Included in these services is computer literacy. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "SC7",
+        "STATE_ID": "SC",
+        "NOTE": "A community partnership: The National Federation of the Blind (NFB) of South Carolina for the purposes of ensuring statewide availability of computer skills training.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "differently abled; blind "
+    },
+    {
+        "UNIQUE_ID": "SC8",
+        "STATE_ID": "SC",
+        "NOTE": "A community partnership: The Association for the Blind and Visually Impaired (ABVI) for the purposes of ensuring statewide availability of computer skills training.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": " differently abled; blind "
+    },
+    {
+        "UNIQUE_ID": "SC9",
+        "STATE_ID": "SC",
+        "NOTE": "A community partnership: Goodwill Industries for the purposes of providing statewide access to job readiness and computer skills training. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "SC10",
+        "STATE_ID": "SC",
+        "NOTE": "STEM graduates had the fastest median annual wage growth (9.6 percent) one to five years postgraduation.",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "SC11",
+        "STATE_ID": "SC",
+        "NOTE": "Summer Teens is an eight (8) week summer residential program located at the Ellen Beach Mack Rehabilitation Center in Columbia. Summer Teens 2017 included a Science, Technology, Engineering, and Math Career Exploration Week where scientists from NASA, San Jose State University, the Space Telescope Institute, and the International Astronomical Union used 3-D printer technology to help blind students explore STEM careers using tactile three-dimensional models. ",
+        "TYPE": " Spotlights digital skills training for specific populations",
+        "SUB_TYPE": " differently abled; blind "
+    },
+    {
+        "UNIQUE_ID": "SC12",
+        "STATE_ID": "SC",
+        "NOTE": "Included in the fastest growing occupations: statistician and software developers for applications. ",
+        "TYPE": " Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "SC13",
+        "STATE_ID": "SC",
+        "NOTE": "Apprenticeship Carolina™ works to ensure that all employers have access to information and technical assistance to create demand-driven apprenticeship programs. At no cost to the employer, apprenticeship consultants are available to guide companies through the registered apprenticeship development process from initial information to full recognition in the national Registered Apprenticeship System. South Carolina has 33,695 registered apprentices and 1,048 registered programs. Apprenticeship Carolina™ is recognized by the US Department of Labor as a national model for apprenticeship expansion. South Carolina’s high school students have the opportunity to participate in a Youth Apprenticeship program, which combines high school curriculum and career and technology training with critical on-the job training performed at a local business. There are over 200 Youth Apprenticeship Programs in the state. ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "SC14",
+        "STATE_ID": "SC",
+        "NOTE": "South Carolina has more than 1,000 apprenticeship programs that are registered with the US Department of Labor",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "SC15",
+        "STATE_ID": "SC",
+        "NOTE": "Having exceeded our “20,000 Apprenticeships by 2020” goal, South Carolina is well positioned to provide the services and training under adult registered apprenticeships for in-school and at-risk youth. Under the Education and Economic Development Act Coordinating Council, SC Department of Education, the State Technical College System, SC Department of Employment and Workforce, the State Chamber of Commerce and many other stakeholders, are establishing mutual goals around increasing the number of youth apprentices. While much of the early work around youth apprenticeships can be attributed to Trident Technical College, multiple technical colleges around the state are working with local school districts and business partners to promote youth apprenticeships.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "SC16",
+        "STATE_ID": "SC",
+        "NOTE": "The Palmetto Academic Training hub (PATh) a major resource used in advertising and connecting individuals to registered apprenticeships. PATh is used to make program information about registered Title I: Adult, Dislocated Workers, and Youth Program Plan 7 apprenticeships available to the public. Title I case managers use the list of registered apprenticeships to inform participants of the career and training options available.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "LA1",
+        "STATE_ID": "LA",
+        "NOTE": "The State plans develop and disseminate curricula, including curricula incorporating the essential components of reading instruction, that incorporate digital literacy standards and activities",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "LA2",
+        "STATE_ID": "LA",
+        "NOTE": "A table provides employment growth projections on the 10 industries expected to experience the greatest growth by 2026. The highest growth occupation according to these projections will be Professional, Scientific, and Technical Services (expected to grow by 16.4 percent), which include computer services. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "LA3",
+        "STATE_ID": "LA",
+        "NOTE": "Louisiana has 102 occupations with high demand (3, 4, or 5 stars) and high base year employment (employment greater than or equal to 2,500). Collectively, these 102 occupations are projected to grow 76,980 new jobs in Louisiana. This list includes Network and Computer Systems Administrators, Computer User Support Specialists and Computer Programmers. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "LA4",
+        "STATE_ID": "LA",
+        "NOTE": "Classes are offered through the Comprehensive Public Training Program (CPTP) to all state employees at all levels to further enhance their professional skills and development. Through this program, specialized training is available in many areas, including web-based computer skills. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "LA5",
+        "STATE_ID": "LA",
+        "NOTE": "The Senior Community Service Employment Program (SCSEP) will work to identify senior friendly user technology and identify resources to secure the technology to increase career readiness for participants. Computer based training and Teknimedia is being offered to participants statewide. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "LA6",
+        "STATE_ID": "LA",
+        "NOTE": "SCSEP will conduct job search workshops for older workers and introductory computer training workshops conducted by a professional instructor at the Career Solution Centers.",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "LA7",
+        "STATE_ID": "LA",
+        "NOTE": "Development of interim credentials for longer-term Registered Apprenticeship programs, which Louisiana can do as an “SAA State” (State Apprenticeship Agency). ",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "LA8",
+        "STATE_ID": "LA",
+        "NOTE": "The State will maximize Work-Based Training program models including on-the-job training, incumbent worker training, registered apprenticeship, transitional jobs (Work Experience), and customized training as part of its training strategy. These models are designed to ensure high quality training for both participants and employers. The Louisiana Work-Based Training model has as its goal to meet job seekers as well as employer needs.",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "LA9",
+        "STATE_ID": "LA",
+        "NOTE": "Collaborate with Veterans program and Apprenticeship program at LWC to determine methods to increase outreach and successful employment outcomes.",
+        "TYPE": "Spotlights digital skills training for specific populations; Has technology-related apprenticeship program planned or in place",
+        "SUB_TYPE": "veterans  "
+    },
+    {
+        "UNIQUE_ID": "MI1",
+        "STATE_ID": "MI",
+        "NOTE": "The largest job gains were reported in the Professional and business services subsector (+9,100). The employment growth in this industry was partially driven by the growth in computer systems design and related services (+1,300 jobs). ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI2",
+        "STATE_ID": "MI",
+        "NOTE": "One group of occupations that play a critical role in the Michigan labor market are those in Science, Technology, Engineering, and Mathematics (STEM). The Bureau of Labor Statistics categorizes 100 different standard occupations as STEM related. The median wage for all STEM occupations in Michigan was $36.88 per hour, more than double the statewide median wage. Among the top paying STEM occupations in Michigan were: Architectural and engineering managers ($58.81), Computer and information systems managers median ($56.17), and Computer network architects ($50.04). In fact, 98 of the 100 STEM occupations in Michigan paid a median wage above Michigan’s all-occupation median wage of $17.32. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI3",
+        "STATE_ID": "MI",
+        "NOTE": "Professional trades occupations are mostly middle-skill jobs that require training after high school, but typically require less than a Bachelor’s degree. One of the most common jobs in this category in Michigan are Computer user support specialists. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI4",
+        "STATE_ID": "MI",
+        "NOTE": "Michigan stated that Science, Technology, Engineering, and Mathematics (STEM) occupations are important jobs that typically require a Bachelor’s degree or higher. The top five jobs in this category in Michigan are: Mechanical engineers; Industrial engineers; Software developers, applications; Computer user support specialists; and Computer systems analysts. All of these positions, except for Computer user support specialists, require at least a Bachelor’s degree. In Michigan there were 304,430 STEM jobs in 2016, which is 7.2 percent of all jobs in Michigan, compared to only 6.3 percent nationwide, and ranks 8th overall in STEM job concentration in the United States. The two Metropolitan Statistical Area’s (MSA) in Michigan with the highest concentration of STEM occupations are Ann Arbor and Detroit, both of which rank highly nationally. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI5",
+        "STATE_ID": "MI",
+        "NOTE": "In a table of Michigan’s top 25 in demand occupations: 2nd was computer systems analyst, 3rd was application software developer, 4th was systems software developer, 14th was computer and information system manager, 15th was network and computer system administrator, and 21st was computer user support specialist.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI6",
+        "STATE_ID": "MI",
+        "NOTE": "Many of the existing in-demand occupations today in Michigan are in engineering, management, and technology. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI7",
+        "STATE_ID": "MI",
+        "NOTE": "The computer and mathematical occupation group is projected to be one of the fastest growing in Michigan.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI8",
+        "STATE_ID": "MI",
+        "NOTE": "STEM occupations in Michigan are projected to grow significantly faster than overall jobs between 2014 and 2024. While total statewide employment is expected to grow by only 7.4 percent, STEM jobs are expected to almost double that rate, increasing by 13.3 percent. Roughly one out of every eight new Michigan jobs during this period will be a STEM occupation, with these occupations expected to expand from an estimated 6.9 percent share of total jobs in 2014 to about 7.3 percent by 2024. While STEM occupations are concentrated throughout much of this broad sector, some related industries contained therein are particularly notable, including Architectural, engineering, and related services, which is expected to add 13,320 new jobs (+16.3 percent) and Computer systems design and related services (10,390 new jobs, 22.3 percent growth).  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI9",
+        "STATE_ID": "MI",
+        "NOTE": "Though STEM occupations are broadly defined, the bulk of these jobs are contained within the Computer and mathematical and Architecture and engineering occupational groups. These two groups are expected to grow by 15.2 percent and 12.9 percent, respectively, between 2014 and 2024, and combined should add over 33,000 new jobs during this period. Total STEM occupations overall are forecast to increase by nearly 41,000 jobs and, after factoring replacement opportunities into the mix, provide almost 11,000 average openings annually during this time. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI10",
+        "STATE_ID": "MI",
+        "NOTE": "Machinists and Computer user support specialists, are each expected to experience double-digit percent growth from 2014 through 2024, providing many new openings for potential jobseekers. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI11",
+        "STATE_ID": "MI",
+        "NOTE": "Manufacturing and technology companies are experiencing a shortage of employees with the knowledge, skills, and competencies necessary to operate and maintain new systems-based equipment and technologies. Modeled after Germany’s dual-education system, the Michigan Advanced Technician Training (MAT2) Program connects employers with graduating high school seniors who will learn and earn how to become skilled in a high demand trade. Training programs include Information Technology Technician and Computer Numeric Control Manufacturing Technician, among others.  ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place;  Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MI12",
+        "STATE_ID": "MI",
+        "NOTE": "Computer skills classes are offered to migrant and seasonal farm workers through the Michigan Works! Service Centers. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MI13",
+        "STATE_ID": "MI",
+        "NOTE": "Services used to promote vocational rehabilitation of substantially larger numbers, may include vocational and other training services, including but not limited to, a field of science, technology, engineering, or mathematics (including computer science), medicine, law, or business; books, tools, and other training materials. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MI14",
+        "STATE_ID": "MI",
+        "NOTE": "2016 workforce development goal: an increased emphasis on STEM (Science, Technology, Engineering, and Math) education by investing in skilled trades training and career and technical education opportunities. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MI15",
+        "STATE_ID": "MI",
+        "NOTE": "The Talent Investment Agency’s Work-Based Learning efforts aligns and leverages resources and cultivates partnerships to meet industry driven demands related to workforce skills gaps. Technical and advanced worker skills gaps are addressed through apprenticeships.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI16",
+        "STATE_ID": "MI",
+        "NOTE": "Via the Going PRO Apprenticeship Readiness Initiative, increase and diversify the number of individuals prepared to enter into and succeed in full apprenticeship programs from underrepresented groups such as women, minorities, and veterans.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place; Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "veterans "
+    },
+    {
+        "UNIQUE_ID": "MI17",
+        "STATE_ID": "MI",
+        "NOTE": "ApprenticeshipUSA State Expansion Grant - In 2016, Michigan received two of the three available ApprenticeshipUSA State Expansion Grants: $1.3 million for the Base Proposal and $1,199,520 for the Industry Cap Breaker. These grants are being used to bolster Registered Apprenticeship.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI18",
+        "STATE_ID": "MI",
+        "NOTE": "Michigan ApprenticeshipUSA Industry Cluster Approach (MAICA) grant will assist\r\npotential employer sponsors and apprentices with effectively exploring,\r\npartnering, developing, registering, and launching RA.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI19",
+        "STATE_ID": "MI",
+        "NOTE": "Raising the visibility of the state’s overall Registered Apprenticeship brand, MIAIM (Michigan Apprenticeships, Internships, and Mentoring): The Path to WorkBased Learning Career Opportunities in Michigan is a key driver of Registered Apprenticeship expansion.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI20",
+        "STATE_ID": "MI",
+        "NOTE": "Active outreach to all U.S. Department of Labor Registered Apprenticeship programs located within the State of Michigan for placement on the Michigan Training Connect (MiTC) was completed during January 2018. Section 2-11 of the MiTC Policy Manual provides additional information about the placement of Registered Apprenticeship programs on the MiTC. ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI21",
+        "STATE_ID": "MI",
+        "NOTE": "Workforce Development Agency received an extension grant from the Department of Labor which provides funding for coordinator positions and trainings to increase apprenticeship opportunities for underserved populations in Michigan. WDA in partnership with Michigan Works! American Job Centers and Michigan Rehabilitation Services/Bureau of Services for Blind Persons assisted in developing a training module intended for American Job Centers staff, business, and other stakeholders. ",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "differently abled; blind "
+    },
+    {
+        "UNIQUE_ID": "MI22",
+        "STATE_ID": "MI",
+        "NOTE": "Michigan Career Technical Institute offers and conducts Pre-apprenticeship Certification Training targeted for demand-driven skilled trades and other careers. ",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MI23",
+        "STATE_ID": "MI",
+        "NOTE": "Michigan Works! (American Job Centers) Partnership - establish a gateway to employment opportunities and increase talent pools. Including access to skilled trades funds and apprenticeships. Build partnerships and offer support to the local American Job Centers business managers.",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MO1",
+        "STATE_ID": "MO",
+        "NOTE": " Among occupations that require a bachelor’s degree or later. Computer Occupations and Software Developers were listed as two of the six most in-demand jobs.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MO2",
+        "STATE_ID": "MO",
+        "NOTE": "Computer User Support Specialists listed as  one of the fastest growing jobs among the occupations that require moderate- to long-term after high school. Software Developer and Computer Systems Analysts to be among the fastest growing fields requiring a bachelor’s degree or later.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MO3",
+        "STATE_ID": "MO",
+        "NOTE": "The greatest growth in occupations is occurring in the areas of Computer and Mathematical, Healthcare, and Education.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MO4",
+        "STATE_ID": "MO",
+        "NOTE": "For individuals with disabilities served by the statewide workforce development system, Missouri has identified computer skills training as a necessary. ",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "differently abled"
+    },
+    {
+        "UNIQUE_ID": "MO5",
+        "STATE_ID": "MO",
+        "NOTE": "The Family Support Division (FSD) and the Department of Corrections (DOC) are collaborating on a variety of programs to ensure that eligible clients, many of which are shared, are afforded opportunities to gain family supporting employment. These programs are Temporary Assistance for Needy Families (TANF) Program funded and include supporting the Kansas City Reentry Center prerelease, providing Microsoft Office classes through State Technical College that will result in certifications. ",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "prison population "
+    },
+    {
+        "UNIQUE_ID": "MO6",
+        "STATE_ID": "MO",
+        "NOTE": "In the Governor’s plan he included a plan beginning with $5 million to help every Missourian have access to high-speed broadband internet, which will allow more clients to receive online employment and training services. ",
+        "TYPE": "Plan for addressing digital divide (broadband)"
+    },
+    {
+        "UNIQUE_ID": "MO7",
+        "STATE_ID": "MO",
+        "NOTE": "Missouri continues to assist regions in developing sector strategies. Through data analyses of local economies and regional workforce teams identified target sectors. The top-targeted sectors included information technologies.",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MO8",
+        "STATE_ID": "MO",
+        "NOTE": "The Missouri Department of Elementary and Secondary Education list the following in their priorities, among other points: (1) increase advanced course opportunities through virtual learning; (2) Expand career and technical education (CTE) programs aligned to specified career pathways or career clusters such as health science, information technology, marketing, manufacturing, etc. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "MO9",
+        "STATE_ID": "MO",
+        "NOTE": "Missouri’s Adult Education Standards offer guidance in academic areas such as: applied math, reading comprehension, communication (verbal, written, and listening), critical thinking and problem solving, technology and gathering/evaluating information. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MO10",
+        "STATE_ID": "MO",
+        "NOTE": "One of the Missouri Work Assistance Providers is Family and Workforce Centers of America (FWCA). FWCA offers many of their services and programs on-site including the Bioscience and Technology Training Program which provides 12 week classroom experience in Science, Technology, Engineering and Math (STEM) careers. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MO11",
+        "STATE_ID": "MO",
+        "NOTE": "Missouri Vocational Rehabilitation services provide  opportunities for youth in identified workforce job-driven training programs and STEM degree/certificate programs. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "MO12",
+        "STATE_ID": "MO",
+        "NOTE": "OWD also provides several innovative, targeted skill-building programs, such as the Reemployment Services and Eligibility Assessment (RESEA) and the Required Job Services (RJS) programs for unemployment insurance claimants, specialized job search assistance for veterans; an Apprenticeship USA grant, a nationally recognized On-the-Job Training (OJT) Program, ACT’s National Career Readiness Certificate, as well as a Summer Youth program in partnership with the Department of Social Services, Family Support Division.",
+        "TYPE": "Spotlights digital skills training for specific populations;   Has technology-related apprenticeship program planned or in place",
+        "SUB_TYPE": "veterans"
+    },
+    {
+        "UNIQUE_ID": "MO13",
+        "STATE_ID": "MO",
+        "NOTE": "The Missouri Office of Apprenticeship and the OWD have formed the Missouri Apprenticeship Team (MAT). MAT team members are individuals who can dedicate their time to expanding the Registered Apprenticeship (RA) program in Missouri. ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MO14",
+        "STATE_ID": "MO",
+        "NOTE": "OWD has engaged career and technical schools, community colleges, United Auto Workers, AFL-CIO and employers to partner and develop pre-apprenticeships and apprenticeship programs. Missouri has increased the number of apprenticeship programs by 56% over the last three years. ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "MO15",
+        "STATE_ID": "MO",
+        "NOTE": "The focus is assistance and short-term training programs that lead to rapid attachment to work. SkillUP providers will engage with local apprenticeships to create partnerships to allow clients to engage in these opportunities.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE1",
+        "STATE_ID": "NE",
+        "NOTE": "Career fields and clusters include: (1)Communication and Information Systems (Information Technology Information Support and Services Network Systems Programming and Software Development Web and Digital Communications Skilled and Technical Science); (2) Science, Technology, Engineering, and Mathematics Engineering and Technology (Science and Math); and (3) Skilled and Technical Sciences (Transportation, Distribution, and Logistics Facility and Mobile Equipment Maintenance Health, Safety, and Environmental Management Logistics Planning and Management Services Sales and Services Transportation Operations Transportation/Systems Infrastructure Planning, Management, and Regulations Warehousing and Distribution Center Operations).  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE2",
+        "STATE_ID": "NE",
+        "NOTE": "The State Board functions list “developing strategies to improve technology for digital literacy and accelerating learning, accessibility, and professional development” as a priority. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE3",
+        "STATE_ID": "NE",
+        "NOTE": "The Systems Alignment Committee lists “developing strategies to improve technology for digital literacy, accelerating learning, accessibility, and professional development” as a function priority.  ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE4",
+        "STATE_ID": "NE",
+        "NOTE": "Nebraska Adult Education says that Adult English language learners will have the support necessary to achieve digital literacy.",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE5",
+        "STATE_ID": "NE",
+        "NOTE": "Included in the training and technical support for Nebraska Adult Education staff and partners is the development and dissemination of instructional and programmatic practices for digital literacy. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE6",
+        "STATE_ID": "NE",
+        "NOTE": "For the Senior Community Service Employment Program (SCSEP), Nebraska says that technological experience is often underdeveloped in persons over 55 years of age. Computer skill-building classes are offered to participants of SCSEP through a job-certified training developed by the Greater Omaha Local Workforce Development Board and by the subgrantee. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE7",
+        "STATE_ID": "NE",
+        "NOTE": "Nebraska will apply for a training waiver in PY 2018 for an intensive computer training curriculum. Digital literacy and technology competencies will help advance participants’ computer, communication and customer service skills. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE8",
+        "STATE_ID": "NE",
+        "NOTE": "Listed in the top 20 emerging demand occupations by numeric change for Nebraska were Software Developers for Applications (18th). Listed in the top 20 emerging demand occupations  by percent change for Nebraska were Statisticians (2nd), Web Developers (5th), Computer Numerically Controlled Machine Tool Programmers for Metal and Plastic (10th), Information Security Analysts (14th) and Computer Systems Analysts (20th). ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE9",
+        "STATE_ID": "NE",
+        "NOTE": "Healthcare support occupations, computer and mathematical occupations, and healthcare practitioner and technical occupations are projected to have the greatest employment growth of 14.2 to 17.5 percent.",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE10",
+        "STATE_ID": "NE",
+        "NOTE": "Lincoln, Nebraska has  annual deficits in select technically oriented professional fields, which require a college degree, such as computer and mathematical and workers. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE11",
+        "STATE_ID": "NE",
+        "NOTE": "Workforce Development Activities Delivered by Nebraska’s Core Programs include Computer Literacy Education.  ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE12",
+        "STATE_ID": "NE",
+        "NOTE": "The workforce education program includes computer literacy. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE13",
+        "STATE_ID": "NE",
+        "NOTE": "6 of 10 State workforce plan partners provide computer literacy services. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE14",
+        "STATE_ID": "NE",
+        "NOTE": "Employment Services staff have recognized that some customers are deficient in computer literacy skills. To assist customers in overcoming this barrier, Employment Services coordinates with local literacy groups, education institutions and Community Based Organizations (CBOs) to provide computer literacy assistance either in the local One-Stop Centers or at other locations in the community. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE15",
+        "STATE_ID": "NE",
+        "NOTE": "For the Columbus local office language assistance programs, the on-site learning center at Cargill Meat Solutions has computer classes. The Columbus Office also works with Centro Hispano Comunitario, which offers computer classes.  ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NE16",
+        "STATE_ID": "NE",
+        "NOTE": "Technology infrastructure. Nebraska has a technology infrastructure capable of supporting the business growth and expansion targeted through the combined plan. A 2014 report by the Nebraska Information Technology Commission found that broadband service, with download speeds of greater than 10Mbps, is available to 99.5% of the state’s population (Broadband in Nebraska, 2014). In 2017, funding was approved for the construction of 11 mobile wireless towers in rural areas of Nebraska as part of the Nebraska Universal Service Fund Broadband Program, adding to the 145 towers constructed in rural Nebraska since 2009.",
+        "TYPE": " Plan for addressing digital divide (broadband)"
+    },
+    {
+        "UNIQUE_ID": "NE17",
+        "STATE_ID": "NE",
+        "NOTE": "Widespread access to broadband, given the geographic challenges in an expansive state with numerous rural areas, is a tremendous strength that will be leveraged throughout the implementation of the combined plan. ",
+        "TYPE": " Plan for addressing digital divide (broadband)"
+    },
+    {
+        "UNIQUE_ID": "NE18",
+        "STATE_ID": "NE",
+        "NOTE": "The workforce will become increasingly urban and the manufacturing sector will slowly decline while the service-producing sector will grow as will e-commerce. Technology and globalization will continue to shape the labor force and require a workforce with highly technical skills. How quickly graduate rehabilitation programs will revise curriculum to prepare graduates in a 21st understanding of the evolving labor force remains to be seen.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE19",
+        "STATE_ID": "NE",
+        "NOTE": "A complementary expansion of training, certificate programs, degree programs, internships and, where appropriate, apprenticeship opportunities are needed in these occupations.",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NE20",
+        "STATE_ID": "NE",
+        "NOTE": "Nebraska Department of Labor Apprenticeship Program (ApprenticeshipUSA Accelerator Grant)",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE21",
+        "STATE_ID": "NE",
+        "NOTE": "The state’s ApprenticeshipUSA Accelerator Grant program coordinates with core partners, as well as state and local economic development organizations and the Nebraska Department of Education Career Education Program to develop outreach and training on work-based learning (WBL) initiatives. ",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE22",
+        "STATE_ID": "NE",
+        "NOTE": "Nebraska’s Eligible Training Provider List includes programs offered by the state’s university system, as well as Registered Apprenticeship programs and private postsecondary career schools.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE23",
+        "STATE_ID": "NE",
+        "NOTE": "The Nebraska Department of Labor Apprenticeship Program increases educational access by supporting development of Registered Apprenticeship programs in Nebraska. Nebraska’s Apprenticeship Program coordinates with Nebraska’s Eligible Training Provider Program to promote the benefits of inclusion on the Eligible Training Provider List.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE24",
+        "STATE_ID": "NE",
+        "NOTE": "Nebraska’s industry sector partnership strategy, the Next Generation Industry Partnerships initiative, which includes a focus on education and training leading to postsecondary credentials that are portable and stackable.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NE25",
+        "STATE_ID": "NE",
+        "NOTE": "Connecting eligible employers with other potential funding sources supporting work-based training, such as the Nebraska Worker Training Program, InternNE, and conNEct Program (H-1B Ready to Work Partnership grant).",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV1",
+        "STATE_ID": "NV",
+        "NOTE": "Foundational skills are defined as a combination of skills including digital literacy and the use of mathematical ideas. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV2",
+        "STATE_ID": "NV",
+        "NOTE": "Listed as a State Board function: enhance digital literacy skills (as defined in sec. 202 of the Museum and Library Services Act – 20 U.S.C. 9101; referred to in the Act as digital literacy skills). ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV3",
+        "STATE_ID": "NV",
+        "NOTE": "Basic skills are defined as a combination of skills, including digital literacy and the use of mathematical ideas.",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV4",
+        "STATE_ID": "NV",
+        "NOTE": "The mission of the Governor’s Office of Science, Innovation, and Technology (OSIT) is to coordinate and align efforts by K-12 and higher education, workforce development and employers to improve science, technology, engineering, and mathematics (STEM) education, STEM workforce development, and STEM economic development so that Nevada’s workforce can meet the demands of its growing economy. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV5",
+        "STATE_ID": "NV",
+        "NOTE": "A recent Brookings Institution report found that STEM jobs pay a wage premium of nearly 50 percent over non-STEM jobs requiring a similar level of education. OSIT has a number of STEM education and workforce development programs that build interest and familiarity with STEM starting in early grades and provide industry-demanded skills and training in secondary and postsecondary settings. OSIT’s flagship STEM workforce development program, STEM Workforce Challenge Grants, seeks to spark the creation of lasting partnerships between industry and workforce providers. These partnerships must result in: 1. The identification of STEM-specific skills needed by employers in Nevada; 2. The creation of programs that provide the STEM education and skills training to workers that match the needs of employers; 3. Programs that are aligned with present and future workforce needs in Nevada as identified by relevant labor market information.; and, 4. Programs that are sustainable after grant funds have been exhausted. ",
+        "TYPE": " Addresses need for digital skills; Identifies digital skill needs in labor market; Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV6",
+        "STATE_ID": "NV",
+        "NOTE": "Between 2015 and 2019, OSIT funded programs in the following STEM industry sectors: Information Technology and cybersecurity, advanced manufacturing, healthcare, construction, and aviation and unmanned aerial systems. Outcomes of the STEM Workforce Challenge Grants program between 2015-2019 include:   \r\nTotal Funding Awarded: $4,103,067  \r\nFunded Programs: 30  \r\nNumber of Enrolled Students: 2, 570  \r\nNumber of Completed Degrees or Certificates: 1,323 \r\nNumber of Employed in a Related Field: 1,248  \r\nPercentage of Enrolled Students from Underrepresented Backgrounds: 56%  \r\nAverage Wage: $61, 376  ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV7",
+        "STATE_ID": "NV",
+        "NOTE": "OSIT has partnered with the Nevada Department of Education and provided nearly $500,000 to seven high schools throughout the state to build new career and technical education (CTE) cybersecurity programs. These programs will establish partnerships with previously funded postsecondary cybersecurity programs to provide pathways to employment in this growing field. OSIT plans to continue to work with its partners in secondary and postsecondary systems to create additional pathways to STEM careers.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV8",
+        "STATE_ID": "NV",
+        "NOTE": "A recent report from the National Science Board (NSB-2015-10) argues that due to an increasingly technical and automated job market demands, the need for STEM skills have permeated all corners of the nation’s economy. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NV9",
+        "STATE_ID": "NV",
+        "NOTE": "Included in the mission statement to align core programs: Deliver holistic, wraparound youth services by partnering with educators, employers and community-based organizations to identify and leverage resources to increase exposure for youth to the necessary workforce skills, including STEM and humanities skills. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV10",
+        "STATE_ID": "NV",
+        "NOTE": "The Local Workforce Development Boards will form training partnerships that will be expanded with universal access to STEM-based programs that anchor participant exposure to skill sets, industry recognized certificates, licenses, and certifications for occupations across Nevada’s key industry sectors. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV11",
+        "STATE_ID": "NV",
+        "NOTE": "Nevada has an above-average rate of households with a computer present, among the top 10 in the nation with a rate of 93.6 percent, and somewhat ahead of the national rate of 91.8 percent. ",
+        "TYPE": " Plan for addressing digital divide (broadband)"
+    },
+    {
+        "UNIQUE_ID": "NV12",
+        "STATE_ID": "NV",
+        "NOTE": "In-Demand Industries includes Information Technology, as well as others. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NV13",
+        "STATE_ID": "NV",
+        "NOTE": "In-Demand Occupations include Software Developers, Applications Computer, Systems Analysts, Mechanical Engineers, Network and Computer Systems Administrators and Software Developers Systems Software, among others.  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NV14",
+        "STATE_ID": "NV",
+        "NOTE": "It was noted that many individuals lack basic office computer skills. ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV15",
+        "STATE_ID": "NV",
+        "NOTE": "Listed under in-demand industries: Information Technology (Software developers, cyber security/IA professionals, network/systems administrators, healthcare IT technicians, and database administrator).  ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NV16",
+        "STATE_ID": "NV",
+        "NOTE": "Among the weaknesses identified in the implementation of the vocational rehabilitation act: continual challenges with access in rural Nevada",
+        "TYPE": "Plan for addressing digital divide (broadband)"
+    },
+    {
+        "UNIQUE_ID": "NV17",
+        "STATE_ID": "NV",
+        "NOTE": "Adults with deficiencies in reading, writing, mathematics, and technology will encounter significant challenges and barriers in the 21st century workforce. ",
+        "TYPE": "Identifies digital skill needs in labor market"
+    },
+    {
+        "UNIQUE_ID": "NV18",
+        "STATE_ID": "NV",
+        "NOTE": "The Office of Workforce Innovation (OWINN) identifies “providing leadership in creating career pathway strategies for Nevada in the fields of information technology, advanced manufacturing, education, and healthcare” as one of their core strategies.  ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV19",
+        "STATE_ID": "NV",
+        "NOTE": "OWINN shall develop a career pathways strategy for Nevada in the fields of technology, advanced manufacturing, education and health care.  ",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV20",
+        "STATE_ID": "NV",
+        "NOTE": "Special attention has been paid to establishing integrated education and training (IET) programs in the fields of technology, health care, advanced manufacturing, education and mining. ",
+        "TYPE": "Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV21",
+        "STATE_ID": "NV",
+        "NOTE": "Among the Local Workforce Development Boards’ key strategies: “Universal access to science, technology, engineering, and math (STEM) based programs will anchor participant exposure to skill sets, industry-recognized certificates and various licenses for occupations across Nevada’s key industry sectors.” ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV22",
+        "STATE_ID": "NV",
+        "NOTE": "In Nevada, the workplace readiness standards were presented to focus groups and to the state’s Career and Technical Education Advisory Council, and endorsed by a significant majority of each. The 21 standards are organized in three areas, one being technology knowledge and skills.  ",
+        "TYPE": " Addresses need for digital skills"
+    },
+    {
+        "UNIQUE_ID": "NV23",
+        "STATE_ID": "NV",
+        "NOTE": "Expanding registered apprenticeships as a core workforce strategy in Nevada in existing and emerging industries to align with economic development. OWINN now serves as the State Apprenticeship Agency and provides support to the State Apprenticeship Council",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV24",
+        "STATE_ID": "NV",
+        "NOTE": "Apprenticeship readiness program partnerships will be expanded to target populations with barriers to employment. These apprenticeship readiness programs will support career pathways that prepare participants for eventual placement into local registered apprenticeship programs.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV25",
+        "STATE_ID": "NV",
+        "NOTE": "the state will continue to provide these activities, which lead to recognized postsecondary credentials including registered apprenticeship certificates with WIOA funding allocations.",
+        "TYPE": "Has technology-related apprenticeship program planned or in place"
+    },
+    {
+        "UNIQUE_ID": "NV26",
+        "STATE_ID": "NV",
+        "NOTE": "Access to activities leading to postsecondary credentials will improve through preapprenticeship programs that target populations with barriers to employment. These preapprenticeship programs (e.g. YouthBuild) will support career pathways that prepare participants for ensuing placement into local registered apprenticeship programs.",
+        "TYPE": "Spotlights digital skills training for specific populations",
+        "SUB_TYPE": "differently abled "
+    },
+    {
+        "UNIQUE_ID": "NV27",
+        "STATE_ID": "NV",
+        "NOTE": "The registered apprenticeship program is a proven model for meeting employers’ workforce needs by allowing workers to earn a wage while they learn new skills and acquire credentials. Registered apprenticeship programs are included on the eligible training provider list. The local boards are committed to strategic initiatives that prepare individuals to enter and succeed in registered apprenticeship programs. The local boards are particularly interested in increasing registered apprenticeship opportunities for under-represented, disadvantaged or low-skilled individuals such that upon completion, they will meet the entry requirements, gain consideration and are prepared for success in one or more registered apprenticeship programs.",
+        "TYPE": " Has technology-related apprenticeship program planned or in place"
+    }
+]

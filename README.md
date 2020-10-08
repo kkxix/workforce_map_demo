@@ -7,14 +7,33 @@ TODO: title -- Digital Skills for Public Workforce Systems
 TODO: below modal title , link to state government workforce department 
         - link to governor's workforce initiatives 
 
-
+Stats: 
+    - Overview numbers for yeses for each category 
 Checkboxes : 
-    - Addresses need for digital skills in state WIOA workforce plan? 
-        - what was said (notes)
-    - Stimulus funds prioritizes digital skills ? 
-    - Official apprenticeship program ? N/A for now 
-    - Existing onling skilling tool offered by State ? 
-    - Direct mention of Microsoft?
-    - Spotlights veteran or prison population? 
-    - Projected state job growth ? ( should this be Y/N ?)
-    - Plan for addressing digital divide (broadband) ? 
+    ###State WIOA Five-Year Workforce plan (all states submitted in 2020)
+        - Addresses need for digital skills ? AN
+        - Identifies digital skill needs in labor market ? ID
+        - Has technology-related apprenticeship program planned or in place? HT
+        - Spotlights digital skills training for specific populations? SD
+                - veteran ? VP
+                - prison population? PP
+                - differently abled ? DA
+                - other ? 
+        
+
+    ###Other
+        - Stimulus funds prioritizes digital skills ?     SF 
+        - Existing online skilling tool offered and promoted by State ?  EO   
+        - Plan for addressing digital divide (broadband) ? PF
+        - Digital skilling mentioned in State of State? DS
+        - Has Microsoft partnerships? HM
+                - IT academy IA
+                - SKillful Grant SG
+                - Aprentee AP
+                - other ? 
+
+
+World 
+    - Has in place a robust workforce training system ? 
+    - Has plans for restructuring current workforce training system?
+    - What percent of GDP spent on workforce training system? 

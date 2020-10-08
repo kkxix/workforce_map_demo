@@ -16,14 +16,15 @@
         // alert($(this).text())
     })
         $(document.body).on("click", '.state', function () {
-            $("#notesModal").modal()
+            // $("#notesModal").modal()
             var element_state_id = this.id;
             
          
             if(active_map == 'US'){
-                $.getJSON("../data/us_state_data_static.json", function (data) {
+                // $.getJSON("../data/us_state_data_static.json", function (data) {
+                $.getJSON("../data/workforce_notes_updated.json", function (data) {
                 var notes = [];
-                var all_types = [];
+                var state_yes_types = [];
                 var state_names = {
                     "AL": "Alabama",
                     "AK": "Alaska",
@@ -88,48 +89,80 @@
                 // Find statename value based on type-code key
                 var state_name = state_names[element_state_id];
 
-                $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
+                // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
+                $('.cover-heading').html(`${state_name}`);
 
                 $.each(data, function (idx, obj) {
                     if (element_state_id === obj.STATE_ID) {
                         var type = obj.TYPE;
                         var types = type.split(";");
-                        var type_codes = []
+                        var note_type_codes = []
                         $.each(types, function(i, t){
-                            all_types.push(t)
                             t = $.trim(t);
                             var words = t.split(" ");
                             var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
-                            type_codes.push(type_code);
-                        })
+                            note_type_codes.push(type_code);
+                            state_yes_types.push(type_code);
+                        });
+                        if(obj.SUB_TYPE){
+                            $.each(obj.SUB_TYPE, function (i, t) {
+                                t = $.trim(t);
+                                var words = t.split(" ");
+                                var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                                note_type_codes.push(type_code);
+                                state_yes_types.push(type_code);
+                            });
+                        }
+
 
                         // this will be irrelevant soon
                         // var first_type = types[0]
                         // var first_type_words = first_type.split(" ")
                         // var type_code = first_type_words[0][0].toUpperCase() + first_type_words[1][0].toUpperCase()
-                        type_codes = unique(type_codes);
-                        var data_filters = type_codes.join();
+                        // type_codes = unique(type_codes);
+                        // var data_filters = type_codes.join();
+
+
                         // Add text, link 
-                        if(obj.LINK){
-                            notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </br> <a href='${obj.LINK}'> More information </a> </p>`); 
+                        // if(obj.LINK){
+                            // notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </br> <a href='${obj.LINK}'> More information </a> </p>`); 
                             // notes.push(`<p id="note-link${idx}">${obj.LINK}</p>`)
-                        } else {
-                            notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </p>`); 
-                        }
+                        // } else {
+                            // notes.push(`<p class='note' id='${obj.UNIQUE_ID}' data-filters='${data_filters}'>${obj.NOTE} </p>`); 
+                        // }
+
+                        // TODO
+                        // notes.push({obj.NOTE: note_type_codes})
+
                     }
+                });
+
+                // First, Y/Ns for the whole state 
+                state_yes_types = unique(state_yes_types);
+                $.each($('.btn'), function () {
+                    if ($.inArray(this.id, state_yes_types) !== -1) {
+                        $(this).attr('style', 'color:#00CC66');
+                    } else {
+                        $(this).attr('style', 'color:red');
+                    }
+                })
+
+                $.each($('.card-body'), function () {
+                    card_type = this.id.substring(0,2);
+
                 });
                 
                 // Create Dropdown out of relevant filter types
-                all_types = unique(all_types);
-                types_html = []
-                $.each(all_types, function(i, t){
-                    // add codes as data filters^^^
-                    var words = t.split(" ");
-                    var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
-                    types_html.push(`<a class='dropdown-item' data-filters='${type_code}' href='#'>${t}</a>`)
-                })
-                $(".dropdown-menu").html(types_html.join(''));
-                $(".modal-body").html(notes)
+                // all_types = unique(all_types);
+                // types_html = []
+                // $.each(all_types, function(i, t){
+                //     // add codes as data filters^^^
+                //     var words = t.split(" ");
+                //     var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                //     types_html.push(`<a class='dropdown-item' data-filters='${type_code}' href='#'>${t}</a>`)
+                // })
+                // $(".dropdown-menu").html(types_html.join(''));
+                // $(".modal-body").html(notes)
             });
             }
         });

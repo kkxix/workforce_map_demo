@@ -20,7 +20,8 @@ svg path:hover {
     margin-top: 3rem;
 }
 .cover-container {
-    width: percentage(2/3);
+    width: percentage(9/10);
+    max-width: none;
 }
 .map {
     width: percentage(7/8)
@@ -29,6 +30,10 @@ svg path:hover {
     color: black; 
 }
 .note {
+    text-align: left!important;
+    color: black; 
+}
+.card-body{
     text-align: left!important;
     color: black; 
 }
