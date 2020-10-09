@@ -9,7 +9,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="ID" data-toggle="collapse" data-target="#collapseTwo"
                             aria-expanded="false" aria-controls="collapseTwo">
-                            Uses statewide labor market data to identify in-demand digital skills ?
+                            Uses statewide labor market data to identify in-demand digital skills?
                         </button>
                     </h5>
                 </div>
@@ -102,7 +102,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="SF" data-toggle="collapse" data-target="#collapseSix"
                             aria-expanded="false" aria-controls="collapseSix">
-                            Stimulus funds prioritizes digital skills ?
+                            Stimulus funds prioritizes digital skills?
                         </button>
                     </h5>
                 </div>
@@ -119,7 +119,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
                             aria-expanded="false" aria-controls="collapseEleven">
-                            Statewide Initiatives Promoting Digital Skills?
+                            Statewide initiatives promoting digital skills?
                         </button>
                     </h5>
                 </div>
@@ -139,7 +139,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
                             aria-expanded="false" aria-controls="collapseTen">
-                            State Workforce Funding for digital skills?
+                            State workforce funding for digital skills?
                         </button>
                     </h5>
                 </div>
@@ -175,7 +175,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="PF" data-toggle="collapse" data-target="#collapseEight"
                             aria-expanded="false" aria-controls="collapseEight">
-                            Plan for addressing digital divide (broadband) ?
+                            Plan for addressing digital divide (broadband)?
                         </button>
                     </h5>
                 </div>
@@ -193,7 +193,7 @@
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="EO" data-toggle="collapse" data-target="#collapseSeven"
                             aria-expanded="false" aria-controls="collapseSeven">
-                            Existing online skilling tool offered and promoted by State ?
+                            Existing online skilling tool offered and promoted by State?
                         </button>
                     </h5>
                 </div>
