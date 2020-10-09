@@ -115,26 +115,6 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" id="headingEleven">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
-                            aria-expanded="false" aria-controls="collapseEleven">
-                            Statewide initiatives promoting digital skills?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
-                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
-                        </br>
-                        <a href="ttps://gettherefl.com/">
-                        Get There Florida</a></br>
-                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
-                        Career Source Florida</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
                 <div class="card-header" id="headingTen">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
@@ -155,6 +135,27 @@
                     </div>
                 </div>
             </div>
+            <div class="card">
+                <div class="card-header" id="headingEleven">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
+                            aria-expanded="false" aria-controls="collapseEleven">
+                            Statewide initiatives promoting digital skills?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                    <div class="card-body" id="DS-body" >
+                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
+                        </br>
+                        <a href="ttps://gettherefl.com/">
+                        Get There Florida</a></br>
+                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
+                        Career Source Florida</a>
+                    </div>
+                </div>
+            </div>
+            
             <div class="card">
                 <div class="card-header" id="headingNine">
                     <h5 class="mb-0">
