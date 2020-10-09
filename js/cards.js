@@ -115,19 +115,58 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" id="headingSeven">
+                <div class="card-header" id="headingEleven">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="EO" data-toggle="collapse" data-target="#collapseSeven"
-                            aria-expanded="false" aria-controls="collapseSeven">
-                            Existing online skilling tool offered and promoted by State ?
+                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
+                            aria-expanded="false" aria-controls="collapseEleven">
+                            Statewide Initiatives Promoting Digital Skills?
                         </button>
                     </h5>
                 </div>
-                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-                    <div class="card-body" id="EO-body" >
-                        Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
-                        </br><a href="https://www.floridareadytowork.com/">
-                        Florida Ready to Work</a>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                    <div class="card-body" id="DS-body" >
+                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
+                        </br>
+                        <a href="ttps://gettherefl.com/">
+                        Get There Florida</a></br>
+                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
+                        Career Source Florida</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTen">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
+                            aria-expanded="false" aria-controls="collapseTen">
+                            State Workforce Funding for digital skills?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                    <div class="card-body" id="DS-body" >
+                    <ul>
+                        <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
+                        <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
+
+                    </ul>
+                    <a href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
+                    Florida Budget</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingNine">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseNine"
+                            aria-expanded="false" aria-controls="collapseNine">
+                            Digital skilling mentioned in 2020 State of State?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                    <div class="card-body" id="DS-body" >
+                     “Low taxes and a healthy business climate are important in attracting investment in Florida, but so too is our ability to produce top-flight talent – through our colleges and universities, through workforce education opportunities and through strong K-12 schools.”
                     </div>
                 </div>
             </div>
@@ -148,21 +187,25 @@
                     </div>
                 </div>
             </div>
+            
             <div class="card">
-                <div class="card-header" id="headingNine">
+                <div class="card-header" id="headingSeven">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseNine"
-                            aria-expanded="false" aria-controls="collapseNine">
-                            Digital skilling mentioned in 2020 State of State?
+                        <button class="btn btn-link collapsed" id="EO" data-toggle="collapse" data-target="#collapseSeven"
+                            aria-expanded="false" aria-controls="collapseSeven">
+                            Existing online skilling tool offered and promoted by State ?
                         </button>
                     </h5>
                 </div>
-                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
-                     “Low taxes and a healthy business climate are important in attracting investment in Florida, but so too is our ability to produce top-flight talent – through our colleges and universities, through workforce education opportunities and through strong K-12 schools.”
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body" id="EO-body" >
+                        Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
+                        </br><a href="https://www.floridareadytowork.com/">
+                        Florida Ready to Work</a>
                     </div>
                 </div>
             </div>
+            
             <div class="card">
                 <div class="card-header" id="headingFive">
                     <h5 class="mb-0">
@@ -177,47 +220,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header" id="headingTen">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
-                            aria-expanded="false" aria-controls="collapseTen">
-                            State Workforce Funding
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
-                    <ul>
-                        <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
-                        <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
-
-                    </ul>
-                    <a href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
-                    Florida Budget</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingEleven">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
-                            aria-expanded="false" aria-controls="collapseEleven">
-                            Statewide Initiatives Promoting Digital Skills
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
-                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
-                        </br>
-                        <a href="ttps://gettherefl.com/">
-                        Get There Florida</a></br>
-                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
-                        Career Source Florida</a>
-                    </div>
-                </div>
-            </div>
+            
+            
     `);
     $('.nav-link').click(function () {
         if ($(this).text() == 'US') {
