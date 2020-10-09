@@ -22,7 +22,7 @@
                     sciences; engineering, mathematics and computer 
                     sciences; and psychology and the social sciences”
                     </br>
-                    <a href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
+                    <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
                     More information</a>
 
                     </div>
@@ -84,11 +84,11 @@
                          greatest demand by local workforce development areas in
                           Florida. </li>
                         </ul>
-                        <a href="https://apprenticeflorida.com/">
+                        <a target="_blank" href="https://apprenticeflorida.com/">
                         Apprentice Jobs Florida</a></br>
-                        <a href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
+                        <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
                         Regional Demand Occupation Lists</a></br>
-                        <a href="http://lcd.floridajobs.org/">
+                        <a target="_blank" href="http://lcd.floridajobs.org/">
                         Florida Jobs</a></br>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body" id="SF-body" >
                       Florida Budget- $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.
-                      </br><a href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
+                      </br><a target="_blank" href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
                       More Information</a>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                         <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
 
                     </ul>
-                    <a href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
+                    <a target="_blank" href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
                     Florida Budget</a>
                     </div>
                 </div>
@@ -148,9 +148,9 @@
                     <div class="card-body" id="DS-body" >
                         The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
                         </br>
-                        <a href="ttps://gettherefl.com/">
+                        <a target="_blank" href="ttps://gettherefl.com/">
                         Get There Florida</a></br>
-                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
+                        <a target="_blank" href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
                         Career Source Florida</a>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body" id="PF-body" >
                       Office of Broadband works with local and state government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the state, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. The Florida Department of Economic Opportunity is the lead agency to facilitate the expansion of broadband internet services in the state. 
-                      </br><a href="">
+                      </br><a target="_blank" href="">
                       Office of Broadband</a>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body" id="EO-body" >
                         Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
-                        </br><a href="https://www.floridareadytowork.com/">
+                        </br><a target="_blank" href="https://www.floridareadytowork.com/">
                         Florida Ready to Work</a>
                     </div>
                 </div>
@@ -252,7 +252,7 @@
                             sciences; engineering, mathematics and computer 
                             sciences; and psychology and the social sciences”
                             </br>
-                            <a href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
+                            <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
                             More information</a>
 
                             </div>
@@ -314,11 +314,11 @@
                                 greatest demand by local workforce development areas in
                                 Florida. </li>
                                 </ul>
-                                <a href="https://apprenticeflorida.com/">
+                                <a target="_blank" href="https://apprenticeflorida.com/">
                                 Apprentice Jobs Florida</a></br>
-                                <a href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
+                                <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
                                 Regional Demand Occupation Lists</a></br>
-                                <a href="http://lcd.floridajobs.org/">
+                                <a target="_blank" href="http://lcd.floridajobs.org/">
                                 Florida Jobs</a></br>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body" id="SF-body" >
                       Florida Budget- $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.
-                      </br><a href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
+                      </br><a target="_blank" href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
                       More Information</a>
                     </div>
                 </div>
@@ -360,7 +360,7 @@
                         <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
 
                     </ul>
-                    <a href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
+                    <a target="_blank" href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
                     Florida Budget</a>
                     </div>
                 </div>
@@ -378,9 +378,9 @@
                     <div class="card-body" id="DS-body" >
                         The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
                         </br>
-                        <a href="ttps://gettherefl.com/">
+                        <a target="_blank" href="ttps://gettherefl.com/">
                         Get There Florida</a></br>
-                        <a href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
+                        <a target="_blank" href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
                         Career Source Florida</a>
                     </div>
                 </div>
@@ -413,7 +413,7 @@
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body" id="PF-body" >
                       Office of Broadband works with local and state government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the state, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. The Florida Department of Economic Opportunity is the lead agency to facilitate the expansion of broadband internet services in the state. 
-                      </br><a href="">
+                      </br><a target="_blank" href="">
                       Office of Broadband</a>
                     </div>
                 </div>
@@ -431,7 +431,7 @@
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body" id="EO-body" >
                         Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
-                        </br><a href="https://www.floridareadytowork.com/">
+                        </br><a target="_blank" href="https://www.floridareadytowork.com/">
                         Florida Ready to Work</a>
                     </div>
                 </div>
