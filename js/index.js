@@ -22,8 +22,26 @@
          
             if(active_map == 'US'){
                 // $.getJSON("../data/us_state_data_static.json", function (data) {
-                $.getJSON("../data/workforce_notes_updated.json", function (data) {
-                var notes = [];
+                $.getJSON("../data/digital_skills.json", function (data) {
+                var notes = [
+                    {'AN': []},
+                    {'ID': []},
+                    {'HT': []},
+                    {'SD': []},
+                    {'VP': []},
+                    {'PP': []},
+                    {'DA': []},
+                    {'SDO': []},
+                    {'SF': []},
+                    {'EO': []},
+                    {'PF': []},
+                    {'DS': []},
+                    {'HM': []},
+                    {'IA': []},
+                    {'SG': []},
+                    {'AP': []},
+                    {'HMO': []}
+                ];
                 var state_yes_types = [];
                 var state_names = {
                     "AL": "Alabama",
@@ -89,8 +107,13 @@
                 // Find statename value based on type-code key
                 var state_name = state_names[element_state_id];
 
+                var state_data = data.find(d => {
+                    return d.State === element_state_id
+                });
+                console.log(state_data);
+
                 // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
-                $('.cover-heading').html(`${state_name}`);
+                    $('.cover-heading').html(`<a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}'>${state_name} State Plan</a>`);
 
                 $.each(data, function (idx, obj) {
                     if (element_state_id === obj.STATE_ID) {
@@ -113,6 +136,15 @@
                                 state_yes_types.push(type_code);
                             });
                         }
+
+                        note_type_codes = unique(note_type_codes);
+                        $.each(note_type_codes, function(i, n){
+                            if(notes[n]){
+                                notes[n].push(`
+                                    <p class='note' id='${n}${obj.UNIQUE_ID}'>${obj.NOTE}</p>
+                                `)
+                            }
+                        })
 
 
                         // this will be irrelevant soon
