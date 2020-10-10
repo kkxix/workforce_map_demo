@@ -23,25 +23,38 @@
             if(active_map == 'US'){
                 // $.getJSON("../data/us_state_data_static.json", function (data) {
                 $.getJSON("../data/digital_skills.json", function (data) {
-                var notes = [
-                    {'AN': []},
-                    {'ID': []},
-                    {'HT': []},
-                    {'SD': []},
-                    {'VP': []},
-                    {'PP': []},
-                    {'DA': []},
-                    {'SDO': []},
-                    {'SF': []},
-                    {'EO': []},
-                    {'PF': []},
-                    {'DS': []},
-                    {'HM': []},
-                    {'IA': []},
-                    {'SG': []},
-                    {'AP': []},
-                    {'HMO': []}
-                ];
+                // var notes = [
+                //     {'AN': []},
+                //     {'ID': []},
+                //     {'HT': []},
+                //     {'SD': []},
+                //     {'VP': []},
+                //     {'PP': []},
+                //     {'DA': []},
+                //     {'SDO': []},
+                //     {'SF': []},
+                //     {'EO': []},
+                //     {'PF': []},
+                //     {'DS': []},
+                //     {'HM': []},
+                //     {'IA': []},
+                //     {'SG': []},
+                //     {'AP': []},
+                //     {'HMO': []}
+                // ];
+                var type_mapping = [
+                    {"LM": "Uses Statewide labor market data to identifly in-demand digital skills? "},
+                    {"AN": "Addresses needs for digtial skills "},
+                    {"HC": "Highlights community college efforts promoting digital skills?"},
+                    {"HT": "Has technology-related apprenticeship program planned or in place?"},
+                    {"SF": "Stimulus funds prioritizes digital skills?"}, 
+                    {"EO": "Existing online skilling tool offered and promoted by State?"},
+                    {"PF": "Plan for addressing digital divide (broadband)?"},
+                    {"DS": "Digital Skilling Mentioned in State of State?"},
+                    {"HM": "Microsoft Partnerships?"},
+                    {"SW": "State Workforce Funding"},
+                    {"SI": "Statewide Initiatives Promoting Digital Skills"}
+                ]
                 var state_yes_types = [];
                 var state_names = {
                     "AL": "Alabama",
@@ -113,38 +126,68 @@
                 console.log(state_data);
 
                 // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
-                    $('.cover-heading').html(`<a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}'>${state_name} State Plan</a>`);
+                $('.cover-heading').html(`<a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}'>${state_name} State Plan</a>`);
 
-                $.each(data, function (idx, obj) {
-                    if (element_state_id === obj.STATE_ID) {
-                        var type = obj.TYPE;
-                        var types = type.split(";");
-                        var note_type_codes = []
-                        $.each(types, function(i, t){
-                            t = $.trim(t);
-                            var words = t.split(" ");
-                            var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
-                            note_type_codes.push(type_code);
-                            state_yes_types.push(type_code);
-                        });
-                        if(obj.SUB_TYPE){
-                            $.each(obj.SUB_TYPE, function (i, t) {
-                                t = $.trim(t);
-                                var words = t.split(" ");
-                                var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
-                                note_type_codes.push(type_code);
-                                state_yes_types.push(type_code);
-                            });
+                $.each(type_mapping, function(i, type){
+                    var code = Object.keys(type)[0];
+                    var data_type = type[code];
+                    var note = state_data[data_type].split(";");
+                    var notes_html = []
+
+                    if(note[0].toUpperCase() == "YES"){
+                        $(`#${code}`).attr('style', 'color:#00CC66');
+                    } else {
+                        $(`#${code}`).attr('style', 'color: red');
+                    }
+                    $.each(note, function (j, n) {
+                        if(j>0){
+                            notes_html.push(`
+                                <li>
+                                    ${n}
+                                </li>
+                            `)
                         }
+                    });
+                    $(`#${code}-body`).html(`
+                        <ul>
+                            ${notes_html.join()}
+                        </ul>
+                    `)
 
-                        note_type_codes = unique(note_type_codes);
-                        $.each(note_type_codes, function(i, n){
-                            if(notes[n]){
-                                notes[n].push(`
-                                    <p class='note' id='${n}${obj.UNIQUE_ID}'>${obj.NOTE}</p>
-                                `)
-                            }
-                        })
+                    // console.log($(`#${code}`));
+
+                })
+
+                // $.each(data, function (idx, obj) {
+                    // if (element_state_id === obj.STATE_ID) {
+                    //     var type = obj.TYPE;
+                    //     var types = type.split(";");
+                    //     var note_type_codes = []
+                    //     $.each(types, function(i, t){
+                    //         t = $.trim(t);
+                    //         var words = t.split(" ");
+                    //         var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                    //         note_type_codes.push(type_code);
+                    //         state_yes_types.push(type_code);
+                    //     });
+                    //     if(obj.SUB_TYPE){
+                    //         $.each(obj.SUB_TYPE, function (i, t) {
+                    //             t = $.trim(t);
+                    //             var words = t.split(" ");
+                    //             var type_code = words[0][0].toUpperCase() + words[1][0].toUpperCase();
+                    //             note_type_codes.push(type_code);
+                    //             state_yes_types.push(type_code);
+                    //         });
+                    //     }
+
+                    //     note_type_codes = unique(note_type_codes);
+                    //     $.each(note_type_codes, function(i, n){
+                    //         if(notes[n]){
+                    //             notes[n].push(`
+                    //                 <p class='note' id='${n}${obj.UNIQUE_ID}'>${obj.NOTE}</p>
+                    //             `)
+                    //         }
+                    //     })
 
 
                         // this will be irrelevant soon
@@ -166,23 +209,23 @@
                         // TODO
                         // notes.push({obj.NOTE: note_type_codes})
 
-                    }
-                });
+                    // }
+                // });
 
                 // First, Y/Ns for the whole state 
-                state_yes_types = unique(state_yes_types);
-                $.each($('.btn'), function () {
-                    if ($.inArray(this.id, state_yes_types) !== -1) {
-                        $(this).attr('style', 'color:#00CC66');
-                    } else {
-                        $(this).attr('style', 'color:red');
-                    }
-                })
+                // state_yes_types = unique(state_yes_types);
+                // $.each($('.btn'), function () {
+                //     if ($.inArray(this.id, state_yes_types) !== -1) {
+                //         $(this).attr('style', 'color:#00CC66');
+                //     } else {
+                //         $(this).attr('style', 'color:red');
+                //     }
+                // })
 
-                $.each($('.card-body'), function () {
-                    card_type = this.id.substring(0,2);
+                // $.each($('.card-body'), function () {
+                //     card_type = this.id.substring(0,2);
 
-                });
+                // });
                 
                 // Create Dropdown out of relevant filter types
                 // all_types = unique(all_types);

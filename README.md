@@ -11,26 +11,21 @@ Stats:
     - Overview numbers for yeses for each category 
 Checkboxes : 
     ###State WIOA Five-Year Workforce plan (all states submitted in 2020)
+        - Uses statewide labor market data to identify in-demand digital skills? LM
         - Addresses need for digital skills ? AN
-        - Identifies digital skill needs in labor market ? ID
+        - Highlights community college efforts promoting digital skills? HC
         - Has technology-related apprenticeship program planned or in place? HT
-        - Spotlights digital skills training for specific populations? SD
-                - veteran ? VP
-                - prison population? PP
-                - differently abled ? DA
-                - other ? 
         
 
     ###Other
         - Stimulus funds prioritizes digital skills ?     SF 
-        - Existing online skilling tool offered and promoted by State ?  EO   
+        - State workforce funding for digital skills? SW
+        - Statewide initiatives promoting digital skils? SI
+        - Digital skilling mentioned in 2020 State of State? DS
         - Plan for addressing digital divide (broadband) ? PF
-        - Digital skilling mentioned in State of State? DS
+        - Existing online skilling tool offered and promoted by State ?  EO   
         - Has Microsoft partnerships? HM
-                - IT academy IA
-                - SKillful Grant SG
-                - Aprentee AP
-                - other ? 
+
 
 
 World 

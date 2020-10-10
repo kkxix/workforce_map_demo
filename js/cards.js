@@ -7,14 +7,14 @@
             <div class="card">
                 <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="ID" data-toggle="collapse" data-target="#collapseTwo"
+                        <button class="btn btn-link collapsed" id="LM" data-toggle="collapse" data-target="#collapseTwo"
                             aria-expanded="false" aria-controls="collapseTwo">
                             Uses statewide labor market data to identify in-demand digital skills?
                         </button>
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body" id="ID-body" >
+                    <div class="card-body" id="LM-body" >
                     Plan states “The most common industry sectors for 
                     emerging occupations are healthcare and professional 
                     services, due to ongoing advances in medical 
@@ -47,7 +47,7 @@
             <div class="card">
                 <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="SD" data-toggle="collapse" data-target="#collapseFour"
+                        <button class="btn btn-link collapsed" id="HC" data-toggle="collapse" data-target="#collapseFour"
                             aria-expanded="false" aria-controls="collapseFour">
                             Highlights community college efforts promoting digital skills?
                         </button>
@@ -117,14 +117,14 @@
             <div class="card">
                 <div class="card-header" id="headingTen">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
+                        <button class="btn btn-link collapsed" id="SW" data-toggle="collapse" data-target="#collapseTen"
                             aria-expanded="false" aria-controls="collapseTen">
                             State workforce funding for digital skills?
                         </button>
                     </h5>
                 </div>
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
+                    <div class="card-body" id="SW-body" >
                     <ul>
                         <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
                         <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
@@ -138,14 +138,14 @@
             <div class="card">
                 <div class="card-header" id="headingEleven">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
+                        <button class="btn btn-link collapsed" id="SI" data-toggle="collapse" data-target="#collapseEleven"
                             aria-expanded="false" aria-controls="collapseEleven">
                             Statewide initiatives promoting digital skills?
                         </button>
                     </h5>
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
+                    <div class="card-body" id="SI-body" >
                         The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
                         </br>
                         <a target="_blank" href="ttps://gettherefl.com/">
@@ -237,14 +237,14 @@
                     <div class="card">
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" id="ID" data-toggle="collapse" data-target="#collapseTwo"
+                                <button class="btn btn-link collapsed" id="LM" data-toggle="collapse" data-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
                                     Uses statewide labor market data to identify in-demand digital skills?
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body" id="ID-body" >
+                            <div class="card-body" id="LM-body" >
                             Plan states “The most common industry sectors for 
                             emerging occupations are healthcare and professional 
                             services, due to ongoing advances in medical 
@@ -277,7 +277,7 @@
                     <div class="card">
                         <div class="card-header" id="headingFour">
                             <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" id="SD" data-toggle="collapse" data-target="#collapseFour"
+                                <button class="btn btn-link collapsed" id="HC" data-toggle="collapse" data-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
                                     Highlights community college efforts promoting digital skills?
                                 </button>
@@ -347,14 +347,14 @@
             <div class="card">
                 <div class="card-header" id="headingTen">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseTen"
+                        <button class="btn btn-link collapsed" id="SW" data-toggle="collapse" data-target="#collapseTen"
                             aria-expanded="false" aria-controls="collapseTen">
                             State workforce funding for digital skills?
                         </button>
                     </h5>
                 </div>
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
+                    <div class="card-body" id="SW-body" >
                     <ul>
                         <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
                         <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
@@ -368,14 +368,14 @@
             <div class="card">
                 <div class="card-header" id="headingEleven">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" id="DS" data-toggle="collapse" data-target="#collapseEleven"
+                        <button class="btn btn-link collapsed" id="SI" data-toggle="collapse" data-target="#collapseEleven"
                             aria-expanded="false" aria-controls="collapseEleven">
                             Statewide initiatives promoting digital skills?
                         </button>
                     </h5>
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-                    <div class="card-body" id="DS-body" >
+                    <div class="card-body" id="SI-body" >
                         The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
                         </br>
                         <a target="_blank" href="ttps://gettherefl.com/">
