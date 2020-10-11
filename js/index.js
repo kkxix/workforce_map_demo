@@ -43,17 +43,30 @@
                 //     {'HMO': []}
                 // ];
                 var type_mapping = [
-                    {"LM": "Uses Statewide labor market data to identifly in-demand digital skills? "},
-                    {"AN": "Addresses needs for digtial skills "},
-                    {"HC": "Highlights community college efforts promoting digital skills?"},
-                    {"HT": "Has technology-related apprenticeship program planned or in place?"},
-                    {"SF": "Stimulus funds prioritizes digital skills?"}, 
-                    {"EO": "Existing online skilling tool offered and promoted by State?"},
-                    {"PF": "Plan for addressing digital divide (broadband)?"},
-                    {"DS": "Digital Skilling Mentioned in State of State?"},
-                    {"HM": "Microsoft Partnerships?"},
-                    {"SW": "State Workforce Funding"},
-                    {"SI": "Statewide Initiatives Promoting Digital Skills"}
+                    { "LM": "Uses Statewide labor market data to identifly in-demand digital skills? "}, 
+                    { "AN": "Addresses needs for digtial skills "}, 
+                    { "HC": "Highlights community college efforts promoting digital skills?"}, 
+                    { "HT": "Has technology-related apprenticeship program planned or in place?"},
+                    { "SF": "Stimulus funds prioritizes digital skills?"}, 
+                    { "EO": "Existing online skilling tool offered and promoted by State?"}, 
+                    { "PF": "Plan for addressing digital divide (broadband)?"}, 
+                    { "DS": "Digital Skilling Mentioned in State of State?"}, 
+                    { "HM": "Microsoft Partnerships?"},
+                    { "SW": "State Workforce Funding"}, 
+                    { "SI": "Statewide Initiatives Promoting Digital Skills"},
+                ]
+                var link_mapping = [
+                    { "LM": "Labor market Links" },
+                    { "AN": "Digital Skills Links" },
+                    { "HC": "Community College Links" },
+                    { "HT": "Apprenticeship Links" },
+                    { "SF": "Stimulus funds link" }, 
+                    { "EO": "Skilling tool links" },
+                    { "PF": "Digital Divide Links" },
+                    { "DS": "State of State Links" },
+                    { "HM": "Microsoft Partnership Links" },
+                    { "SW": "Workforce Funding Links" },
+                    { "SI": "Statewide initiatives links" }
                 ]
                 var state_yes_types = [];
                 var state_names = {
@@ -148,11 +161,27 @@
                             `)
                         }
                     });
+
+                    // Links
+                    link_type = link_mapping[i][code];
+                    console.log(link_type);
+                    if(link_type in state_data){
+                        var links = state_data[link_type].split(";");
+                        $.each(links, function (j, l) {
+                            if (j > 0) {
+                                notes_html.push(`
+                                    <li>
+                                        <a href="${l}">More Information</a>
+                                    </li>
+                                `)
+                            }
+                        });
+                    }
                     $(`#${code}-body`).html(`
-                        <ul>
-                            ${notes_html.join()}
-                        </ul>
-                    `)
+                            <ul>
+                                ${notes_html.join()}
+                            </ul>
+                        `);
 
                     // console.log($(`#${code}`));
 

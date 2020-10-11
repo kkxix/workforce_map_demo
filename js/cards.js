@@ -15,16 +15,6 @@
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body" id="LM-body" >
-                    Plan states “The most common industry sectors for 
-                    emerging occupations are healthcare and professional 
-                    services, due to ongoing advances in medical 
-                    technology; life, physical and environmental 
-                    sciences; engineering, mathematics and computer 
-                    sciences; and psychology and the social sciences”
-                    </br>
-                    <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
-                    More information</a>
-
                     </div>
                 </div>
             </div>
@@ -40,7 +30,6 @@
         
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body" id="AN-body">
-                    No detailed plan for addressing digital skills
                     </div>
                 </div>
             </div>
@@ -54,7 +43,7 @@
                     </h5>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                    <div class="card-body">
+                    <div class="card-body" id="HC-body">
                     </div>
                 </div>
             </div>
@@ -69,27 +58,6 @@
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body" id="HT-body">
-                        <ul>
-                        <li> An initiative to expand apprenticeship opportunities 
-                        throughout the state, is led by the Department of 
-                        Economic Opportunity in collaboration with CareerSource 
-                        Florida and the Florida Department of Education. 
-                        Apprenticeship FLA seeks to Expand apprenticeships 
-                        in several targeted sectors, including advanced 
-                        manufacturing, healthcare, building trades/construction, 
-                        hospitality, maritime industries, transportation, 
-                        warehousing, and information technology.</li>
-                        <li>Regional Demand Occupation Lists are available to 
-                        identify occupations within industries that are in the
-                         greatest demand by local workforce development areas in
-                          Florida. </li>
-                        </ul>
-                        <a target="_blank" href="https://apprenticeflorida.com/">
-                        Apprentice Jobs Florida</a></br>
-                        <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
-                        Regional Demand Occupation Lists</a></br>
-                        <a target="_blank" href="http://lcd.floridajobs.org/">
-                        Florida Jobs</a></br>
                     </div>
                 </div>
             </div>            
@@ -108,9 +76,6 @@
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body" id="SF-body" >
-                      Florida Budget- $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.
-                      </br><a target="_blank" href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
-                      More Information</a>
                     </div>
                 </div>
             </div>
@@ -125,13 +90,6 @@
                 </div>
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                     <div class="card-body" id="SW-body" >
-                    <ul>
-                        <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
-                        <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
-
-                    </ul>
-                    <a target="_blank" href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
-                    Florida Budget</a>
                     </div>
                 </div>
             </div>
@@ -146,12 +104,6 @@
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
                     <div class="card-body" id="SI-body" >
-                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
-                        </br>
-                        <a target="_blank" href="ttps://gettherefl.com/">
-                        Get There Florida</a></br>
-                        <a target="_blank" href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
-                        Career Source Florida</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +119,6 @@
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                     <div class="card-body" id="DS-body" >
-                     “Low taxes and a healthy business climate are important in attracting investment in Florida, but so too is our ability to produce top-flight talent – through our colleges and universities, through workforce education opportunities and through strong K-12 schools.”
                     </div>
                 </div>
             </div>
@@ -182,9 +133,6 @@
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body" id="PF-body" >
-                      Office of Broadband works with local and state government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the state, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. The Florida Department of Economic Opportunity is the lead agency to facilitate the expansion of broadband internet services in the state. 
-                      </br><a target="_blank" href="">
-                      Office of Broadband</a>
                     </div>
                 </div>
             </div>
@@ -200,14 +148,11 @@
                 </div>
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body" id="EO-body" >
-                        Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
-                        </br><a target="_blank" href="https://www.floridareadytowork.com/">
-                        Florida Ready to Work</a>
                     </div>
                 </div>
             </div>
             
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header" id="headingFive">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="HM" data-toggle="collapse" data-target="#collapseFive"
@@ -220,9 +165,7 @@
                     <div class="card-body">
                     </div>
                 </div>
-            </div>
-            
-            
+            </div> -->
     `);
     $('.nav-link').click(function () {
         if ($(this).text() == 'US') {
@@ -245,15 +188,6 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body" id="LM-body" >
-                            Plan states “The most common industry sectors for 
-                            emerging occupations are healthcare and professional 
-                            services, due to ongoing advances in medical 
-                            technology; life, physical and environmental 
-                            sciences; engineering, mathematics and computer 
-                            sciences; and psychology and the social sciences”
-                            </br>
-                            <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/workforce-statistics-data-releases/monthly-data-releases">
-                            More information</a>
 
                             </div>
                         </div>
@@ -270,7 +204,6 @@
                 
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body" id="AN-body">
-                            No detailed plan for addressing digital skills
                             </div>
                         </div>
                     </div>
@@ -284,7 +217,7 @@
                             </h5>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                            <div class="card-body">
+                            <div class="card-body" id="HC-body">
                             </div>
                         </div>
                     </div>
@@ -299,27 +232,6 @@
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body" id="HT-body">
-                                <ul>
-                                <li> An initiative to expand apprenticeship opportunities 
-                                throughout the state, is led by the Department of 
-                                Economic Opportunity in collaboration with CareerSource 
-                                Florida and the Florida Department of Education. 
-                                Apprenticeship FLA seeks to Expand apprenticeships 
-                                in several targeted sectors, including advanced 
-                                manufacturing, healthcare, building trades/construction, 
-                                hospitality, maritime industries, transportation, 
-                                warehousing, and information technology.</li>
-                                <li>Regional Demand Occupation Lists are available to 
-                                identify occupations within industries that are in the
-                                greatest demand by local workforce development areas in
-                                Florida. </li>
-                                </ul>
-                                <a target="_blank" href="https://apprenticeflorida.com/">
-                                Apprentice Jobs Florida</a></br>
-                                <a target="_blank" href="http://www.floridajobs.org/workforce-statistics/publications-and-reports/labor-market-information-reports/regional-demand-occupations-list">
-                                Regional Demand Occupation Lists</a></br>
-                                <a target="_blank" href="http://lcd.floridajobs.org/">
-                                Florida Jobs</a></br>
                             </div>
                         </div>
                     </div>            
@@ -338,9 +250,6 @@
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body" id="SF-body" >
-                      Florida Budget- $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.
-                      </br><a target="_blank" href="https://careersourceflorida.com/pandemic-recovery-efforts-include-apprenticeships-and-rural-areas-opportunities/">
-                      More Information</a>
                     </div>
                 </div>
             </div>
@@ -355,13 +264,6 @@
                 </div>
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                     <div class="card-body" id="SW-body" >
-                    <ul>
-                        <li>Governor 2020-21 recommendation: $319, 928, 442 for Workforce development under the Department of Economic Opportunity and $520,487,932 for workforce education under the Department of Education.</li>
-                        <li>Florida Budget - $240 million of Federal Funds - Priority investments of the board include an $8.5 million allocation to local workforce development boards to help unemployed Floridians get back to work and gain new skills to better prepare them for in-demand and evolving employment opportunities due to current economic downturn. This investment will ensure these local partners who work directly with employers and Floridians in their communities have the resources to fortify technology systems, business services and career-building resources necessary to meet the increased demand.</li>
-
-                    </ul>
-                    <a target="_blank" href="http://www.bolderbrighterbetterfuture.com/web%20forms/Budget/BudgetAgency.aspx">
-                    Florida Budget</a>
                     </div>
                 </div>
             </div>
@@ -376,12 +278,6 @@
                 </div>
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
                     <div class="card-body" id="SI-body" >
-                        The Get There Florida Initiative is in partnership with the state’s 28 Florida College System institutions and the state’s 48 technical colleges or centers. It accelerates students’ time to completion of an in-demand but high-value industry certification or postsecondary workforce credential. Programs include advanced manufacturing, transportation and logistics, healthcare, and information technology. Created recently by Gov. Desantis as an executive order.; In support of our work to help Floridians enter and advance in the workforce while strengthening the state business climate, CareerSource Florida offers funding opportunities through grant solicitations, requests for proposals (RFP), and invitations to negotiate (ITN). CareerSource Florida is focused on helping expand apprenticeship opportunities in six key industry sectors: advanced manufacturing, healthcare, information technology, hospitality, trade and logistics and construction.                    
-                        </br>
-                        <a target="_blank" href="ttps://gettherefl.com/">
-                        Get There Florida</a></br>
-                        <a target="_blank" href="ttps://careersourceflorida.com/about-us/contracting-opportunities/">
-                        Career Source Florida</a>
                     </div>
                 </div>
             </div>
@@ -397,7 +293,6 @@
                 </div>
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                     <div class="card-body" id="DS-body" >
-                     “Low taxes and a healthy business climate are important in attracting investment in Florida, but so too is our ability to produce top-flight talent – through our colleges and universities, through workforce education opportunities and through strong K-12 schools.”
                     </div>
                 </div>
             </div>
@@ -412,9 +307,6 @@
                 </div>
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body" id="PF-body" >
-                      Office of Broadband works with local and state government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the state, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. The Florida Department of Economic Opportunity is the lead agency to facilitate the expansion of broadband internet services in the state. 
-                      </br><a target="_blank" href="">
-                      Office of Broadband</a>
                     </div>
                 </div>
             </div>
@@ -430,14 +322,11 @@
                 </div>
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body" id="EO-body" >
-                        Florida Ready to Work is an innovative, workforce education and economic development program. The centerpiece of the program is the Florida Ready to Work Credential and the Florida Soft Skills Credential – two valuable credentials signed by the Governor – that certifies that a Florida learner / jobseeker has the academic and employability job skills necessary to succeed in today’s rapidly changing and competitive economy.
-                        </br><a target="_blank" href="https://www.floridareadytowork.com/">
-                        Florida Ready to Work</a>
                     </div>
                 </div>
             </div>
             
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header" id="headingFive">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="HM" data-toggle="collapse" data-target="#collapseFive"
@@ -450,7 +339,7 @@
                     <div class="card-body">
                     </div>
                 </div>
-            </div>
+            </div> -->
             `)
         } else {
             $('#map_col').attr('class', 'col-9');

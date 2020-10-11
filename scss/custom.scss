@@ -40,6 +40,10 @@ svg path:hover {
 .card-header{
     padding: 0.25rem 0.25rem;
 }
+svg path:visited {
+    fill: #D8D9DE !important;
+    cursor: pointer;
+}
 #MD {
     background-color: #FCDABE;
 }
