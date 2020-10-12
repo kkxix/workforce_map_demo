@@ -3,6 +3,10 @@ svg path:hover {
   cursor: pointer;
 }
 
+footer {
+  margin-top: 10rem;
+}
+
 #us_map {
   height: 426;
   width: 700;
@@ -17,6 +21,14 @@ svg path:hover {
   stroke: "#ffffff";
   stroke-width: 1;
   opacity: 100;
+}
+
+.state-active {
+  fill: #cc9c58;
+}
+
+.state-active:hover {
+  fill: #cc9c58 !important;
 }
 
 .inner cover {
@@ -48,6 +60,19 @@ svg path:hover {
 
 .card-header {
   padding: 0.25rem 0.25rem;
+}
+
+.btn-link {
+  text-align: left;
+  color: gray;
+}
+
+.btn-link:hover {
+  color: black;
+}
+
+.note-icon {
+  height: 1rem;
 }
 
 svg path:visited {

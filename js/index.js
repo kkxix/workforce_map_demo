@@ -51,7 +51,7 @@
                     { "EO": "Existing online skilling tool offered and promoted by State?"}, 
                     { "PF": "Plan for addressing digital divide (broadband)?"}, 
                     { "DS": "Digital Skilling Mentioned in State of State?"}, 
-                    { "HM": "Microsoft Partnerships?"},
+                    // { "HM": "Microsoft Partnerships?"},
                     { "SW": "State Workforce Funding"}, 
                     { "SI": "Statewide Initiatives Promoting Digital Skills"},
                 ]
@@ -64,9 +64,31 @@
                     { "EO": "Skilling tool links" },
                     { "PF": "Digital Divide Links" },
                     { "DS": "State of State Links" },
-                    { "HM": "Microsoft Partnership Links" },
+                    // { "HM": "Microsoft Partnership Links" },
                     { "SW": "Workforce Funding Links" },
                     { "SI": "Statewide initiatives links" }
+                ]
+                var statement_mapping = [
+                    { "LM-yes": "Does identify in-demand digital skill needs using statewide data." },
+                    { "AN-yes": "Does address need for digital skills." },
+                    { "HC-yes": "Does highlight digital skills in community college efforts." },
+                    { "HT-yes": "Does have technology-related apprenticeship program planned or in place." },
+                    { "SF-yes": "Stimulus funds does prioritize digital skills training." },
+                    { "EO-yes": "There is a online skilling tool offered by the state." },
+                    { "PF-yes": "There is a plan to address digital divide (broadband)." },
+                    { "DS-yes": "2020 state of the state speech addressed need for digital skills training." },
+                    { "SW-yes": "There is state funding for digital skills training." },
+                    { "SI-yes": "There are statewide digital skills training programs." },
+                    { "LM-no": "Does not identify in-demand digital skill needs using statewide data." },
+                    { "AN-no": "Does not address need for digital skills." },
+                    { "HC-no": "Does not highlight digital skills in community college efforts." },
+                    { "HT-no": "Does not have technology-related apprenticeship program planned or in place." },
+                    { "SF-no": "Stimulus funds do not prioritize digital skills training." },
+                    { "EO-no": "There is not a online skilling tool offered by the state." },
+                    { "PF-no": "There is not a plan to address digital divide (broadband)." },
+                    { "DS-no": "2020 state of the state speech did not address need for digital skills training." },
+                    { "SW-no": "There is not state funding for digital skills training." },
+                    { "SI-no": "There are not statewide digital skills training programs." }
                 ]
                 var state_yes_types = [];
                 var state_names = {
@@ -139,18 +161,45 @@
                 console.log(state_data);
 
                 // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
-                $('.cover-heading').html(`<a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}'>${state_name} State Plan</a>`);
+                $('.cover-heading').html(`${state_name} `);
 
-                $.each(type_mapping, function(i, type){
+                $('#state_plan').html(`
+                    <a style="color: white;" target='_blank' href='${state_data[' State WIOA Plan']}' >
+                    State WIOA Five-Year Workforce plan</a >
+                    (all states submitted in 2020)
+                `);
+                    $.each(type_mapping, function(i, type){
                     var code = Object.keys(type)[0];
                     var data_type = type[code];
                     var note = state_data[data_type].split(";");
                     var notes_html = []
+                    var yes = ""
+                    var no = ""
 
                     if(note[0].toUpperCase() == "YES"){
-                        $(`#${code}`).attr('style', 'color:#00CC66');
+                        if ($(`#${code}`).length) {
+                            $(`#${code}`).empty();
+                        }
+                        yes = `${code}-yes`;
+                        console.log(yes);
+                        console.log(statement_mapping[i][yes]);
+                        $(`#${code}`).html(`
+                            <img class="note-icon" id="${code}-icon" src="./img/success.png" height=".25rem" width=".25rem"/>
+                            ${statement_mapping[i][yes]}
+                        `);
+                        $(`#${code}`).attr('style', 'background-color: rgba(104, 182, 111, 0.3)');
                     } else {
-                        $(`#${code}`).attr('style', 'color: red');
+                        if ($(`#${code}`).length) {
+                            $(`#${code}`).empty();
+                        }
+                        no = `${code}-no`;
+                        console.log(no);
+                        console.log(statement_mapping[i+10][no])
+                        $(`#${code}`).html(`
+                            <img class="note-icon" id="${code}-icon" src="./img/error.png" height=".25rem" width=".25rem"/>
+                            ${statement_mapping[i+10][no]}
+                        `);
+                        $(`#${code}`).attr('style', 'background-color: rgba(223, 127, 124, 0.31)');
                     }
                     $.each(note, function (j, n) {
                         if(j>0){
@@ -162,9 +211,10 @@
                         }
                     });
 
+                    // id=code    background - color: rgba(104, 182, 111, 0.3); green
+                    //     background-color: rgba(223, 127, 124, 0.31); red
                     // Links
                     link_type = link_mapping[i][code];
-                    console.log(link_type);
                     if(link_type in state_data){
                         var links = state_data[link_type].split(";");
                         $.each(links, function (j, l) {

@@ -2,6 +2,9 @@ svg path:hover {
     fill: #D8D9DE !important;
     cursor: pointer; 
 }
+footer {
+    margin-top: 10rem; 
+}
 #us_map {
     height: 426;
     width: 700;
@@ -16,6 +19,12 @@ svg path:hover {
     stroke-width: 1;
     opacity: 100;
 }
+.state-active{
+    fill: #cc9c58;
+}
+.state-active:hover{
+    fill: #cc9c58 !important;
+}
 .inner cover {
     margin-top: 3rem;
 }
@@ -24,7 +33,7 @@ svg path:hover {
     max-width: none;
 }
 .map {
-    width: percentage(7/8)
+    width: percentage(7/8);
 }
 .modal {
     color: black; 
@@ -39,6 +48,16 @@ svg path:hover {
 }
 .card-header{
     padding: 0.25rem 0.25rem;
+}
+.btn-link{
+    text-align: left;
+    color: gray;
+}
+.btn-link:hover{
+    color: black; 
+}
+.note-icon{
+    height: 1rem; 
 }
 svg path:visited {
     fill: #D8D9DE !important;

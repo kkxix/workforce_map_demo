@@ -12,8 +12,9 @@
     // });
     $(document.body).on("click", 'svg path', function (e){
         $.each($('svg path'), function (i, element){
-            $(this).attr('style', 'fill: #6E7889');
+            $(this).attr('class', 'state');
         });
-        $(this).attr('style', 'fill: #cc9c58');
+        $(this).attr('class', 'state-active')
+        // $(this).attr('style', 'fill: #cc9c58');
     })
 })(jQuery);
