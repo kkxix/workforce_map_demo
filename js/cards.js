@@ -2,7 +2,7 @@
     $('#card_col_1').attr('class', 'col-3');
     $('#card_col_2').attr('class', 'col-3');
     $('#card_col_1').html(`
-        <h5 id="state_plan">State WIOA Five-Year Workforce plan (all states submitted in 2020)</h5>
+        <h5 id="state_plan">State WIOA Five-Year Workforce Plan: </h5>
         <div id="accordion">            
             <div class="card">
                 <div class="card-header" id="headingTwo">
@@ -60,11 +60,12 @@
                     <div class="card-body" id="HT-body">
                     </div>
                 </div>
-            </div>            
+            </div>        
+        <h5>All states submitted in 2020</h5>   
         </div>
     `);
     $('#card_col_2').html(`
-        <h5>Additional Indicators </h5>
+        <h5>State Efforts to Promote Digital Skills: </h5>
             <div class="card">
                 <div class="card-header" id="headingSix">
                     <h5 class="mb-0">
@@ -79,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header" id="headingTen">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="SW" data-toggle="collapse" data-target="#collapseTen"
@@ -92,7 +93,7 @@
                     <div class="card-body" id="SW-body" >
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="card">
                 <div class="card-header" id="headingEleven">
                     <h5 class="mb-0">
@@ -175,7 +176,7 @@
             $('#card_col_2').attr('class', 'col-3');
             $('#card_col_1').attr('style', 'display:show');
             $('#card_col_1').html(`
-                <h5 id="state_plan">State WIOA Five-Year Workforce plan (all states submitted in 2020)</h5>
+                <h5 id="state_plan">State WIOA Five-Year Workforce Plan: </h5>
                 <div id="accordion">            
                     <div class="card">
                         <div class="card-header" id="headingTwo">
@@ -236,9 +237,10 @@
                         </div>
                     </div>            
                 </div>
+                <h5>All states submitted in 2020</h5>
             `);
             $('#card_col_2').html(`
-                <h5>Additional Indicators </h5>
+                <h5>State Efforts to Promote Digital Skills: </h5>
             <div class="card">
                 <div class="card-header" id="headingSix">
                     <h5 class="mb-0">
@@ -253,7 +255,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header" id="headingTen">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" id="SW" data-toggle="collapse" data-target="#collapseTen"
@@ -266,7 +268,7 @@
                     <div class="card-body" id="SW-body" >
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="card">
                 <div class="card-header" id="headingEleven">
                     <h5 class="mb-0">

@@ -52,7 +52,7 @@
                     { "PF": "Plan for addressing digital divide (broadband)?"}, 
                     { "DS": "Digital Skilling Mentioned in State of State?"}, 
                     // { "HM": "Microsoft Partnerships?"},
-                    { "SW": "State Workforce Funding"}, 
+                    // { "SW": "State Workforce Funding"}, 
                     { "SI": "Statewide Initiatives Promoting Digital Skills"},
                 ]
                 var link_mapping = [
@@ -65,30 +65,30 @@
                     { "PF": "Digital Divide Links" },
                     { "DS": "State of State Links" },
                     // { "HM": "Microsoft Partnership Links" },
-                    { "SW": "Workforce Funding Links" },
+                    // { "SW": "Workforce Funding Links" },
                     { "SI": "Statewide initiatives links" }
                 ]
                 var statement_mapping = [
                     { "LM-yes": "Does identify in-demand digital skill needs using statewide data." },
-                    { "AN-yes": "Does address need for digital skills." },
+                    { "AN-yes": "Does comprehensively address need for digital skills." },
                     { "HC-yes": "Does highlight digital skills in community college efforts." },
                     { "HT-yes": "Does have technology-related apprenticeship program planned or in place." },
-                    { "SF-yes": "Stimulus funds does prioritize digital skills training." },
+                    { "SF-yes": "Does leverage federal stimulus funds to support digital skills training." },
                     { "EO-yes": "There is a online skilling tool offered by the state." },
                     { "PF-yes": "There is a plan to address digital divide (broadband)." },
                     { "DS-yes": "2020 state of the state speech addressed need for digital skills training." },
-                    { "SW-yes": "There is state funding for digital skills training." },
-                    { "SI-yes": "There are statewide digital skills training programs." },
+                    // { "SW-yes": "There is state funding for digital skills training." },
+                    { "SI-yes": "State has dedicated digital skills initiative(s)." },
                     { "LM-no": "Does not identify in-demand digital skill needs using statewide data." },
-                    { "AN-no": "Does not address need for digital skills." },
+                    { "AN-no": "Does not comprehensively address need for digital skills." },
                     { "HC-no": "Does not highlight digital skills in community college efforts." },
                     { "HT-no": "Does not have technology-related apprenticeship program planned or in place." },
-                    { "SF-no": "Stimulus funds do not prioritize digital skills training." },
+                    { "SF-no": "Does not leverage federal stimulus funds to support digital skills training." },
                     { "EO-no": "There is not a online skilling tool offered by the state." },
                     { "PF-no": "There is not a plan to address digital divide (broadband)." },
                     { "DS-no": "2020 state of the state speech did not address need for digital skills training." },
-                    { "SW-no": "There is not state funding for digital skills training." },
-                    { "SI-no": "There are not statewide digital skills training programs." }
+                    // { "SW-no": "There is not state funding for digital skills training." },
+                    { "SI-no": "State does not have dedicated digital skills initiative(s)." }
                 ]
                 var state_yes_types = [];
                 var state_names = {
@@ -164,9 +164,8 @@
                 $('.cover-heading').html(`${state_name} `);
 
                 $('#state_plan').html(`
-                    <a style="color: white;" target='_blank' href='${state_data[' State WIOA Plan']}' >
-                    State WIOA Five-Year Workforce plan</a >
-                    (all states submitted in 2020)
+                    <a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}' >
+                    State WIOA Five-Year Workforce Plan:</a >
                 `);
                     $.each(type_mapping, function(i, type){
                     var code = Object.keys(type)[0];
@@ -194,10 +193,10 @@
                         }
                         no = `${code}-no`;
                         console.log(no);
-                        console.log(statement_mapping[i+10][no])
+                        console.log(statement_mapping[i+9][no])
                         $(`#${code}`).html(`
                             <img class="note-icon" id="${code}-icon" src="./img/error.png" height=".25rem" width=".25rem"/>
-                            ${statement_mapping[i+10][no]}
+                            ${statement_mapping[i+9][no]}
                         `);
                         $(`#${code}`).attr('style', 'background-color: rgba(223, 127, 124, 0.31)');
                     }
@@ -229,7 +228,7 @@
                     }
                     $(`#${code}-body`).html(`
                             <ul>
-                                ${notes_html.join()}
+                                ${notes_html.join("")}
                             </ul>
                         `);
 
