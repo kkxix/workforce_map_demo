@@ -18,9 +18,23 @@
         $(document.body).on("click", '.state', function () {
             // $("#notesModal").modal()
             var element_state_id = this.id;
-            
          
             if(active_map == 'US'){
+                // WIOA dollars
+                $.getJSON("../data/wioa_dollars_20.json", function (dollars) {
+                    state_wioa_dollars = dollars.find(d => {
+                        return d.State === element_state_id
+                    });
+                    console.log(state_wioa_dollars);
+                    console.log(state_wioa_dollars['PY 2020']);
+                    $('#wioa_dollars').html(`
+                        ${state_wioa_dollars['PY 2020']}
+                    `)
+                });
+
+
+
+                // State data for cards
                 // $.getJSON("../data/us_state_data_static.json", function (data) {
                 $.getJSON("../data/digital_skills.json", function (data) {
                 // DS --> L4
@@ -147,7 +161,6 @@
                 var state_data = data.find(d => {
                     return d.State === element_state_id
                 });
-                console.log(state_data);
 
                 // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
                 $('.cover-heading').html(`${state_name} `);
