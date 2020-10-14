@@ -23,72 +23,61 @@
             if(active_map == 'US'){
                 // $.getJSON("../data/us_state_data_static.json", function (data) {
                 $.getJSON("../data/digital_skills.json", function (data) {
-                // var notes = [
-                //     {'AN': []},
-                //     {'ID': []},
-                //     {'HT': []},
-                //     {'SD': []},
-                //     {'VP': []},
-                //     {'PP': []},
-                //     {'DA': []},
-                //     {'SDO': []},
-                //     {'SF': []},
-                //     {'EO': []},
-                //     {'PF': []},
-                //     {'DS': []},
-                //     {'HM': []},
-                //     {'IA': []},
-                //     {'SG': []},
-                //     {'AP': []},
-                //     {'HMO': []}
-                // ];
+                // DS --> L4
+                // PF --> L3
+                // LM --> L1
+                // AN --> L2
+                // HC --> R1
+                // HT --> R2
+                // EO --> R3
+                // SI --> R4
                 var type_mapping = [
-                    { "LM": "Uses Statewide labor market data to identifly in-demand digital skills? "}, 
-                    { "AN": "Addresses needs for digtial skills "}, 
-                    { "HC": "Highlights community college efforts promoting digital skills?"}, 
-                    { "HT": "Has technology-related apprenticeship program planned or in place?"},
-                    { "SF": "Stimulus funds prioritizes digital skills?"}, 
-                    { "EO": "Existing online skilling tool offered and promoted by State?"}, 
-                    { "PF": "Plan for addressing digital divide (broadband)?"}, 
-                    { "DS": "Digital Skilling Mentioned in State of State?"}, 
+                    { "L1": "Uses Statewide labor market data to identifly in-demand digital skills? "}, 
+                    { "L2": "Addresses needs for digtial skills "}, 
+                    { "R1": "Highlights community college efforts promoting digital skills?"}, 
+                    { "R2": "Has technology-related apprenticeship program planned or in place?"},
+                    // { "SF": "Stimulus funds prioritizes digital skills?"}, 
+                    { "R3": "Existing online skilling tool offered and promoted by State?"}, 
+                    { "L3": "Plan for addressing digital divide (broadband)?"}, 
+                    { "L4": "Digital Skilling Mentioned in State of State?"}, 
                     // { "HM": "Microsoft Partnerships?"},
                     // { "SW": "State Workforce Funding"}, 
-                    { "SI": "Statewide Initiatives Promoting Digital Skills"},
+                    { "R4": "Statewide Initiatives Promoting Digital Skills"},
                 ]
                 var link_mapping = [
-                    { "LM": "Labor market Links" },
-                    { "AN": "Digital Skills Links" },
-                    { "HC": "Community College Links" },
-                    { "HT": "Apprenticeship Links" },
-                    { "SF": "Stimulus funds link" }, 
-                    { "EO": "Skilling tool links" },
-                    { "PF": "Digital Divide Links" },
-                    { "DS": "State of State Links" },
+                    { "L1": "Labor market Links" },
+                    { "L2": "Digital Skills Links" },
+                    { "R1": "Community College Links" },
+                    { "R2": "Apprenticeship Links" },
+                    // { "SF": "Stimulus funds link" }, 
+                    { "R3": "Skilling tool links" },
+                    { "L3": "Digital Divide Links" },
+                    { "L4": "State of State Links" },
                     // { "HM": "Microsoft Partnership Links" },
                     // { "SW": "Workforce Funding Links" },
-                    { "SI": "Statewide initiatives links" }
+                    { "R4": "Statewide initiatives links" }
                 ]
                 var statement_mapping = [
-                    { "LM-yes": "Does identify in-demand digital skill needs using statewide data." },
-                    { "AN-yes": "Does comprehensively address need for digital skills." },
-                    { "HC-yes": "Does highlight digital skills in community college efforts." },
-                    { "HT-yes": "Does have technology-related apprenticeship program planned or in place." },
-                    { "SF-yes": "Does leverage federal stimulus funds to support digital skills training." },
-                    { "EO-yes": "There is a online skilling tool offered by the state." },
-                    { "PF-yes": "There is a plan to address digital divide (broadband)." },
-                    { "DS-yes": "2020 state of the state speech addressed need for digital skills training." },
+                    { "L1-yes": "State does identify in-demand digital skill needs using statewide data." },
+                    { "L2-yes": "State has a plan to address need for digital skills." },
+                    { "R1-yes": "State has community college efforts promoting digital skills." },
+                    { "R2-yes": "State does have technology-related apprenticeship program planned or in place." },
+                    // { "SF-yes": "Does leverage federal stimulus funds to support digital skills training." },
+                    { "R3-yes": "There is an online skilling tool offered by the state." },
+                    { "L3-yes": "State has a plan for addressing digital divide (broadband)." },
+                    { "L4-yes": "2020 state of the state speech addressed need for digital skills training." },
                     // { "SW-yes": "There is state funding for digital skills training." },
-                    { "SI-yes": "State has dedicated digital skills initiative(s)." },
-                    { "LM-no": "Does not identify in-demand digital skill needs using statewide data." },
-                    { "AN-no": "Does not comprehensively address need for digital skills." },
-                    { "HC-no": "Does not highlight digital skills in community college efforts." },
-                    { "HT-no": "Does not have technology-related apprenticeship program planned or in place." },
-                    { "SF-no": "Does not leverage federal stimulus funds to support digital skills training." },
-                    { "EO-no": "There is not a online skilling tool offered by the state." },
-                    { "PF-no": "There is not a plan to address digital divide (broadband)." },
-                    { "DS-no": "2020 state of the state speech did not address need for digital skills training." },
+                    { "R4-yes": "State has additional dedicated digital skills initiative(s)." },
+                    { "L1-no": "State does not identify in-demand digital skill needs using statewide data." },
+                    { "L2-no": "State does not have a plan to address need for digital skills." },
+                    { "R1-no": "State does not have community college efforts promoting digital skills." },
+                    { "R2-no": "State does not have technology-related apprenticeship program planned or in place." },
+                    // { "SF-no": "Does not leverage federal stimulus funds to support digital skills training." },
+                    { "R3-no": "There is not an online skilling tool offered by the state." },
+                    { "L3-no": "State does not have a plan for addressing digital divide (broadband)." },
+                    { "L4-no": "2020 state of the state speech did not address need for digital skills training." },
                     // { "SW-no": "There is not state funding for digital skills training." },
-                    { "SI-no": "State does not have dedicated digital skills initiative(s)." }
+                    { "R4-no": "State does not have additional dedicated digital skills initiative(s)." }
                 ]
                 var state_yes_types = [];
                 var state_names = {
@@ -193,10 +182,10 @@
                         }
                         no = `${code}-no`;
                         console.log(no);
-                        console.log(statement_mapping[i+9][no])
+                        console.log(statement_mapping[i+8][no])
                         $(`#${code}`).html(`
                             <img class="note-icon" id="${code}-icon" src="./img/error.png" height=".25rem" width=".25rem"/>
-                            ${statement_mapping[i+9][no]}
+                            ${statement_mapping[i+8][no]}
                         `);
                         $(`#${code}`).attr('style', 'background-color: rgba(223, 127, 124, 0.31)');
                     }
