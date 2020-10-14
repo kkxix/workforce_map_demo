@@ -28,7 +28,7 @@
                     console.log(state_wioa_dollars);
                     console.log(state_wioa_dollars['PY 2020']);
                     $('#wioa_dollars').html(`
-                        ${state_wioa_dollars['PY 2020']}
+                        $${state_wioa_dollars['PY 2020']}
                     `)
                 });
 
