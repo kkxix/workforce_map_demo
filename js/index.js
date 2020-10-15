@@ -25,11 +25,23 @@
                     state_wioa_dollars = dollars.find(d => {
                         return d.State === element_state_id
                     });
-                    console.log(state_wioa_dollars);
-                    console.log(state_wioa_dollars['PY 2020']);
-                    $('#wioa_dollars').html(`
+                    $('#dollars').html(`
                         $${state_wioa_dollars['PY 2020']}
-                    `)
+                    `);
+                    $('#dollar-type').html(`
+                        WIOA dollars
+                    `);
+                });
+                $.getJSON("../data/it_jobs.json", function (jobs) {
+                    open_jobs = jobs.find(d => {
+                        return d.State === element_state_id
+                    });
+                    $('#demand').html(`
+                        ${open_jobs['jobs']}
+                    `);
+                    $('#demand-type').html(`
+                        Current Job Opening in IT
+                    `);
                 });
 
 

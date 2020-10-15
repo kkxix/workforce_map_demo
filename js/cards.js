@@ -285,14 +285,14 @@
                 <div class="card">
                     <div class="card-header" id="headingEleven">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" id="SI" data-toggle="collapse" data-target="#collapseEleven"
+                            <button class="btn btn-link collapsed" id="R4" data-toggle="collapse" data-target="#collapseEleven"
                                 aria-expanded="false" aria-controls="collapseEleven">
                                 Are there additional initiatives promoting digital skills?
                             </button>
                         </h5>
                     </div>
                     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-                        <div class="card-body" id="SI-body" >
+                        <div class="card-body" id="R4-body" >
                         </div>
                     </div>
                 </div>
