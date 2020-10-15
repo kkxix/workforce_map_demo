@@ -85,7 +85,7 @@
                 ]
                 var statement_mapping = [
                     { "L1-yes": "State does identify in-demand digital skill needs using statewide data." },
-                    { "L2-yes": "State has a plan to address need for digital skills." },
+                    { "L2-yes": "State has a comprehensive plan to address need for digital skills." },
                     { "R1-yes": "State has community college efforts promoting digital skills." },
                     { "R2-yes": "State does have technology-related apprenticeship program planned or in place." },
                     // { "SF-yes": "Does leverage federal stimulus funds to support digital skills training." },
@@ -95,7 +95,7 @@
                     // { "SW-yes": "There is state funding for digital skills training." },
                     { "R4-yes": "State has additional dedicated digital skills initiative(s)." },
                     { "L1-no": "State does not identify in-demand digital skill needs using statewide data." },
-                    { "L2-no": "State does not have a plan to address need for digital skills." },
+                    { "L2-no": "State does not have a comprehensive plan to address need for digital skills." },
                     { "R1-no": "State does not have community college efforts promoting digital skills." },
                     { "R2-no": "State does not have technology-related apprenticeship program planned or in place." },
                     // { "SF-no": "Does not leverage federal stimulus funds to support digital skills training." },
