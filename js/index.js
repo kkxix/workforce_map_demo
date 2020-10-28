@@ -29,7 +29,7 @@
                         $${state_wioa_dollars['PY 2020']}
                     `);
                     $('#dollar-type').html(`
-                        WIOA dollars
+                        Workforce Innovation and Opportunity Act dollars
                     `);
                 });
                 $.getJSON("../data/it_jobs.json", function (jobs) {
@@ -58,52 +58,53 @@
                 // EO --> R3
                 // SI --> R4
                 var type_mapping = [
-                    { "L1": "Uses Statewide labor market data to identifly in-demand digital skills? "}, 
-                    { "L2": "Addresses needs for digtial skills "}, 
-                    { "R1": "Highlights community college efforts promoting digital skills?"}, 
-                    { "R2": "Has technology-related apprenticeship program planned or in place?"},
+                    { "L1": "State has identified in-demand digital skill needs using Statewide data? "}, 
+                    { "L2": "State has comprehensive plan to address digital skills needs?"}, 
+                    { "L3": "State has a plan for addressing digital divide (broadband)?"}, 
+                    { "L4": "Digital Skilling Mentioned in State of State:"}, 
+                    { "R1": "State has community college efforts promoting digital skills?"}, 
+                    { "R2": "State has technology-related apprenticeship program planned or in place?"},
                     // { "SF": "Stimulus funds prioritizes digital skills?"}, 
-                    { "R3": "Existing online skilling tool offered and promoted by State?"}, 
-                    { "L3": "Plan for addressing digital divide (broadband)?"}, 
-                    { "L4": "Digital Skilling Mentioned in State of State?"}, 
+                    { "R3": "Online skilling tool offered by State?"}, 
                     // { "HM": "Microsoft Partnerships?"},
                     // { "SW": "State Workforce Funding"}, 
-                    { "R4": "Statewide Initiatives Promoting Digital Skills"},
+                    { "R4": "State has additional dedicated digital skills initiatives?"},
                 ]
                 var link_mapping = [
-                    { "L1": "Labor market Links" },
-                    { "L2": "Digital Skills Links" },
+                    { "L1": "Identified in-demand skills using statewide data links" },
+                    { "L2": "Comprehensive plan links" },
+                    { "L3": "Digital Divide Links" },
+                    { "L4": "State of State Links" },
                     { "R1": "Community College Links" },
                     { "R2": "Apprenticeship Links" },
                     // { "SF": "Stimulus funds link" }, 
                     { "R3": "Skilling tool links" },
-                    { "L3": "Digital Divide Links" },
-                    { "L4": "State of State Links" },
                     // { "HM": "Microsoft Partnership Links" },
                     // { "SW": "Workforce Funding Links" },
-                    { "R4": "Statewide initiatives links" }
+                    { "R4": "Other initiatives links" }
                 ]
                 var statement_mapping = [
-                    { "L1-yes": "State does identify in-demand digital skill needs using statewide data." },
-                    { "L2-yes": "State has a comprehensive plan to address need for digital skills." },
-                    { "R1-yes": "State has community college efforts promoting digital skills." },
-                    { "R2-yes": "State does have technology-related apprenticeship program planned or in place." },
+                    { "L1-yes": "State <strong> does identify in-demand digital skill needs </strong> using statewide data." },
+                    { "L2-yes": "State <strong> has a comprehensive plan </strong> to address need for digital skills." },
+                    { "L3-yes": "State <strong> has a plan for addressing digital divide </strong> (broadband)." },
+                    { "L4-yes": "<strong> 2020 state of the state speech addressed need </strong> for digital skills training." },
+                    { "R1-yes": "State <strong> has community college efforts </strong> promoting digital skills." },
+                    { "R2-yes": "State <strong> does have technology-related apprenticeship program </strong> planned or in place." },
                     // { "SF-yes": "Does leverage federal stimulus funds to support digital skills training." },
-                    { "R3-yes": "There is an online skilling tool offered by the state." },
-                    { "L3-yes": "State has a plan for addressing digital divide (broadband)." },
-                    { "L4-yes": "2020 state of the state speech addressed need for digital skills training." },
+                    { "R3-yes": "There <strong> is an online skilling tool </strong> offered by the state." },
                     // { "SW-yes": "There is state funding for digital skills training." },
-                    { "R4-yes": "State has additional dedicated digital skills initiative(s)." },
-                    { "L1-no": "State does not identify in-demand digital skill needs using statewide data." },
-                    { "L2-no": "State does not have a comprehensive plan to address need for digital skills." },
-                    { "R1-no": "State does not have community college efforts promoting digital skills." },
-                    { "R2-no": "State does not have technology-related apprenticeship program planned or in place." },
+                    { "R4-yes": "State <strong> has additional dedicated digital skills initiative(s) </strong>." },
+                 
+                    { "L1-no": "State <strong> does not identify in-demand digital skill needs </strong> using statewide data." },
+                    { "L2-no": "State <strong> does not have a comprehensive plan </strong> to address need for digital skills." },
+                    { "L3-no": "State <strong> does not have a plan for addressing digital divide </strong> (broadband)." },
+                    { "L4-no": "<strong> 2020 state of the state speech did not address need </strong> for digital skills training." },
+                    { "R1-no": "State <strong> does not have community college efforts </strong> promoting digital skills." },
+                    { "R2-no": "State <strong> does not have technology-related apprenticeship program </strong> planned or in place." },
                     // { "SF-no": "Does not leverage federal stimulus funds to support digital skills training." },
-                    { "R3-no": "There is not an online skilling tool offered by the state." },
-                    { "L3-no": "State does not have a plan for addressing digital divide (broadband)." },
-                    { "L4-no": "2020 state of the state speech did not address need for digital skills training." },
+                    { "R3-no": "There <strong> is not an online skilling tool </strong> offered by the state." },
                     // { "SW-no": "There is not state funding for digital skills training." },
-                    { "R4-no": "State does not have additional dedicated digital skills initiative(s)." }
+                    { "R4-no": "State <strong> does not have additional dedicated digital skills initiative(s) </strong>." }
                 ]
                 var state_yes_types = [];
                 var state_names = {
@@ -231,13 +232,20 @@
                     if(link_type in state_data){
                         var links = state_data[link_type].split(";");
                         $.each(links, function (j, l) {
-                            if (j > 0) {
+                            if(j % 2 == 1) {
                                 notes_html.push(`
                                     <li>
-                                        <a href="${l}">More Information</a>
+                                        <a href="${l}" target="_blank">${links[j-1]}</a>
                                     </li>
                                 `)
-                            }
+                            };
+                            // if (j > 0) {
+                            //     notes_html.push(`
+                            //         <li>
+                            //             <a href="${l}">More Information</a>
+                            //         </li>
+                            //     `)
+                            // }
                         });
                     }
                     $(`#${code}-body`).html(`
