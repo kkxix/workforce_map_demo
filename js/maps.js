@@ -212,7 +212,7 @@
                             d="M801.75695,253.84384L800.67992,252.20717L799.66604,251.36463L800.7653,249.74841L802.99814,251.25941Z">
                             <title style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Washington D.C.</title>
                         </path>
-                        <rect x="898.4507042253521" y="220" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="VT" x="898.4507042253521" y="220" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="231.09154929577466" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -220,7 +220,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.927486795774655" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">VT</tspan>
                         </text>
-                        <rect x="860" y="235.5281690140845" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="NH" x="860" y="235.5281690140845" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect>
                         <text x="874.7887323943662" y="246.61971830985917" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none"
@@ -228,7 +228,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.9322183098591665" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">NH</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="251.05633802816902" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="MA" x="898.4507042253521" y="251.05633802816902" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="262.1478873239437" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -236,7 +236,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.929137323943678" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MA</tspan>
                         </text>
-                        <rect x="860" y="266.5845070422535" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="RI" x="860" y="266.5845070422535" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="277.67605633802816" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -244,7 +244,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.933868838028161" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">RI</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="282.11267605633805" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="CT" x="898.4507042253521" y="282.11267605633805" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="293.2042253521127" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -252,7 +252,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.930787852112701" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">CT</tspan>
                         </text>
-                        <rect x="860" y="297.64084507042253" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="NJ" x="860" y="297.64084507042253" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="308.7323943661972" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -260,7 +260,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.927706866197184" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">NJ</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="313.169014084507" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="DE" x="898.4507042253521" y="313.169014084507" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="324.26056338028167" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -268,7 +268,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.924625880281667" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">DE</tspan>
                         </text>
-                        <rect x="860" y="328.69718309859155" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="MD" x="860" y="328.69718309859155" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="339.7887323943662" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -276,7 +276,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.929357394366207" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MD</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="344.22535211267603" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="DC" x="898.4507042253521" y="344.22535211267603" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="355.3169014084507" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -508,7 +508,7 @@
                             d="M801.75695,253.84384L800.67992,252.20717L799.66604,251.36463L800.7653,249.74841L802.99814,251.25941Z">
                             <title style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Washington D.C.</title>
                         </path>
-                        <rect x="898.4507042253521" y="220" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="VT" x="898.4507042253521" y="220" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="231.09154929577466" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -516,7 +516,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.927486795774655" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">VT</tspan>
                         </text>
-                        <rect x="860" y="235.5281690140845" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="NH" x="860" y="235.5281690140845" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect>
                         <text x="874.7887323943662" y="246.61971830985917" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none"
@@ -524,7 +524,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.9322183098591665" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">NH</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="251.05633802816902" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="MA" x="898.4507042253521" y="251.05633802816902" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="262.1478873239437" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -532,7 +532,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.929137323943678" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MA</tspan>
                         </text>
-                        <rect x="860" y="266.5845070422535" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="RI" x="860" y="266.5845070422535" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="277.67605633802816" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -540,7 +540,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.933868838028161" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">RI</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="282.11267605633805" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="CT" x="898.4507042253521" y="282.11267605633805" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="293.2042253521127" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -548,7 +548,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.930787852112701" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">CT</tspan>
                         </text>
-                        <rect x="860" y="297.64084507042253" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="NJ" x="860" y="297.64084507042253" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="308.7323943661972" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -556,7 +556,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.927706866197184" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">NJ</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="313.169014084507" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="DE" x="898.4507042253521" y="313.169014084507" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="324.26056338028167" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -564,7 +564,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.924625880281667" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">DE</tspan>
                         </text>
-                        <rect x="860" y="328.69718309859155" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
+                        <rect class="state" id="MD" x="860" y="328.69718309859155" width="29.577464788732392" height="22.183098591549296" r="4.436619718309859"
                             rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="874.7887323943662"
                             y="339.7887323943662" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"
@@ -572,7 +572,7 @@
                             font-weight="300" stroke-width="0" font-size="14px">
                             <tspan dy="4.929357394366207" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">MD</tspan>
                         </text>
-                        <rect x="898.4507042253521" y="344.22535211267603" width="29.577464788732392" height="22.183098591549296"
+                        <rect class="state" id="DC" x="898.4507042253521" y="344.22535211267603" width="29.577464788732392" height="22.183098591549296"
                             r="4.436619718309859" rx="4.436619718309859" ry="4.436619718309859" fill="#6E7889" stroke="#ffffff"
                             style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"></rect><text x="913.2394366197183"
                             y="355.3169014084507" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff"

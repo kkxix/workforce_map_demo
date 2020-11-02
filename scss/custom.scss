@@ -18,12 +18,19 @@ footer {
     stroke: "#ffffff" ;
     stroke-width: 1;
     opacity: 100;
+    color: white;
+}
+text {
+    fill: white !important; 
 }
 .state-active{
     fill: #cc9c58;
 }
 .state-active:hover{
     fill: #cc9c58 !important;
+}
+#pdf {
+    color: #cc9c58;
 }
 .inner cover {
     margin-top: 3rem;
@@ -72,6 +79,10 @@ footer {
 //     border-color: white;
 // }
 svg path:visited {
+    fill: #D8D9DE !important;
+    cursor: pointer;
+}
+svg rect:visited {
     fill: #D8D9DE !important;
     cursor: pointer;
 }

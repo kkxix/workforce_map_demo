@@ -4,7 +4,6 @@
 // window.jQuery = $;
 // // window.$ = $;
 // 'use strict';
-
 // const jsdom = require("jsdom").jsdom;
 // global.$ = require('jquery/dist/jquery')(jsdom().createWindow());
 
@@ -177,6 +176,11 @@
 
                 // $('.modal-title').html(`<h5 class="modal-title" id="exampleModalLabel">${state_name}</h5> `);
                 $('.cover-heading').html(`${state_name} `);
+                if($('#pdf').length == 0){
+                    $('.pdf-holder').append(`
+                        <a type="button" id="pdf"> <h3>Factsheet</h3> </a>
+                    `)
+                }
 
                 $('#state_plan').html(`
                     <a style="color: white;" target='_blank' href='${state_data['State WIOA Plan']}' >
@@ -185,6 +189,9 @@
                     $.each(type_mapping, function(i, type){
                     var code = Object.keys(type)[0];
                     var data_type = type[code];
+                    console.log(data_type in state_data);
+                    console.log(getDifference(data_type, Object.keys(state_data)[10]));
+
                     var note = state_data[data_type].split(";");
                     var notes_html = []
                     var yes = ""
@@ -352,6 +359,21 @@
                 result.push(trimmed);
             } 
         });
+        return result;
+    }
+
+    function getDifference(a, b) {
+        var i = 0;
+        var j = 0;
+        var result = "";
+
+        while (j < b.length) {
+            if (a[i] != b[j] || i == a.length)
+                result += b[j];
+            else
+                i++;
+            j++;
+        }
         return result;
     }
 })(jQuery);

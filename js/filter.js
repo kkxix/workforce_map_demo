@@ -11,10 +11,17 @@
     //     }).show();
     // });
     $(document.body).on("click", 'svg path', function (e){
-        $.each($('svg path'), function (i, element){
+        $.each($('svg').children(), function (i, element){
             $(this).attr('class', 'state');
         });
         $(this).attr('class', 'state-active')
         // $(this).attr('style', 'fill: #cc9c58');
-    })
+    });
+    $(document.body).on("click", 'svg rect', function (e) {
+        $.each($('svg').children(), function (i, element) {
+            $(this).attr('class', 'state');
+        });
+        $(this).attr('class', 'state-active')
+        // $(this).attr('style', 'fill: #cc9c58');
+    });
 })(jQuery);
