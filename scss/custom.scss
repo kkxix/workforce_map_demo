@@ -23,6 +23,30 @@ footer {
 text {
     fill: white !important; 
 }
+a {
+    color: #cc9c58;
+    font-weight: bold;
+}
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+a:hover {
+    color: #cc9c58;
+    text-decoration: underline;
+}
 .state-active{
     fill: #cc9c58;
 }
@@ -67,6 +91,12 @@ text {
 .note-icon{
     height: 1rem; 
 }
+// div.info_section * {
+//     margin-left: 1.5rem;
+// }
+.info_p{
+    margin-left: 1.5rem;
+}
 #card_col_1{
     margin-top: 1.5rem;
 }
@@ -86,23 +116,9 @@ svg rect:visited {
     fill: #D8D9DE !important;
     cursor: pointer;
 }
-#MD {
-    background-color: #FCDABE;
-}
-#PJ {
-    background-color: #F2C7CC;
-}
-#DB {
-    background-color: #C0C2E2;
-}
-#VP {
-    background-color: #C2E7F1;
-}
-#DM {
-    background-color: #D7F2CE;
-}
-#DD {
-    background-color: #F3FBD2;
+.list-group-item{
+    background-color: #333;
+    color: white;
 }
 #notes_div{
     width: 650px;

@@ -28,7 +28,7 @@
                         $${state_wioa_dollars['PY 2020']}
                     `);
                     $('#dollar-type').html(`
-                        Workforce Innovation and Opportunity Act dollars
+                        Workforce Innovation and Opportunity Act For Adults and Dislocated Workers dollars
                     `);
                 });
                 $.getJSON("../data/it_jobs.json", function (jobs) {
