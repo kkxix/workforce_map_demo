@@ -225,9 +225,9 @@
                     $.each(note, function (j, n) {
                         if(j>0){
                             notes_html.push(`
-                                <li>
+                                <p>
                                     ${n}
-                                </li>
+                                </p>
                             `)
                         }
                     });
@@ -241,9 +241,9 @@
                         $.each(links, function (j, l) {
                             if(j % 2 == 1) {
                                 notes_html.push(`
-                                    <li>
+                                    <p>
                                         <a href="${l}" target="_blank">${links[j-1]}</a>
-                                    </li>
+                                    </p>
                                 `)
                             };
                             // if (j > 0) {
@@ -256,9 +256,9 @@
                         });
                     }
                     $(`#${code}-body`).html(`
-                            <ul>
+                            <div>
                                 ${notes_html.join("")}
-                            </ul>
+                            </div>
                         `);
 
                     // console.log($(`#${code}`));
