@@ -162,7 +162,7 @@
     //                     <p class='category-text'>Online skilling tool</p>
     //                 </button>
     //                 <button class='button-box' id='R4'>
-    //                     <p class='category-text'>Additional initiative</p>
+    //                     <p class='category-text'>Additional initiative(s)</p>
     //             `);
     //         if (state_selected) {
     //             colorBoxes(element_state_id);
@@ -172,7 +172,7 @@
 
     $('#plan_data_buttons').append(`
                 <button class='button-box nuetral' id='L1'>
-                    <p class='category-text'>Identificaiton of digital skills</p>
+                    <p class='category-text'>Identification of digital skills</p>
                 </button>
                 <button class='button-box nuetral' id='L2'>
                     <p class='category-text'>Comprehensive plan for digital skills</p>
@@ -197,7 +197,7 @@
                     <p class='category-text'>Online skilling tool</p>
                 </button>
                 <button class='button-box' id='R4'>
-                    <p class='category-text'>Additional initiative</p>
+                    <p class='category-text'>Additional initiative(s)</p>
                 </button>
                 <button class="print-out">
                 <a type="button" id="pdf"> <h3>Print Out</h3> </a>
