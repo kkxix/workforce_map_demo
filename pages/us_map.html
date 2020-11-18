@@ -1,0 +1,160 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap style  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Cover template -->
+    <link href="/css/cover.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+
+    <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+
+    <!-- jspdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+
+
+</head>
+<body>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="wrapper">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand justify-content-center">
+                    Addressing Digital Skills Needs: a State-by-State Scorecard
+                </h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="#" id="US">US</a>
+                    <a class="nav-link" href="/index.html" id="world">World</a>
+                    <a class="nav-link" href="/pages/more_info.html" id="More Info">More Info</a>
+                </nav>
+            </div>
+        </header>
+        <main role="main" class="inner cover">
+
+            <!-- State title/ Data tabs row-->
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="cover-heading">USA</h1>
+                </div>
+                <div class="col-6">
+                    <div class="row" id="data_tabs">
+                        <div class="col-auto mr-auto">
+                            <div class="data_tab active" id="plan"> <h1>Plan</h1> </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="data_tab active" id="programs"> <h1>Programs</h1> </div>
+                        </div>
+                        <!-- <div class="col-md-auto">
+                            <a type="button" id="pdf"> <h1>Factsheet</h1> </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map, data container row -->
+            <div class="row">
+                <div class="col-6" id="map_col">
+                    <div class="map" id="us_map">
+
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="number" id="demand">Number</h1>
+                                <p class="number-type" id="demand-type">Demand</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="number" id="supply">Number</h1>
+                                <p class="number-type" id="supply-type">Supply</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="number" id="dollars">Number</h1>
+                                <p class="number-type" id="dollar-type">Dollars</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="number" id="EL">Number</h1>
+                                <p class="number-type" id="EL-type">Total Engaged Learners</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="number" id="LP">Number</h1>
+                                <p class="number-type" id="LP-type">Total Learning Paths Complete</p>
+                            </div>
+                            <div class="col">
+                                <a type="button" id="explore_data"><h1>Explore Data</h1></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 no_padding">
+                    <div class="container" id="data_container">
+                        <div class="row">
+                            <div class="col no_padding" id="plan_data_buttons">
+
+                            </div>
+                            <div class="col" >
+                                <div id="data_content_header">
+
+                                </div>
+                                <div id="data_content">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="col no_padding" id="program_data_buttons">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Numbers -->
+            <!-- <div class="row">
+                <div class="col-6">
+                    
+                </div>
+            </div> -->
+
+            <!-- Container for GSI viz -->
+        </main>
+    </div>
+
+
+    <!-- Bootstrap Scripts -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous"></script> -->
+    
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script src="/js/maps.js"></script>
+    <!-- <script src="/js/index.js"></script> -->
+    <script src="/js/filter.js"></script>
+    <script src="/js/cards.js"></script>
+    <script src="/js/pdf.js"></script>
+    <script src="/js/new_map_interaction.js"></script>
+</body>

@@ -9,8 +9,6 @@ footer {
 }
 
 #us_map {
-  height: 426;
-  width: 700;
   overflow: hidden;
   position: relative;
   left: -0.222237px;
@@ -30,7 +28,7 @@ text {
 }
 
 a {
-  color: #cc9c58;
+  color: #EFEA5A;
   font-weight: bold;
 }
 
@@ -54,20 +52,28 @@ blockquote p {
 }
 
 a:hover {
-  color: #cc9c58;
+  color: #F5B87A;
   text-decoration: underline;
 }
 
 .state-active {
-  fill: #cc9c58;
+  fill: #F29E4C;
 }
 
 .state-active:hover {
-  fill: #cc9c58 !important;
+  fill: #F29E4C !important;
 }
 
 #pdf {
-  color: #cc9c58;
+  color: #EFEA5A;
+}
+
+#explore_data {
+  color: #EFEA5A;
+}
+
+#welcome {
+  margin-top: 25%;
 }
 
 .inner cover {
@@ -77,6 +83,10 @@ a:hover {
 .cover-container {
   width: 90%;
   max-width: none;
+}
+
+.cover-heading {
+  text-align: center;
 }
 
 .map {
@@ -114,8 +124,46 @@ a:hover {
   height: 1rem;
 }
 
+.no_padding {
+  padding: 0;
+  flex-grow: 0 !important;
+}
+
 .info_p {
   margin-left: 1.5rem;
+}
+
+.button-box {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  background-color: #6E7889;
+  border-style: none;
+  width: max-content;
+}
+
+.print-out {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #333;
+  border-style: solid;
+  border-width: 0.15rem;
+  border-color: white;
+  width: inherit;
+}
+
+.category-text {
+  padding: 0.25rem;
+  width: 8rem;
+  word-wrap: break-word;
+}
+
+.strong-yes {
+  color: #17B890;
+}
+
+.strong-no {
+  color: #CF1259;
 }
 
 #card_col_1 {
@@ -124,6 +172,38 @@ a:hover {
 
 #card_col_2 {
   margin-top: 1.5rem;
+}
+
+#data_tabs {
+  border-bottom-style: solid;
+  border-bottom-width: 0.25rem;
+  border-bottom-color: white;
+}
+
+.data_tab {
+  color: #8F8F8F;
+}
+
+.data_tab.active {
+  color: white;
+}
+
+.data_tab:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.number {
+  color: #F29E4C;
+}
+
+.number-type {
+  color: #8F8F8F;
+}
+
+.inner.cover {
+  min-height: 100%;
 }
 
 svg path:visited {
@@ -143,6 +223,36 @@ svg rect:visited {
 
 #notes_div {
   width: 650px;
+}
+
+#data_content {
+  max-height: 20rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8F8F8F;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /*# sourceMappingURL=custom.css.map */
