@@ -206,6 +206,10 @@ a:hover {
   min-height: 100%;
 }
 
+#content-col {
+  min-width: 140px;
+}
+
 svg path:visited {
   fill: #D8D9DE !important;
   cursor: pointer;
