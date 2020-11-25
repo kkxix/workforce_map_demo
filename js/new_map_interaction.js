@@ -254,7 +254,7 @@
                     Estimate of job openings requiring digital skills. 
                 `);
             $('#supply').html(`
-                    ${state_data['supply ']}
+                    ${state_data['supply-PIACC']}
                 `);
             $('#supply-type').html(`
                     Estimate of unemployed workers without digital skills. 
