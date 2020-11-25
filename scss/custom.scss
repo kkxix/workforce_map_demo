@@ -7,6 +7,37 @@ $corn : #EFEA5A;
 $sandy-brown : #F29E4C;
 $sandy-brown-hover : #F5B87A;
 
+$micro-red : #F34F1C;
+$micro-green : #7FBC00;
+$micro-blue-dark : #014665;
+$micro-blue : #01A6F0;
+$micro-orange : #FFBA01 ;
+$micro-gray-medium : #747474;
+$micro-gray-dark : #2D2D2D; 
+$micro-gray-light : #AAAAAA;
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+}
+h5{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: $micro-gray-dark;
+}
 
 svg path:hover {
     fill: #D8D9DE !important;
@@ -24,17 +55,20 @@ footer {
     top: -0.590332px;
 }
 .state {
-    fill: $slate-gray;
-    stroke: "#ffffff" ;
+    // fill: $micro-blue-dark;
+    // stroke: "#ffffff" ;
+    fill: $micro-gray-light; 
+    stroke: white; 
     stroke-width: 1;
     opacity: 100;
-    color: white;
+    // color: white;
 }
 text {
     fill: white !important; 
 }
 a {
-    color: $corn;
+    font-family: 'Raleway', sans-serif;
+    color: $micro-blue;
     font-weight: bold;
 }
 blockquote {
@@ -54,21 +88,21 @@ blockquote p {
   display: inline;
 }
 a:hover {
-    color: $sandy-brown-hover;
+    color: $micro-blue-dark;
     text-decoration: underline;
 }
 .state-active{
-    fill: $sandy-brown;
+    fill: $micro-orange;
 }
 .state-active:hover{
-    fill: $sandy-brown !important;
+    fill: $micro-orange !important;
 }
 #pdf {
-    color: $corn;
+    color: $micro-blue;
     // float: right;
 }
 #explore_data{
-    color: $corn;
+    color: $micro-blue;
 }
 #welcome{
     margin-top: percentage(1/4);
@@ -128,7 +162,7 @@ a:hover {
     margin-top: .5rem;
     margin-bottom: .5rem;
     color: white;
-    background-color: $slate-gray;
+    background-color: $micro-gray-light;
     border-style: none;
     // width: 100%;
     width: max-content
@@ -137,10 +171,10 @@ a:hover {
     margin-top: .5rem;
     margin-bottom: .5rem;
     // color: white;
-    background-color: $base-gray;
+    background-color: white;
     border-style: solid;
     border-width: .15rem;
-    border-color: white;
+    border-color: $micro-gray-light;
     // width: 100%;
     // width: max-content
     width: inherit;
@@ -152,10 +186,10 @@ a:hover {
     word-wrap: break-word;
 }
 .strong-yes{
-    color: $mountain-meadow;
+    color: $micro-green;
 }
 .strong-no{
-    color: $rubine-red;
+    color: $micro-red;
 }
 #card_col_1{
     margin-top: 1.5rem;
@@ -165,25 +199,25 @@ a:hover {
 }
 #data_tabs{
     border-bottom-style: solid;
-    border-bottom-width: .25rem;
-    border-bottom-color: white;
+    border-bottom-width: .15rem;
+    border-bottom-color: $micro-gray-light;
 }
 .data_tab{
-    color: $inactive-gray;
+    color: $micro-gray-light;
 }
-.data_tab.active{
-    color: white; 
-}
+// .data_tab.active{
+    // color: white; 
+// }
 .data_tab:hover{
-    color: white;
+    // color: white;
     text-decoration: none;
     cursor: pointer;
 }
 .number{
-    color: $sandy-brown;
+    color: $micro-orange;
 }
 .number-type{
-    color: $inactive-gray;
+    color: $micro-gray-light;
 }
 .inner.cover{
     min-height: 100%;
@@ -204,10 +238,10 @@ svg rect:visited {
     fill: #D8D9DE !important;
     cursor: pointer;
 }
-.list-group-item{
-    background-color: #333;
-    color: white;
-}
+// .list-group-item{
+//     background-color: #333;
+//     color: white;
+// }
 #notes_div{
     width: 650px;
 }
@@ -222,24 +256,24 @@ svg rect:visited {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: $base-gray; 
-  border-radius: 10px;
+  background: white; 
+  border-radius: 7px;
 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $inactive-gray; 
-  border-radius: 10px;
+  background: $micro-gray-light; 
+  border-radius: 7px;
 
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
+// ::-webkit-scrollbar-thumb:hover {
+//   background: #555; 
+// }

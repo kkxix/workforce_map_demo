@@ -1,4 +1,29 @@
 @charset "UTF-8";
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2D2D2D;
+}
+
 svg path:hover {
   fill: #D8D9DE !important;
   cursor: pointer;
@@ -16,11 +41,10 @@ footer {
 }
 
 .state {
-  fill: #6E7889;
-  stroke: "#ffffff";
+  fill: #AAAAAA;
+  stroke: white;
   stroke-width: 1;
   opacity: 100;
-  color: white;
 }
 
 text {
@@ -28,7 +52,8 @@ text {
 }
 
 a {
-  color: #EFEA5A;
+  font-family: "Raleway", sans-serif;
+  color: #01A6F0;
   font-weight: bold;
 }
 
@@ -52,24 +77,24 @@ blockquote p {
 }
 
 a:hover {
-  color: #F5B87A;
+  color: #014665;
   text-decoration: underline;
 }
 
 .state-active {
-  fill: #F29E4C;
+  fill: #FFBA01;
 }
 
 .state-active:hover {
-  fill: #F29E4C !important;
+  fill: #FFBA01 !important;
 }
 
 #pdf {
-  color: #EFEA5A;
+  color: #01A6F0;
 }
 
 #explore_data {
-  color: #EFEA5A;
+  color: #01A6F0;
 }
 
 #welcome {
@@ -137,7 +162,7 @@ a:hover {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   color: white;
-  background-color: #6E7889;
+  background-color: #AAAAAA;
   border-style: none;
   width: max-content;
 }
@@ -145,10 +170,10 @@ a:hover {
 .print-out {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  background-color: #333;
+  background-color: white;
   border-style: solid;
   border-width: 0.15rem;
-  border-color: white;
+  border-color: #AAAAAA;
   width: inherit;
 }
 
@@ -159,11 +184,11 @@ a:hover {
 }
 
 .strong-yes {
-  color: #17B890;
+  color: #7FBC00;
 }
 
 .strong-no {
-  color: #CF1259;
+  color: #F34F1C;
 }
 
 #card_col_1 {
@@ -176,30 +201,25 @@ a:hover {
 
 #data_tabs {
   border-bottom-style: solid;
-  border-bottom-width: 0.25rem;
-  border-bottom-color: white;
+  border-bottom-width: 0.15rem;
+  border-bottom-color: #AAAAAA;
 }
 
 .data_tab {
-  color: #8F8F8F;
-}
-
-.data_tab.active {
-  color: white;
+  color: #AAAAAA;
 }
 
 .data_tab:hover {
-  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
 .number {
-  color: #F29E4C;
+  color: #FFBA01;
 }
 
 .number-type {
-  color: #8F8F8F;
+  color: #AAAAAA;
 }
 
 .inner.cover {
@@ -220,11 +240,6 @@ svg rect:visited {
   cursor: pointer;
 }
 
-.list-group-item {
-  background-color: #333;
-  color: white;
-}
-
 #notes_div {
   width: 650px;
 }
@@ -239,24 +254,21 @@ svg rect:visited {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #333;
-  border-radius: 10px;
+  background: white;
+  border-radius: 7px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #8F8F8F;
-  border-radius: 10px;
+  background: #AAAAAA;
+  border-radius: 7px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
 
 /*# sourceMappingURL=custom.css.map */

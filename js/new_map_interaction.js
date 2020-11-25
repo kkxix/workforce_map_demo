@@ -172,32 +172,32 @@
 
     $('#plan_data_buttons').append(`
                 <button class='button-box nuetral' id='L1'>
-                    <p class='category-text'>Identification of digital skills</p>
+                    <p class='category-text'>Identified digital skills needs</p>
                 </button>
                 <button class='button-box nuetral' id='L2'>
-                    <p class='category-text'>Comprehensive plan for digital skills</p>
+                    <p class='category-text'>Developed comprehensive plan to address needs</p>
                 </button>
                 <button class='button-box nuetral' id='L3'>
-                    <p class='category-text'>Plan for digital divide </p>
+                    <p class='category-text'>Has a plan to address digital divide</p>
                 </button>
                 <button class='button-box nuetral' id='L4'>
-                    <p class='category-text'>Digital skills mention in 2020 State of State </p>
+                    <p class='category-text'>Digital skills prioritized by governor</p>
                 </button>
             `);
 
     var plan_height = $('#plan_data_buttons').height(); 
     $('#program_data_buttons').append(`
                 <button class='button-box' id='R1'>
-                    <p class='category-text'>Community college efforts</p>
+                    <p class='category-text'>Innovative digital skills program(s) at community colleges</p>
                 </button>
                 <button class='button-box' id='R2'>
-                    <p class='category-text'>Apprenticeship programs</p>
+                    <p class='category-text'>Recognized technology related apprenticeship(s)</p>
                 </button>
                 <button class='button-box' id='R3'>
-                    <p class='category-text'>Online skilling tool</p>
+                    <p class='category-text'>Online tool(s) for teaching digital skills</p>
                 </button>
                 <button class='button-box' id='R4'>
-                    <p class='category-text'>Additional initiative(s)</p>
+                    <p class='category-text'>Additional digital skills initiative(s)</p>
                 </button>
                 <button class="print-out">
                 <a type="button" id="pdf"> <h3>Print Out</h3> </a>
@@ -237,16 +237,34 @@
         // Don't think this is necessary at this point ?
         // if (active_map == 'US') {
             // WIOA dollars
-        $.getJSON("../data/wioa_dollars_20.json", function (dollars) {
-            state_wioa_dollars = dollars.find(d => {
+        $.getJSON("../data/workforce_numbers.json", function (data) {
+            state_data = data.find(d => {
                 return d.State === element_state_id
             });
             $('#dollars').html(`
-                    $${state_wioa_dollars['PY 2020']}
+                    ${state_data['dollars']}
                 `);
             $('#dollar-type').html(`
-                    Workforce Innovation and Opportunity Act For Adults and Dislocated Workers dollars
+                    Federal dislocated worker funding per unemployed person in ${state_names[element_state_id]}. 
                 `);
+            $('#demand').html(`
+                    ${state_data['demand']}
+                `);
+            $('#demand-type').html(`
+                    Estimate of job openings requiring digital skills. 
+                `);
+            $('#supply').html(`
+                    ${state_data['supply ']}
+                `);
+            $('#supply-type').html(`
+                    Estimate of unemployed workers without digital skills. 
+                `);   
+            $('#EL').html(`
+                    ${state_data['Engaged Learners']}
+                `);
+            $('#LP').html(`
+                    ${state_data['LPs complete']}
+                `); 
         });
         // $.getJSON("../data/it_jobs.json", function (jobs) {
         //     open_jobs = jobs.find(d => {
@@ -415,9 +433,9 @@
                 var note = state_data[data_type].split(";");
          
                 if (note[0].toUpperCase() == "YES") {
-                    $(`#${code}`).attr('style', 'background-color: #17B890');
+                    $(`#${code}`).attr('style', 'background-color: #7FBC00');
                 } else {
-                    $(`#${code}`).attr('style', 'background-color: #CF1259');
+                    $(`#${code}`).attr('style', 'background-color: #F34F1C');
                 }
             })
         });
