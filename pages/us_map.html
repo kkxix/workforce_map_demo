@@ -50,7 +50,7 @@
             <!-- State title/ Data tabs row-->
             <div class="row">
                 <div class="col-6">
-                    <h1 class="cover-heading">USA</h1>
+                    <h1 class="cover-heading" id="state_name">USA</h1>
                 </div>
                 <div class="col-6">
                     <div class="row" id="data_tabs">
@@ -96,7 +96,7 @@
                                 <p class="number-type" id="LP-type">Total LinkedIn and Microsoft Learn learning paths completed.</p>
                             </div>
                             <div class="col">
-                                <a type="button" id="explore_data"><h1>Explore Data</h1></a>
+                                <a type="button" href="#explore_data" class="js-scroll-trigger" id="explore_data"><h1>Explore Data</h1></a>
                             </div>
                         </div>
                     </div>
@@ -133,8 +133,24 @@
             </div> -->
 
             <!-- Container for GSI viz -->
+            <!-- Explore Data section -->
+            
         </main>
+        <section id="explore_data_section">
+            <div class="container" id="explore_data_container">
+                <h2>GSI Data</h2>
+                <div class="GSI-chart">
+        
+                </div>
+            </div>
+        </section>
     </div>
+
+    
+    
+    <!-- <p>Credit: <a href="https://observablehq.com/@kkxix/multi-line-chart">Multi-Line Chart by kkxix</a></p> -->
+    
+    
 
 
     <!-- Bootstrap Scripts -->
@@ -154,6 +170,11 @@
     
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script type="module" src="/js/load_charts.js">
+        
+    </script>
+
 
     <script src="/js/maps.js"></script>
     <!-- <script src="/js/index.js"></script> -->

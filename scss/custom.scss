@@ -39,10 +39,10 @@ body{
     color: $micro-gray-dark;
 }
 
-svg path:hover {
-    fill: #D8D9DE !important;
-    cursor: pointer; 
-}
+// svg path:hover {
+//     fill: #D8D9DE !important;
+//     cursor: pointer; 
+// }
 footer {
     margin-top: 10rem; 
 }
@@ -63,9 +63,19 @@ footer {
     opacity: 100;
     // color: white;
 }
-text {
-    fill: white !important; 
+.state:hover{
+    cursor: pointer;
+    fill: $micro-orange;
 }
+.state-active{
+    fill: $micro-orange;
+}
+.state-active:hover{
+    fill: $micro-orange !important;
+}
+// text {
+//     fill: white !important; 
+// }
 a {
     font-family: 'Raleway', sans-serif;
     color: $micro-blue;
@@ -91,12 +101,7 @@ a:hover {
     color: $micro-blue-dark;
     text-decoration: underline;
 }
-.state-active{
-    fill: $micro-orange;
-}
-.state-active:hover{
-    fill: $micro-orange !important;
-}
+
 #pdf {
     color: $micro-blue;
     // float: right;
@@ -231,14 +236,14 @@ a:hover {
 //     border-width: .75rem;
 //     border-color: white;
 // }
-svg path:visited {
-    fill: #D8D9DE !important;
-    cursor: pointer;
-}
-svg rect:visited {
-    fill: #D8D9DE !important;
-    cursor: pointer;
-}
+// svg path:visited {
+//     fill: #D8D9DE !important;
+//     cursor: pointer;
+// }
+// svg rect:visited {
+//     fill: #D8D9DE !important;
+//     cursor: pointer;
+// }
 // .list-group-item{
 //     background-color: #333;
 //     color: white;
@@ -253,8 +258,13 @@ svg rect:visited {
     margin: .5rem;
     padding-right: .5rem;
 }
-
-
+#explore_data_section{
+    height: 100vh; 
+    
+}
+#explore_data_container{
+  vertical-align: middle;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 7px;

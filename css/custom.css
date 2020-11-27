@@ -24,11 +24,6 @@ body {
   color: #2D2D2D;
 }
 
-svg path:hover {
-  fill: #D8D9DE !important;
-  cursor: pointer;
-}
-
 footer {
   margin-top: 10rem;
 }
@@ -47,8 +42,17 @@ footer {
   opacity: 100;
 }
 
-text {
-  fill: white !important;
+.state:hover {
+  cursor: pointer;
+  fill: #FFBA01;
+}
+
+.state-active {
+  fill: #FFBA01;
+}
+
+.state-active:hover {
+  fill: #FFBA01 !important;
 }
 
 a {
@@ -79,14 +83,6 @@ blockquote p {
 a:hover {
   color: #014665;
   text-decoration: underline;
-}
-
-.state-active {
-  fill: #FFBA01;
-}
-
-.state-active:hover {
-  fill: #FFBA01 !important;
 }
 
 #pdf {
@@ -231,16 +227,6 @@ a:hover {
   min-width: 140px;
 }
 
-svg path:visited {
-  fill: #D8D9DE !important;
-  cursor: pointer;
-}
-
-svg rect:visited {
-  fill: #D8D9DE !important;
-  cursor: pointer;
-}
-
 #notes_div {
   width: 650px;
 }
@@ -251,6 +237,14 @@ svg rect:visited {
   overflow-x: hidden;
   margin: 0.5rem;
   padding-right: 0.5rem;
+}
+
+#explore_data_section {
+  height: 100vh;
+}
+
+#explore_data_container {
+  vertical-align: middle;
 }
 
 /* width */
