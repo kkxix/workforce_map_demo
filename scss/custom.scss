@@ -65,13 +65,13 @@ footer {
 }
 .state:hover{
     cursor: pointer;
-    fill: $micro-orange;
+    fill: $micro-gray-medium;
 }
 .state-active{
-    fill: $micro-orange;
+    fill: $micro-gray-medium;
 }
 .state-active:hover{
-    fill: $micro-orange !important;
+    fill: $micro-gray-medium !important;
 }
 // text {
 //     fill: white !important; 
@@ -188,7 +188,7 @@ a:hover {
 .category-text{
     padding: .25rem;
     width: 8rem; 
-    word-wrap: break-word;
+    // word-wrap: break-word;
 }
 .strong-yes{
     color: $micro-green;
@@ -220,10 +220,27 @@ a:hover {
 }
 .number{
     font-family: 'Montserrat', sans-serif;
-    color: $micro-orange;
+    color: $micro-gray-dark;
 }
 .number-type{
     color: $micro-gray-light;
+}
+.number-definition{
+    visibility: hidden;
+    width: 320px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -160px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.number:hover .number-definition {
+  visibility: visible;
 }
 .inner.cover{
     min-height: 100%;
@@ -260,7 +277,7 @@ a:hover {
 }
 #explore_data_section{
     height: 100vh; 
-    
+
 }
 #explore_data_container{
   vertical-align: middle;

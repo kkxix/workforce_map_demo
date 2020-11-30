@@ -191,7 +191,7 @@
                     <p class='category-text'>Innovative digital skills program(s) at community colleges</p>
                 </button>
                 <button class='button-box' id='R2'>
-                    <p class='category-text'>Recognized technology related apprenticeship(s)</p>
+                    <p class='category-text'>Recognized technology related apprenticeship</p>
                 </button>
                 <button class='button-box' id='R3'>
                     <p class='category-text'>Online tool(s) for teaching digital skills</p>

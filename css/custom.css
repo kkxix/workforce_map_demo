@@ -44,15 +44,15 @@ footer {
 
 .state:hover {
   cursor: pointer;
-  fill: #FFBA01;
+  fill: #747474;
 }
 
 .state-active {
-  fill: #FFBA01;
+  fill: #747474;
 }
 
 .state-active:hover {
-  fill: #FFBA01 !important;
+  fill: #747474 !important;
 }
 
 a {
@@ -176,7 +176,6 @@ a:hover {
 .category-text {
   padding: 0.25rem;
   width: 8rem;
-  word-wrap: break-word;
 }
 
 .strong-yes {
@@ -212,11 +211,30 @@ a:hover {
 
 .number {
   font-family: "Montserrat", sans-serif;
-  color: #FFBA01;
+  color: #2D2D2D;
 }
 
 .number-type {
   color: #AAAAAA;
+}
+
+.number-definition {
+  visibility: hidden;
+  width: 320px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -160px;
+  /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.number:hover .number-definition {
+  visibility: visible;
 }
 
 .inner.cover {
