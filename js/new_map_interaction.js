@@ -18,6 +18,7 @@
         { "R2": "State has technology-related apprenticeship program planned or in place?" },
         { "R3": "Online skilling tool offered by State?" },
         { "R4": "State has additional dedicated digital skills initiatives?" },
+        { "R5": "iwt_note"}
     ]
     var link_mapping = [
         { "L1": "Identified in-demand skills using statewide data links" },
@@ -27,7 +28,8 @@
         { "R1": "Community College Links" },
         { "R2": "Apprenticeship Links" },
         { "R3": "Skilling tool links" },
-        { "R4": "Other initiatives links" }
+        { "R4": "Other initiatives links" },
+        { "R5": "iwt links"}
     ]
     var statement_mapping = [
         { "L1-yes": "State <span class = 'strong-yes'> does identify in-demand digital skill needs </span> using statewide data." },
@@ -38,6 +40,7 @@
         { "R2-yes": "State <span class = 'strong-yes'> does have technology-related apprenticeship program </span> planned or in place." },
         { "R3-yes": "There <span class = 'strong-yes'> is an online skilling tool </span> offered by the state." },
         { "R4-yes": "State <span class = 'strong-yes'> has additional dedicated digital skills initiative(s) </span>." },
+        { "R5-yes": "State <span class = 'strong-yes'> does have dedicated incumbent worker training funds </span>."},
 
         { "L1-no": "State <span class = 'strong-no'> does not identify in-demand digital skill needs </span> using statewide data." },
         { "L2-no": "State <span class = 'strong-no'> does not have a comprehensive plan </span> to address need for digital skills." },
@@ -46,7 +49,8 @@
         { "R1-no": "State <span class = 'strong-no'> does not have community college efforts </span> promoting digital skills." },
         { "R2-no": "State <span class = 'strong-no'> does not have technology-related apprenticeship program </span> planned or in place." },
         { "R3-no": "There <span class = 'strong-no'> is not an online skilling tool </span> offered by the state." },
-        { "R4-no": "State <span class = 'strong-no'> does not have additional dedicated digital skills initiative(s) </span>." }
+        { "R4-no": "State <span class = 'strong-no'> does not have additional dedicated digital skills initiative(s) </span>." },
+        { "R5-no": "State <span class = 'strong-no'> does not have dedicated incumbent worker training funds </span>."}
     ]
     var state_names = {
         "AL": "Alabama",
@@ -183,6 +187,9 @@
                 <button class='button-box nuetral' id='L4'>
                     <p class='category-text'>Digital skills prioritized by governor</p>
                 </button>
+                <button class="print-out">
+                <a type="button" id="pdf"> <h3>Print Out</h3> </a>
+                </button>
             `);
 
     var plan_height = $('#plan_data_buttons').height(); 
@@ -199,9 +206,9 @@
                 <button class='button-box' id='R4'>
                     <p class='category-text'>Additional digital skills initiative(s)</p>
                 </button>
-                <button class="print-out">
-                <a type="button" id="pdf"> <h3>Print Out</h3> </a>
-                </button>   
+                <button class='button-box' id='R5'>
+                    <p class='category-text'>Incumbent worker training fund(s)</p>
+                </button>
             `);
     $('#program_data_buttons').attr('style',  `height: ${plan_height}`)
     
@@ -288,6 +295,15 @@
         var clicked_type = this.id; 
 
         if(state_selected){
+            
+            state_data_iwt = {};
+            $.getJSON("/data/iwt_funding.json", function (data) {
+                state_data_iwt = data.find(d => {
+                    return d.State === element_state_id
+                });
+            });
+
+            // WIOA State Plan notes
             $.getJSON("../data/digital_skills.json", function (data) {
 
                 var state_yes_types = [];
@@ -310,7 +326,13 @@
 
                     if(clicked_type == code){
                         var data_type = type[code]
-                        var note = state_data[data_type].split(";");
+
+                        // Add here another if -- IWT uses different data source
+                        if(code == 'R5'){
+                            var note = state_data_iwt[data_type].split(";");
+                        } else {
+                            var note = state_data[data_type].split(";");
+                        }
                         var notes_heading = []
                         var notes_html = []
                         var yes = ""
@@ -335,7 +357,7 @@
                             no = `${code}-no`;
                             notes_heading.push(`
                                 <!-- <img class="note-icon" id="${code}-icon" src="./img/error.png" height=".25rem" width=".25rem"/>-->
-                                <h5>${statement_mapping[i + 8][no]}</h5></br>
+                                <h5>${statement_mapping[i + 9][no]}</h5></br>
                             `);
                         }
 
@@ -350,22 +372,39 @@
                         });
 
                         // Links
-                        // links_html = []
                         link_type = link_mapping[i][code];
-                        if (link_type in state_data) {
-                            if ($(`#data_links`).length) {
-                                $(`#data_links`).empty();
-                            }
-                            var links = state_data[link_type].split(";");
-                            $.each(links, function (j, l) {
-                                if (j % 2 == 1) {
-                                    notes_html.push(`
+                        if(code == 'R5'){
+                            if (link_type in state_data_iwt) {
+                                if ($(`#data_links`).length) {
+                                    $(`#data_links`).empty();
+                                }
+                                var links = state_data_iwt[link_type].split(";");
+                                $.each(links, function (j, l) {
+                                    if (j % 2 == 1) {
+                                        notes_html.push(`
                                     <p>
                                         <a href="${l}" target="_blank">${links[j - 1]}</a>
                                     </p>
                                 `)
-                                };
-                            });
+                                    };
+                                });
+                            }
+                        } else {
+                            if (link_type in state_data) {
+                                if ($(`#data_links`).length) {
+                                    $(`#data_links`).empty();
+                                }
+                                var links = state_data[link_type].split(";");
+                                $.each(links, function (j, l) {
+                                    if (j % 2 == 1) {
+                                        notes_html.push(`
+                                    <p>
+                                        <a href="${l}" target="_blank">${links[j - 1]}</a>
+                                    </p>
+                                `)
+                                    };
+                                });
+                            }
                         }
 
                         $(`#data_content_header`).html(`
@@ -421,6 +460,14 @@
     }
 
     function colorBoxes(element_state_id){
+
+        state_data_iwt = {};
+        $.getJSON("/data/iwt_funding.json", function (data) {
+            state_data_iwt = data.find(d => {
+                return d.State === element_state_id
+            });
+        });
+
         $.getJSON("../data/digital_skills.json", function (data) {
 
             var state_data = data.find(d => {
@@ -430,7 +477,11 @@
             $.each(type_mapping, function (i, type) {
                 var code = Object.keys(type)[0];
                 var data_type = type[code];
-                var note = state_data[data_type].split(";");
+                if(code == 'R5'){
+                    var note = state_data_iwt[data_type].split(";");
+                } else {
+                    var note = state_data[data_type].split(";");
+                }
          
                 if (note[0].toUpperCase() == "YES") {
                     $(`#${code}`).attr('style', 'background-color: #7FBC00');
@@ -440,5 +491,16 @@
             })
         });
     }
+
+    // function getIWT(){
+    //     // From NSC Incumbent Worker Training Funds 
+    //     var state_data = {}
+    //     $.getJSON("/data/iwt_funding.json", function (data) {
+    //         state_data = data.find(d => {
+    //             return d.State === element_state_id
+    //         });
+    //     });
+    //     return state_data; 
+    // }
 
 })(jQuery);
