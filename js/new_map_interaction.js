@@ -244,8 +244,22 @@
         // Don't think this is necessary at this point ?
         // if (active_map == 'US') {
             // WIOA dollars
+        $.getJSON("/data/iwt_funding.json", function(data){
+            var state_data = data.find(d => {
+                return d.State === element_state_id
+            });
+            $('#iwt-dollars').html(`
+                    ${state_data['iwt_number']}
+                `);
+            $('#iwt-dollar-type').html(`
+                    Annual state funding for incumbent worker training in ${state_names[element_state_id]}. 
+                    <a target="_blank" href="https://www.nationalskillscoalition.org/resources/publications/file/Funding-Resilience-National-Skills-Coalition-digital-August-2020.pdf">
+                        Source
+                    </a>
+                `);
+        })
         $.getJSON("../data/workforce_numbers.json", function (data) {
-            state_data = data.find(d => {
+            var state_data = data.find(d => {
                 return d.State === element_state_id
             });
             $('#dollars').html(`
@@ -253,7 +267,7 @@
                 `);
             $('#dollar-type').html(`
                     Federal dislocated worker funding per unemployed person in ${state_names[element_state_id]}. 
-                `);
+                `);  
             $('#demand').html(`
                     ${state_data['demand']}
                 `);
