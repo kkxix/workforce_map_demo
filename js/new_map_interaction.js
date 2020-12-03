@@ -301,6 +301,73 @@
         // TODO: put in GSI data 
 
         // } //end if active_map == US
+
+        // Load first indicator 
+        $.getJSON("/data/digital_skills.json", function(data){
+            var state_data = data.find(d => {
+                return d.State === element_state_id
+            });
+
+            var data_type = type_mapping[0]['L1']
+            var note = state_data[data_type].split(";");
+            var notes_heading = []
+            var notes_html = []
+            if (note[0].toUpperCase() == "YES") {
+                if ($(`#data_content`).length) {
+                    $(`#data_content`).empty();
+                }
+                if ($(`#data_content_header`).length) {
+                    $(`#data_content_header`).empty();
+                }
+                notes_heading.push(`
+                                <h5>${statement_mapping[0][`L1-yes`]}</h5></br>
+                            `);
+            } else {
+                if ($(`#data_content`).length) {
+                    $(`#data_content`).empty();
+                }
+                notes_heading.push(`
+                                <h5>${statement_mapping[9][`L1-no`]}</h5></br>
+                            `);
+            }
+
+            $.each(note, function (j, n) {
+                if (j > 0) {
+                    notes_html.push(`
+                                <p>
+                                    ${n}
+                                </p>
+                            `)
+                }
+            });
+
+            // Links
+            link_type = link_mapping[0]['L1'];
+            if (link_type in state_data) {
+                var links = state_data[link_type].split(";");
+                $.each(links, function (j, l) {
+                    if (j % 2 == 1) {
+                        notes_html.push(`
+                                <p>
+                                    <a href="${l}" target="_blank">${links[j - 1]}</a>
+                                </p>
+                            `)
+                    };
+                });
+            }
+
+            $(`#data_content_header`).html(`
+                        <div>
+                            ${notes_heading.join("")}
+                        </div>
+                        `);
+
+            $(`#data_content`).html(`
+                        <div>
+                            ${notes_html.join("")}
+                        </div>
+                        `);
+        })
     });
 
     $(document.body).on("click", '.button-box', function () {
