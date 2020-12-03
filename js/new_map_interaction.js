@@ -187,9 +187,9 @@
                 <button class='button-box nuetral' id='L4'>
                     <p class='category-text'>Digital skills prioritized by governor</p>
                 </button>
-                <button class="print-out">
+                <!--<button class="print-out">
                 <a type="button" id="pdf"> <h3>Print Out</h3> </a>
-                </button>
+                </button>-->
             `);
 
     var plan_height = $('#plan_data_buttons').height(); 

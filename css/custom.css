@@ -110,10 +110,6 @@ a:hover {
   text-align: center;
 }
 
-.map {
-  width: 87.5%;
-}
-
 .modal {
   color: black;
 }
@@ -267,6 +263,10 @@ a:hover {
 
 #explore_data_container {
   vertical-align: middle;
+}
+
+#country_name {
+  margin-bottom: 3.5rem;
 }
 
 /* width */

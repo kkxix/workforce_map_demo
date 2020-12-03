@@ -31,16 +31,17 @@
 
 
 </head>
+
 <body>
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="wrapper">
         <header class="masthead mb-auto">
             <div class="inner">
                 <h3 class="masthead-brand justify-content-center">
-                    Addressing Digital Skills Needs: a State-by-State Scorecard
+                    Addressing Digital Skills Needs accross the World
                 </h3>
                 <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="#" id="US">US</a>
-                    <a class="nav-link" href="/pages/world_map.html" id="world">World</a>
+                    <a class="nav-link" href="/pages/us_map.html" id="US">US</a>
+                    <a class="nav-link active" href="/pages/world_map.html" id="world">World</a>
                     <a class="nav-link" href="/pages/more_info.html" id="More Info">More Info</a>
                 </nav>
             </div>
@@ -49,31 +50,35 @@
 
             <!-- State title/ Data tabs row-->
             <div class="row">
-                <div class="col-6">
-                    <h1 class="cover-heading" id="state_name">First, select a state</h1>
+                <div class="col">
+                    <h3 class="cover-heading" id="country_name">Select a Country</h3>
                 </div>
-                <div class="col-6">
-                    <div class="row" id="data_tabs">
+                <!-- <div class="col-2"> -->
+                    <!-- <div class="row" id="data_tabs">
                         <div class="col-auto mr-auto no_padding">
-                            <div class="data_tab active" id="plan"> <h3>State plans</h3> </div>
+                            <div class="data_tab active" id="plan">
+                                <h3>State plans</h3>
+                            </div>
                         </div>
                         <div class="col-auto no_padding">
-                            <div class="data_tab active " id="programs"> <h3>State actions</h3> </div>
-                        </div>
+                            <div class="data_tab active " id="programs">
+                                <h3>State actions</h3>
+                            </div>
+                        </div> -->
                         <!-- <div class="col-md-auto">
                             <a type="button" id="pdf"> <h1>Factsheet</h1> </a>
                         </div> -->
-                    </div>
-                </div>
+                    <!-- </div> -->
+                <!-- </div> -->
             </div>
 
             <!-- Map, data container row -->
             <div class="row">
-                <div class="col-6" id="map_col">
-                    <div class="map" id="us_map">
+                <div class="col" id="map_col">
+                    <div class="map" id="world_map">
 
                     </div>
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="row">
                             <div class="col">
                                 <h3 class="number" id="demand">Number</h3>
@@ -82,9 +87,9 @@
                             <div class="col">
                                 <h3 class="number" id="supply">Number</h3>
                                 <p class="number-type" id="supply-type">Supply</p>
-                                <!-- <p class="number-definition">
+                                <p class="number-definition">
                                     Here is one explanation of how we calculated this number. 
-                                </p> -->
+                                </p>
                             </div>
                             <div class="col">
                                 <h3 class="number" id="dollars">Number</h3>
@@ -94,22 +99,22 @@
                                 <h3 class="number" id="iwt-dollars">Number</h3>
                                 <p class="number-type" id="iwt-dollar-type">Dollars</p>
                             </div>
-                            <!-- <div class="col">
+                            <div class="col">
                                 <h3 class="number" id="EL">Number</h3>
                                 <p class="number-type" id="EL-type">Total LinkedIn and Microsoft Learn "engaged learners."</p>
                             </div>
                             <div class="col">
                                 <h3 class="number" id="LP">Number</h3>
                                 <p class="number-type" id="LP-type">Total LinkedIn and Microsoft Learn learning paths completed.</p>
-                            </div> -->
-                            <!-- <div class="col">
+                            </div>
+                            <div class="col">
                                 <a type="button" href="#explore_data" class="js-scroll-trigger" id="explore_data"><h1>Explore Data</h1></a>
-                            </div> -->
+                            </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-6 no_padding">
-                    <div class="container" id="data_container">
+                <!-- <div class="col-2 no_padding"> -->
+                    <!-- <div class="container" id="data_container">
                         <div class="row">
                             <div class="col-sm no_padding" id="plan_data_buttons">
 
@@ -121,14 +126,14 @@
                                 <div id="data_content">
                                     Then, select an indicator.
                                 </div>
-                                
+
                             </div>
                             <div class="col-sm no_padding" id="program_data_buttons">
-                            
+
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                <!-- </div> -->
             </div>
 
 
@@ -141,7 +146,7 @@
 
             <!-- Container for GSI viz -->
             <!-- Explore Data section -->
-            
+
         </main>
         <!-- <section id="explore_data_section">
             <div class="container" id="explore_data_container">
@@ -153,11 +158,11 @@
         </section> -->
     </div>
 
-    
-    
+
+
     <!-- <p>Credit: <a href="https://observablehq.com/@kkxix/multi-line-chart">Multi-Line Chart by kkxix</a></p> -->
-    
-    
+
+
 
 
     <!-- Bootstrap Scripts -->
@@ -170,25 +175,25 @@
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
                 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
                 crossorigin="anonymous"></script> -->
-    
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
     <script type="module" src="/js/load_charts.js">
-        
+
     </script>
 
 
-    <script src="/js/mount_us_map.js"></script>
+    <script src="/js/mount_world_map.js"></script>
     <!-- <script src="/js/index.js"></script> -->
-    <script src="/js/filter.js"></script>
-    <script src="/js/cards.js"></script>
+    <script src="/js/world_filter.js"></script>
+    <!-- <script src="/js/cards.js"></script> -->
     <script src="/js/pdf.js"></script>
-    <script src="/js/new_map_interaction.js"></script>
-    <script src="/js/hover.js"></script>
+    <script src="/js/world_interaction.js"></script>
+    <!-- <script src="/js/hover.js"></script> -->
 
 </body>

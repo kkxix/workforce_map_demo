@@ -122,9 +122,9 @@ a:hover {
 .cover-heading{
     text-align: center;
 }
-.map {
-    width: percentage(7/8);
-}
+// .map {
+//     width: percentage(7/8);
+// }
 .modal {
     color: black; 
 }
@@ -284,6 +284,9 @@ a:hover {
 }
 #explore_data_container{
   vertical-align: middle;
+}
+#country_name{
+    margin-bottom: 3.5rem;
 }
 /* width */
 ::-webkit-scrollbar {
