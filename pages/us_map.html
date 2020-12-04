@@ -76,15 +76,31 @@
                     <div class="container">
                         <div class="row">
                             <div class="col">
-                                <h3 class="number" id="demand">0</h3>
-                                <p class="number-type" id="demand-type">Estimate of job openings requiring digital skills</p>
+                                <figure>
+                                    <h3 class="number" id="demand">0</h3>
+                                    <p class="number-type" id="demand-type">Estimate of job openings requiring digital skills</p>
+                                    <figcaption>
+                                        We determine the number of jobs that require digital skills by searching jobs listings using terms which included
+                                        “computer, data, technology or cloud” on a state-by-state basis and extrapolating the percentage of such jobs by the
+                                        overall percentage of jobs available in such state. This figure is likely an underestimate, because Indeed does not
+                                        capture all job openings, and their method for determining the percentage of jobs that require digital skills may not
+                                        capture many jobs which require other types of digital skills.
+                                    </figcaption>
+                                </figure>
+                                
                             </div>
                             <div class="col">
-                                <h3 class="number" id="supply">0</h3>
-                                <p class="number-type" id="supply-type">Estimate of unemployed workers without digital skills</p>
-                                <!-- <p class="number-definition">
-                                    Here is one explanation of how we calculated this number. 
-                                </p> -->
+                                <figure>
+                                    <h3 class="number" id="supply">0</h3>
+                                    <p class="number-type" id="supply-type">Estimate of unemployed workers without digital skills</p>
+                                    <figcaption>
+                                        We determine the number of unemployed workers without digital skills by taking the total number of unemployed per state
+                                        (obtained from the Bureau of Labor Statistics) and take 62 percent, according to Programme for the International
+                                        Assessment of Adult Competencies' (PIACC's) finding that 62 percent of unemployed workers lack digital skills. This
+                                        number likely varies from state to state, but there is currently no data collection of skills using common metrics at
+                                        the state level.
+                                    </figcaption>
+                                </figure>
                             </div>
                             <div class="col">
                                 <h3 class="number" id="dollars">$ 0</h3>
@@ -189,6 +205,8 @@
     <script src="/js/cards.js"></script>
     <script src="/js/pdf.js"></script>
     <script src="/js/new_map_interaction.js"></script>
+    <!-- <script src="/js/doTimeout.js"></script> -->
+    <script src="/js/jquery.hoverIntent.js"></script>
     <script src="/js/hover.js"></script>
 
 </body>

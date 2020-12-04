@@ -288,6 +288,32 @@ a:hover {
 #country_name{
     margin-bottom: 3.5rem;
 }
+
+figcaption {
+    display: none;
+    width: 15rem;
+    background-color: $micro-gray-medium;
+    color: #fff;
+    font-size: x-small;
+    text-align: center;
+    border-radius: 6px;
+    padding: .5rem;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+figcaption::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent $micro-gray-medium transparent transparent;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
