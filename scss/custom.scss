@@ -76,6 +76,9 @@ footer {
 // text {
 //     fill: white !important; 
 // }
+.nav-link.inactive:hover{
+    border-bottom-color: transparent!important;
+}
 a {
     font-family: 'Raleway', sans-serif;
     color: $micro-blue;

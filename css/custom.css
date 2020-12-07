@@ -55,6 +55,10 @@ footer {
   fill: #747474 !important;
 }
 
+.nav-link.inactive:hover {
+  border-bottom-color: transparent !important;
+}
+
 a {
   font-family: "Raleway", sans-serif;
   color: #01A6F0;
