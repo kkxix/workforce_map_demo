@@ -292,7 +292,7 @@ a:hover {
     margin-bottom: 3.5rem;
 }
 
-figcaption {
+.definition {
     display: none;
     width: 15rem;
     background-color: $micro-gray-medium;
@@ -306,7 +306,7 @@ figcaption {
     top: -5px;
     left: 110%;
 }
-figcaption::after {
+.definition::after {
   content: "";
   position: absolute;
   top: 5%;

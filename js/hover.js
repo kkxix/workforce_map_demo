@@ -1,10 +1,36 @@
 
 (function (){
-    $("figure").hoverIntent(function () {
-        $("figcaption", this).fadeTo(400, 1);
-    }, function () {
-        $("figcaption", this).fadeTo(400, 0);
+    // $.each('figure', function(fig){
+    //     $(this).hoverIntent(function () {
+    //         $("figcaption", this).fadeTo(400, 1);
+    //     }, function () {
+    //         $("figcaption", this).fadeTo(400, 0);
+    //     });
+    // })
+
+    $(".number").hoverIntent({
+        over: fadeDivIn,
+        timeout: 400,
+        out: fadeDivOut
     });
+
+    function fadeDivIn() {
+        var type = this.id;
+        var toHover = `${type}-def-hover`
+        // var $kids = $(this).children();
+        // $($kids).fadeIn('slow');
+        // $(`.${toHover}`, this).fadeTo(400, 1);
+        $(`#${toHover}`).fadeIn('slow');
+    }
+
+    function fadeDivOut() {
+        var type = this.id;
+        var toHover = `${type}-def-hover`
+        // var $kids = $(this).children();
+        // $($kids).fadeOut('slow');
+        $(`#${toHover}`).fadeOut('slow');
+    }
+    
 
     // Sample that worked: 
     // <figure>
