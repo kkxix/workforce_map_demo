@@ -42,6 +42,18 @@ footer {
   opacity: 100;
 }
 
+#check {
+  stroke: #7FBC00;
+  fill: #7FBC00;
+  stroke-width: 1;
+}
+
+#cross {
+  stroke: #EF233C;
+  fill: #EF233C;
+  stroke-width: 1;
+}
+
 .state:hover {
   cursor: pointer;
   fill: #747474;
@@ -179,11 +191,13 @@ a:hover {
 }
 
 .strong-yes {
+  font-weight: bold;
   color: #7FBC00;
 }
 
 .strong-no {
-  color: #F34F1C;
+  font-weight: bold;
+  color: #EF233C;
 }
 
 #card_col_1 {
@@ -192,12 +206,6 @@ a:hover {
 
 #card_col_2 {
   margin-top: 1.5rem;
-}
-
-#data_tabs {
-  border-bottom-style: solid;
-  border-bottom-width: 0.15rem;
-  border-bottom-color: #AAAAAA;
 }
 
 .data_tab {
@@ -215,7 +223,13 @@ a:hover {
 }
 
 .number-type {
+  font-size: 0.95rem;
   color: #AAAAAA;
+}
+
+.indicator-text {
+  font-size: 0.95rem;
+  color: #747474;
 }
 
 .number-definition {
