@@ -243,6 +243,12 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     color: $micro-gray-dark;
 }
+.inline-number{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: $micro-gray-dark;
+}
 .number-type{
     font-size: .95rem;
     color: $micro-gray-light;
@@ -250,6 +256,11 @@ a:hover {
 .indicator-text{
     font-size: .95rem;
     color: $micro-gray-medium;
+}
+.indicator-link{
+    font-family: 'Raleway', sans-serif;
+    color: $micro-blue;
+    font-size: .95rem;
 }
 .number-definition{
     visibility: hidden;

@@ -56,10 +56,24 @@
                     <div class="map" id="us_map">
                     
                     </div>
-                    <div class="container">
+                    <div class="container" id='opportunity-gap' style="display: none;">
                         <div class="row">
                             <div class="col">
-                                <h3 class="number" id="demand">0</h3>
+                                <h3>The <span class="strong-no">opportunity gap</span> in <span class="state-name">State</span>:</h3>
+                                There are 
+                                <span class="inline-number" id="supply">0</span>
+                                unemployed who cannot compete for 
+                                <span class="inline-number" id="demand">0</span>
+                                open jobs because they lack digital skills. 
+
+                                There is only 
+                                <span class="inline-number" id="dollars">$ 0</span>
+                                in dislocated worker funding available for 
+                                each unemployed person.
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col">
                                 <p class="number-type" id="demand-type">Estimate of job openings requiring digital skills</p>
                                 <div class="definition" id="demand-def-hover">
                                     We determine the number of jobs that require digital skills by searching jobs listings using terms which
@@ -74,7 +88,6 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <h3 class="number" id="supply">0</h3>
                                 <p class="number-type" id="supply-type">Estimate of unemployed workers without digital skills</p>
                                 <div class="definition" id="supply-def-hover">
                                     We determine the number of unemployed workers without digital skills by taking the total number of
@@ -89,13 +102,13 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <h3 class="number" id="dollars">$ 0</h3>
+                                
                                 <p class="number-type" id="dollar-type">Federal dislocated worker funding per unemployed person</p>
                             </div>
                             <div class="col">
                                 <h3 class="number" id="iwt-dollars">$ 0</h3>
                                 <p class="number-type" id="iwt-dollar-type">Annual state funding for incumbent worker training</p>
-                            </div>
+                            </div> -->
                             <!-- <div class="col">
                                                     <h3 class="number" id="EL">Number</h3>
                                                     <p class="number-type" id="EL-type">Total LinkedIn and Microsoft Learn "engaged learners."</p>
@@ -107,7 +120,7 @@
                             <!-- <div class="col">
                                                     <a type="button" href="#explore_data" class="js-scroll-trigger" id="explore_data"><h1>Explore Data</h1></a>
                                                 </div> -->
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
 
@@ -176,8 +189,26 @@
                     <!-- </div> -->
                 </div>
             </div>
+            <div class='row'>
+                <div class="col-6">
+                    <h1>Explore the data</h1>
+                    <div class="container" id="explore_data_container">
+                        <h5>Coming soon...</h5>
+                        <!-- <h2>GSI Data</h2>
+                                    <div class="GSI-chart">
+                            
+                                    </div> -->
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1>Read full analysis</h1>
+                    <div class="container" id="full_indicator_analysis">
+            
+                    </div>
+                </div>
+            </div>
             <!-- <div class="row">
-                <div class="col align-self-center">
+                <div class="col mx-auto">
                     <h3>More Insight</h3>
                     </br>
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
@@ -230,21 +261,7 @@
             
         </main>
         <section id="explore_data_section">
-            <div class='row'>
-                <div class="col-6">
-                    <div class="container" id="explore_data_container">
-                        <!-- <h2>GSI Data</h2>
-                        <div class="GSI-chart">
-                
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="container">
-
-                    </div>
-                </div>
-            </div>
+            
         </section>
     </div>
 

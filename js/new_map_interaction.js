@@ -80,6 +80,28 @@
         '<span class="strong-no">Has not developed broadband plan</span>.',
         '<span class="strong-no">Does not provides incumbent worker training</span> funds.'
     ]
+    var type_mappings = [
+        "State has identified in-demand digital skill needs using Statewide data? ",
+        "State has comprehensive plan to address digital skills needs?",
+        "Online skilling tool offered by State?",
+        "Digital Skilling Mentioned in State of State:",
+        "State has technology-related apprenticeship program planned or in place?",
+        "State has community college efforts promoting digital skills?",
+        "State has a plan for addressing digital divide (broadband)?",
+        "iwt_note",
+        "State has additional dedicated digital skills initiatives?"
+    ]
+    var link_mappings = [
+        "Identified in-demand skills using statewide data links",
+        "Comprehensive plan links",
+        "Skilling tool links",
+        "State of State Links",
+        "Apprenticeship Links",
+        "Community College Links",
+        "Digital Divide Links",
+        "iwt links",
+        "Other initiatives links"
+    ]
     var number_of_indicators = 9;
 
     var state_is_selected = false; 
@@ -97,14 +119,17 @@
             $(`#indicators`).empty();
         }
 
+        $('#opportunity-gap').attr('style', 'display: block;')
+        $('.state-name').html(`${state_name}`)
         $('.cover-heading').html(`${state_name}`)
 
+        state_data_iwt = {};
         $.getJSON("/data/iwt_funding.json", function (data) {
-            var state_data = data.find(d => {
+            state_data_iwt = data.find(d => {
                 return d.State === element_state_id
             });
             $('#iwt-dollars').html(`
-                    ${state_data['iwt_number']}
+                    ${state_data_iwt['iwt_number']}
                 `);
             $('#iwt-dollar-type').html(`
                     Annual state funding for incumbent worker training in ${state_names[element_state_id]}. 
@@ -127,13 +152,13 @@
                     ${state_data['demand']}
                 `);
             $('#demand-type').html(`
-                    Estimate of job openings requiring digital skills. 
+                    Open digital skills jobs. 
                 `);
             $('#supply').html(`
                     ${state_data['supply-PIACC']}
                 `);
             $('#supply-type').html(`
-                    Estimate of unemployed workers without digital skills. 
+                    Unemployed lacking digital skills. 
                 `);
             $('#EL').html(`
                     ${state_data['Engaged Learners']}
@@ -142,6 +167,135 @@
                     ${state_data['LPs complete']}
                 `);
         });
+        $.getJSON('/data/digital_skills.json', function (data){
+            var full_rows = []
+            var full_heading = '';
+
+            var state_data = data.find(d => {
+                return d.State === element_state_id
+            })
+
+            // For all indicators except IWT funds
+            for(var i = 0; i < number_of_indicators-2; i++){
+                var data_type = type_mappings[i]
+                var link_type = link_mappings[i]
+                var note = state_data[data_type].split(";");
+                var full_notes = []
+                var full_links = []
+
+                if (note[0].toUpperCase() == "YES") {
+                    full_heading = yes_headings[i]
+                } else {
+                    full_heading = no_headings[i]
+                }
+                $.each(note, function (j, n) {
+                    if (j > 0) {
+                        full_notes.push(`
+                                <p class="indicator-text">
+                                    ${n}
+                                </p>
+                            `)
+                    }
+                });
+                if (link_type in state_data) {
+                    var links = state_data[link_type].split(";");
+                    $.each(links, function (j, l) {
+                        if (j % 2 == 1) {
+                            full_links.push(`
+                                    <a class="indicator-link" href="${l}" target="_blank">${links[j - 1]}</a>,                                     
+                                `)
+                        };
+                    });
+                }
+                
+                full_rows.push(`
+                    </br></br>
+                    <h5 class="indicator-heading">${full_heading}<h5>
+                    ${full_notes.join("")}
+                    <span class="indicator-text">More resources: </span>${full_links.join("")}
+                `)
+            }
+
+            // IWT hard-coded :/
+            var full_notes_iwt = []
+            var full_links_iwt = []
+            var full_rows_iwt = []
+            var data_type = type_mappings[7]
+            var link_type = link_mappings[7]
+            var note_iwt = state_data_iwt[data_type].split(";");
+
+            if (note_iwt[0].toUpperCase() == "YES") {
+                full_heading = yes_headings[7]
+            } else {
+                full_heading = no_headings[7]
+            }
+            $.each(note_iwt, function (j, n) {
+                if (j > 0) {
+                    full_notes_iwt.push(`
+                                <p class="indicator-text">
+                                    ${n}
+                                </p>
+                            `)
+                }
+            });
+            if (link_type in state_data_iwt) {
+                var links = state_data_iwt[link_type].split(";");
+                $.each(links, function (j, l) {
+                    if (j % 2 == 1) {
+                        full_links_iwt.push(`
+                                    <a class="indicator-link" href="${l}" target="_blank">${links[j - 1]}</a>,
+                                `)
+                    };
+                });
+            }
+            full_rows_iwt.push(`
+                    </br></br>
+                    <h5 class="indicator-heading">${full_heading}<h5>
+                    ${full_notes_iwt.join("")}
+                    <span class="indicator-text">More resources: </span>${full_links_iwt.join("")}
+                `)
+
+            // Additional Initiatives hard-coded :/ :/ not cool
+            var full_notes_9 = []
+            var full_links_9 = []
+            var full_rows_9 = []
+            var data_type = type_mappings[8]
+            var link_type = type_mappings[8]
+            var note_9 = state_data[data_type].split(";");
+
+            full_heading = `Additional Dedicated Digital Skills Activities`
+            $.each(note_9, function (j, n) {
+                if (j > 0) {
+                    full_notes_9.push(`
+                                <p class="indicator-text">
+                                    ${n}
+                                </p>
+                            `)
+                }
+            });
+            if (link_type in state_data) {
+                var links = state_data[link_type].split(";");
+                $.each(links, function (j, l) {
+                    if (j % 2 == 1) {
+                        full_links_9.push(`
+                                    <a class="indicator-link" href="${l}" target="_blank">${links[j - 1]}</a>
+                                `)
+                    };
+                });
+            }
+            full_rows_9.push(`
+                    </br></br>
+                    <h5 class="indicator-heading">${full_heading}<h5>
+                    ${full_notes_9.join("")}
+                    <span class="indicator-text">More resources: </span>${full_links_9.join("")}
+                `)
+            
+            $('#full_indicator_analysis').html(`
+                ${full_rows.join('')}
+                ${full_rows_iwt.join('')}
+                ${full_rows_9.join('')}
+            `)
+        })
 
         $.getJSON("/data/skills_data_toy.json", function(data){
             var state_data = data.find(d => {

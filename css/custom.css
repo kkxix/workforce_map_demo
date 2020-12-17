@@ -222,6 +222,13 @@ a:hover {
   color: #2D2D2D;
 }
 
+.inline-number {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #2D2D2D;
+}
+
 .number-type {
   font-size: 0.95rem;
   color: #AAAAAA;
@@ -230,6 +237,12 @@ a:hover {
 .indicator-text {
   font-size: 0.95rem;
   color: #747474;
+}
+
+.indicator-link {
+  font-family: "Raleway", sans-serif;
+  color: #01A6F0;
+  font-size: 0.95rem;
 }
 
 .number-definition {
