@@ -64,22 +64,24 @@
         '<span class="strong-yes">Tracks data </span>on digital skills needs.',
         '<span class="strong-yes">Developed comprehensive plan </span>to address digital skills needs.', 
         '<span class="strong-yes">Provides online training </span>tool(s).',
-        '<span class="strong-yes">Governor prioritizes digital skills </span>training.', 
+        // '<span class="strong-yes">Governor prioritizes digital skills </span>training.', 
+        '<span class="strong-yes">Allows incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-yes">Provides technology-related apprenticeship</span> opportunities.',
         '<span class="strong-yes">Community colleges driving digital skills</span>.',
         '<span class="strong-yes">Developed broadband plan</span>.',
-        '<span class="strong-yes">Provides incumbent worker training </span>funds.'
     ]
     var no_headings = [
         '<span class="strong-no">Does not track data </span>on digital skills needs.',
         '<span class="strong-no">Has not developed comprehensive plan </span>to address digital skills needs.',
         '<span class="strong-no">Does not provide online training </span>tool(s).',
-        '<span class="strong-no">Governor does not prioritize digital skills</span> training.',
+        // '<span class="strong-no">Governor does not prioritize digital skills</span> training.',
+        '<span class="strong-no">Does not allow incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-no">Does not provide technology-related apprenticeship</span> opportunities.',
         '<span class="strong-no">Community colleges are not driving digital skills</span>.',
         '<span class="strong-no">Has not developed broadband plan</span>.',
-        '<span class="strong-no">Does not provides incumbent worker training</span> funds.'
     ]
+    // URGENT TODO -- fix the order / generally fix the way the 'full content' is generated
+    // it's currently a maaaassssive mess 
     var type_mappings = [
         "State has identified in-demand digital skill needs using Statewide data? ",
         "State has comprehensive plan to address digital skills needs?",
@@ -99,10 +101,10 @@
         "Apprenticeship Links",
         "Community College Links",
         "Digital Divide Links",
-        "iwt links",
+        "iwt_links",
         "Other initiatives links"
     ]
-    var number_of_indicators = 9;
+    var number_of_indicators = 8;
 
     var state_is_selected = false; 
     var element_state_id = '';
@@ -220,11 +222,12 @@
             var full_notes_iwt = []
             var full_links_iwt = []
             var full_rows_iwt = []
+            var yn_val = state_data_iwt['iwt_YN']
             var data_type = type_mappings[7]
             var link_type = link_mappings[7]
             var note_iwt = state_data_iwt[data_type].split(";");
 
-            if (note_iwt[0].toUpperCase() == "YES") {
+            if (yn_val == "YES") {
                 full_heading = yes_headings[7]
             } else {
                 full_heading = no_headings[7]

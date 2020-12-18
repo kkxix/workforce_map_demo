@@ -7,15 +7,17 @@
         "2_note": "There is no evidence that Alabama has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "AlabamaWorks! and Alabama Industrial Development Training (AIDT) offer resources for job seekers and feature free online skilling courses which include Alison and Microsoft 365. ",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "The Alabama Office of Apprenticeship is creating opportunities in the information technology sector and other “high-skill, high-wage, and high-demand areas”. ",
         "6_YN": "yes",
         "6_note": "Alabama is a member of the Reskilling and Recovery Network, which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
         "7_note": "Alabama’s 2019 Broadband strategy outlines five Broadband Alabama Strategy areas, which include financial support of broadband development, broadband planning and mapping and “broadband ready communities.” ",
-        "9_note": "Alabama is a member of the Skillful State Network, a forum for governors to share and accelerate workforce innovation to keep pace with the evolving needs of a digital economy. "
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. ",
+        "8_note": "Alabama is a member of the Skillful State Network, a forum for governors to share and accelerate workforce innovation to keep pace with the evolving needs of a digital economy. "
     },
     {
         "State": "AK",
@@ -25,15 +27,17 @@
         "2_note": "There is no evidence that Alabama has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Alaska Jobs offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Alaska's Registered Apprenticeship program is meant to help Alaska \"keep pace with advancing technology.\"",
         "6_YN": "yes",
         "6_note": " Alaska is a member of the Reskilling and Recovery Network, which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
         "7_note": "Alaska's 2019 broadband plan outlines 22 recommendations \"intended to serve as guideposts for public policymaking and the pursuit of funding opportunities\" through 2024.",
-        "9_note": "Alaska has entered into a “Digital Alliance” with Microsoft, through which Microsoft will be providing digital skills training through various initiatives to young people in the State. "
+        "4_YN": "no",
+        "4_note": "However, the funding available through the State Training and Employment Program cannot be used for foundational skills. ",
+        "8_note": "Alaska has entered into a “Digital Alliance” with Microsoft, through which Microsoft will be providing digital skills training through various initiatives to young people in the State. "
     },
     {
         "State": "AZ",
@@ -43,14 +47,16 @@
         "2_note": "There is no evidence that Arizona has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Arizona at Work and The Arizona Commerce Authority (ACA) offer resources for job seekers and feature free online skilling courses which include Microsoft Learn, Coursera, and Alison",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Arizona is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes",
         "6_note": "Arizona is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "In 2018, Arizona released a Broadband Strategic Plan: (1) Coordinate and integrate existing public networks to seek efficiencies, (2) Leverage buying power, (3) Identify infrastructure expansion investment vehicles, (4) Investigate potential public-private partnerships, (5) Identify ways to solve problems where the market has failed"
+        "7_note": "In 2018, Arizona released a Broadband Strategic Plan: (1) Coordinate and integrate existing public networks to seek efficiencies, (2) Leverage buying power, (3) Identify infrastructure expansion investment vehicles, (4) Investigate potential public-private partnerships, (5) Identify ways to solve problems where the market has failed",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "AR",
@@ -60,14 +66,16 @@
         "2_note": "There is no evidence that Arkansas has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Arkansas Job Link, which acts as a resource hub for job seekers. ",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Arkansas offers Registered Apprenticeship programs in Software Architecture and Software Development.",
         "6_YN": "yes",
         "6_note": "Arkansas is a member of the Reskilling and Recovery Network, which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "Governor Asa Hutchinson has targeted a goal of seeing 25 Mbps/3 Mbps broadband deployed to all population centers in Arkansas over 500 by the year 2022"
+        "7_note": "Governor Asa Hutchinson has targeted a goal of seeing 25 Mbps/3 Mbps broadband deployed to all population centers in Arkansas over 500 by the year 2022",
+        "4_YN": "yes",
+        "4_note": "The Skills Development Grants can be used for foundational skills if they are job specific. "
     },
     {
         "State": "CA",
@@ -77,14 +85,16 @@
         "2_note": "There is no evidence that California has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": " \r\nCaljobs offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.\r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "California is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "In August of 2020, Governor Newsom signed an executive order that directs State agencies to pursue a goal of 100 Mbps download speed across the State. Additionally, the order worked to continue providing internet and device access to students in light of the COVID-19 pandemic."
+        "7_note": "In August of 2020, Governor Newsom signed an executive order that directs State agencies to pursue a goal of 100 Mbps download speed across the State. Additionally, the order worked to continue providing internet and device access to students in light of the COVID-19 pandemic.",
+        "4_YN": "yes",
+        "4_note": "The funds available through the Employment Training Panel can be used for foundational skills. "
     },
     {
         "State": "CO",
@@ -94,14 +104,16 @@
         "2_note": "There is no evidence that Colorado has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "OnwardCo is an initiative of companies, foundations, and state players working to upskill Colorado workers by providing links to a variety of online skilling courses which include LinkedIn Learning",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "6_YN": "yes ",
         "6_note": "Colorado is a member of the Reskilling and Recovery Network, which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "The Colorado Broadband Program set a goal for 92 percent of rural Colorado households to have broadband access by the end of 2019. As of April 2020, 87 percent of rural Colorado households and 96 percent of all Colorado households have broadband access."
+        "7_note": "The Colorado Broadband Program set a goal for 92 percent of rural Colorado households to have broadband access by the end of 2019. As of April 2020, 87 percent of rural Colorado households and 96 percent of all Colorado households have broadband access.",
+        "4_YN": "yes",
+        "4_note": "The funds available through Skills Advance Colorado can be used for foundational skills if they are customized to job competencies. "
     },
     {
         "State": "CT",
@@ -111,14 +123,16 @@
         "2_note": "There is no evidence that Connecticut has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Skill Up Connecticut provides digital skilling in a variety of subjects, including computer skills through Metrix learning and 180Skills.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State has begun to initiate additional broadband expansion efforts.  However, the State already has widespread broadband access. "
+        "7_note": "The State has begun to initiate additional broadband expansion efforts.  However, the State already has widespread broadband access. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "DE",
@@ -128,13 +142,15 @@
         "2_note": "There is no evidence that Delaware has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Delaware Job Link, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_note": "Delaware is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Through Delaware’s Broadband Initiative, the State has installed a 700-mile broadband “backbone,” which, according to the State, has “improved internet reliability for consumers and has increased internet access speeds by as much as 10 times since 2009.”"
+        "7_note": "Through Delaware’s Broadband Initiative, the State has installed a 700-mile broadband “backbone,” which, according to the State, has “improved internet reliability for consumers and has increased internet access speeds by as much as 10 times since 2009.”",
+        "4_YN": "yes",
+        "4_note": "$100,000 is allocated for state employee training through the Blue Collar Job Training Program, and there are additional funds for other workers. These funds can be used for foundational skills. "
     },
     {
         "State": "DC",
@@ -144,12 +160,14 @@
         "2_note": "There is no evidence that Washington, DC has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "The DC Public Library and the Office of the State Superintendent of Education have a partnership to offer a free Microsoft Office Specialist Certification through Certiport remote exams.",
-        "4_YN": "no",
-        "4_note": "The mayor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The mayor did not deliver a 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "7_YN": "yes",
-        "7_note": "Washington DC has the Connect.DC initiative. This program was created by the Office of the Chief Technology Officer (OCTO) and aims to bridge the digital divide by “making technology easier to use, more accessible, more affordable, and more relevant to the everyday lives of District residents.”"
+        "7_note": "Washington DC has the Connect.DC initiative. This program was created by the Office of the Chief Technology Officer (OCTO) and aims to bridge the digital divide by “making technology easier to use, more accessible, more affordable, and more relevant to the everyday lives of District residents.”",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "FL",
@@ -159,14 +177,16 @@
         "2_note": "There is no evidence that Florida has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Employ Florida offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are being expanded in a wide range of industries, including in information technology. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": " The Office of Broadband works with local and State government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the State, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. "
+        "7_note": " The Office of Broadband works with local and State government agencies, community organizations and private businesses to increase the availability and effectiveness of broadband internet throughout the State, specifically in small and rural communities. It was established within the Division of Community Development on July 1, 2020. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "GA",
@@ -176,14 +196,16 @@
         "2_note": "There is no evidence that Georgia has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, The State provides a site, Employ Georgia, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "The Technical College System of Georgia offers various technology related apprenticeships in industrial systems technology, machine tool technology and electrical system technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State launched the Georgia Broadband Deployment Initiative (GBDI) in 2018. According to Georgia’s 2020 Broadband Report, the State’s four connectivity focus areas are: Education, Healthcare, Small Business and Home."
+        "7_note": "The State launched the Georgia Broadband Deployment Initiative (GBDI) in 2018. According to Georgia’s 2020 Broadband Report, the State’s four connectivity focus areas are: Education, Healthcare, Small Business and Home.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "HI",
@@ -193,14 +215,16 @@
         "2_note": "There is no evidence that Hawaii has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "The Hawaii State Public Library System offers free online courses on how to use computers through the provider Gale.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The newly released Hawai‘i Broadband Strategic Plan 2020 is intended to strengthen Hawai‘i’s broadband infrastructure."
+        "7_note": "The newly released Hawai‘i Broadband Strategic Plan 2020 is intended to strengthen Hawai‘i’s broadband infrastructure.",
+        "4_YN": "yes",
+        "4_note": "The funds available through the Employemnt and Training Fund Micro Program can be used for foundational skills if they are part of other training. "
     },
     {
         "State": "ID",
@@ -210,13 +234,15 @@
         "2_note": "There is no evidence that Idaho has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "The State uses SkillStack®, a digital badging/micro-certification platform, which includes a number of badges tied to Information Technology",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "6_YN": "no",
         "7_YN": "yes",
-        "7_note": "The Idaho State broadband plan states that “like water, electricity and highways, Idaho citizens, communities and businesses, in both urban and rural areas, must have access to secure reliable, affordable broadband internet speeds in order to grow, thrive and connect to the world.”; "
+        "7_note": "The Idaho State broadband plan states that “like water, electricity and highways, Idaho citizens, communities and businesses, in both urban and rural areas, must have access to secure reliable, affordable broadband internet speeds in order to grow, thrive and connect to the world.”; ",
+        "4_YN": "yes",
+        "4_note": "The funds available for workforce development training can be used for foundational skills if the employer makes a good case. "
     },
     {
         "State": "IL",
@@ -226,12 +252,14 @@
         "2_note": "There is no evidence that Illinois has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "TechReady Illinois helps s residents who lost their jobs enroll in discounted technology courses from various colleges in the high-demand fields of computer science, data, and engineering at a 50-to-75 percent discount.",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "The Illinois Community College Board (ICCB) will be expanding apprenticeships, registered, non-registered and pre-apprenticeships, by over 1700 in Information Technology over the next four years.",
         "7_YN": "yes",
-        "7_note": "The Connect Illinois Plan also has the goal that by 2028, Illinois will place in the top three nationally, and top 12 globally, for broadband access."
+        "7_note": "The Connect Illinois Plan also has the goal that by 2028, Illinois will place in the top three nationally, and top 12 globally, for broadband access.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "IN",
@@ -241,14 +269,16 @@
         "2_note": "There is no evidence that Indiana has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "Yes",
         "3_note": "Your Next Step offers resources for job seekers and features a separate link to free online skilling courses which include 180 Skills and various community college courses.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Indiana is launching the Midwest Industry Consortium for Advanced Technical Training (ICATT) Apprenticeship Program as part of the State’s newly formed Office of Apprenticeship and Work-Based Learning.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Indiana has outlined initiatives to address the digital divide, especially as it pertains to rural communities, and has created an Office of Broadband Opportunities."
+        "7_note": "Indiana has outlined initiatives to address the digital divide, especially as it pertains to rural communities, and has created an Office of Broadband Opportunities.",
+        "4_YN": "yes",
+        "4_note": "$12.5 million is available through the 'Skills Enhancement Fund', and these funds can be used for foundational skills.; $20 million is available through the 'Employer Training Grant', but these funds are rarely used for foundational skills. "
     },
     {
         "State": "IA",
@@ -258,14 +288,16 @@
         "2_note": "Iowa has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "Yes",
         "3_note": "Iowa Works offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "In 2015, Connect Every Acre Act was passed in Iowa, which created a new broadband grant program. The grant program was funded in 2018, when $1.3 million was allocated from the Rebuild Iowa Infrastructure Fund. "
+        "7_note": "In 2015, Connect Every Acre Act was passed in Iowa, which created a new broadband grant program. The grant program was funded in 2018, when $1.3 million was allocated from the Rebuild Iowa Infrastructure Fund. ",
+        "4_YN": "no",
+        "4_note": "The funds available through the Iowa Jobs Training Program (260F) cannot be used for foundational skills. "
     },
     {
         "State": "KS",
@@ -275,14 +307,16 @@
         "2_note": "There is no evidence that Kansas has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Kansas Works, which acts as a resource hub for job seekers. ",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Kansas has technology-related apprenticeship programs, including one sponsored by Launch Code. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The Kansas Office of Broadband Development was established in 2020 to help ensure all Kansans have the opportunity to live, work, learn and compete in a global economy by improving universal access to quality, affordable and reliable broadband.” "
+        "7_note": "The Kansas Office of Broadband Development was established in 2020 to help ensure all Kansans have the opportunity to live, work, learn and compete in a global economy by improving universal access to quality, affordable and reliable broadband.” ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "KY",
@@ -292,14 +326,16 @@
         "2_note": "There is no evidence that Kentucky has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Kentucky Career Center, which acts as a resource hub for job seekers",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State is currently building the KentuckyWired Network: an approximately 3,300-mile long middle mile broadband network. As part of this program, the State is also working with local stakeholders and communities."
+        "7_note": "The State is currently building the KentuckyWired Network: an approximately 3,300-mile long middle mile broadband network. As part of this program, the State is also working with local stakeholders and communities.",
+        "4_YN": "yes",
+        "4_note": "$4.3 million is available through the Grant-in-Aid program, and these funds can be used for foundational skills.; $2.5 million is available through the Skills Training Investment Credit Program, and these funds can be used for foundational skills. "
     },
     {
         "State": "LA",
@@ -309,14 +345,16 @@
         "2_note": "There is no evidence that Louisiana has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Louisiana Works offers resources for job seekers and features free online skilling courses which include Alison and Microsoft 365. ",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Louisiana is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Louisiana has created The State of Louisiana’s Broadband for Everyone in Louisiana (BEL) Commission through executive order. "
+        "7_note": "Louisiana has created The State of Louisiana’s Broadband for Everyone in Louisiana (BEL) Commission through executive order. ",
+        "4_YN": "yes",
+        "4_note": "The funds available through the Incumbent Worker Training Program can be used for foundational skills. "
     },
     {
         "State": "ME",
@@ -326,14 +364,16 @@
         "2_note": "Maine has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site through its Department of Labor which acts as a resource hub for job seekers. ",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Over the past 12 years, the ConnectME Authority has awarded approximately $12 million in grants to 144 projects, increasing access to high-speed internet to 39,465 Maine households "
+        "7_note": "Over the past 12 years, the ConnectME Authority has awarded approximately $12 million in grants to 144 projects, increasing access to high-speed internet to 39,465 Maine households ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "MD",
@@ -343,14 +383,16 @@
         "2_note": "There is no evidence that Maryland has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "\r\nMaryland Workforce Exchange offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365. \r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Maryland is a member of the Reskilling and Recovery Network, which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "The State has a goal of universal service by 2022,"
+        "7_note": "The State has a goal of universal service by 2022,",
+        "4_YN": "yes",
+        "4_note": "$8 million is available through the EARN program, and these fudns can be used towwards foundational skills.; Funds are also available through the Partnership for Workforce Quality (PWQ) program, but these funds cannot be used for foundational skills. "
     },
     {
         "State": "MA",
@@ -360,14 +402,16 @@
         "2_note": "There is no evidence that Massachusetts has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": " However, the State provides a site, MassHire, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Massachusetts is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The Last Mile Program aims to “support the development and construction of sustainable products for interested towns that reach at least 96% of a community’s residents and provide access to broadband speeds of 25/3 mps.  "
+        "7_note": "The Last Mile Program aims to “support the development and construction of sustainable products for interested towns that reach at least 96% of a community’s residents and provide access to broadband speeds of 25/3 mps.  ",
+        "4_YN": "yes",
+        "4_note": "$17.6 million is available through workforce training fund programs, and these funds can be used for foundational skills. Additional funding is available through the Healthcare Worker Transformation Fund, but these funds cannot be used for foundational skills. "
     },
     {
         "State": "MI",
@@ -377,14 +421,16 @@
         "2_note": "Michigan has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Lifelong SoftSkills is offered through Pure Michigan Talent Connect and consists of 14 eLearning modules to provide a universally accessible soft skills training resource for the Michigan workforce on basic and foundational skills for the workplace.",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Michigan is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Connected Nation Michigan works with local, State, and national policymakers (at the direction of the Michigan Public Service Commission (MSPC)) to carry out the goals of the National Broadband Plan and other public policies affecting broadband access, adoption and use. "
+        "7_note": "Connected Nation Michigan works with local, State, and national policymakers (at the direction of the Michigan Public Service Commission (MSPC)) to carry out the goals of the National Broadband Plan and other public policies affecting broadband access, adoption and use. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "MN",
@@ -394,14 +440,16 @@
         "2_note": "There is no evidence that Minnesota has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site through their Department of Labor which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "no",
         "5_note": "Minnesota does not offer technology-related apprenticeship programs.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State has a goal to achieve universal access to 25Mbps download by 3 Mbps upload for 2022, and another goal to achieve universal access to 100Mbps download by 20Mbps upload by 2026.;"
+        "7_note": "The State has a goal to achieve universal access to 25Mbps download by 3 Mbps upload for 2022, and another goal to achieve universal access to 100Mbps download by 20Mbps upload by 2026.;",
+        "4_YN": "yes",
+        "4_note": "Grant funding is available through the Partnership Program, which does allow limited funds to be used for foundational skills. ; Grant funding is also available through the Pathways Program, and these funds can be used for foundational skills. "
     },
     {
         "State": "MS",
@@ -411,14 +459,16 @@
         "2_note": "There is no evidence that Mississippi has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Mississippi Works, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "When the State received federal pandemic money in the spring of 2020 it began steering a substantial portion of that money into expanding broadband access into rural areas."
+        "7_note": "When the State received federal pandemic money in the spring of 2020 it began steering a substantial portion of that money into expanding broadband access into rural areas.",
+        "4_YN": "no",
+        "4_note": "$50 million in funding is available over a 10 year period through the Mississippi Works Fund, but these funds cannot be used for foundational skills. Funding is also available through the Workforce Enhancement Training Fund, but these funds cannot be used for foundational skills. "
     },
     {
         "State": "MO",
@@ -428,14 +478,16 @@
         "2_note": "There is no evidence that Missouri has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Missouri Jobs Resource offers resources for job seekers and features a separate link to free online skilling courses which Alison and Microsoft 365. \r\n\r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State of Missouri has a goal of universal access to high-speed Internet, with speeds of at least 100 Megabits per second (Mbps) download and 20 Mbps upload, for all Missouri citizens by 2028. "
+        "7_note": "The State of Missouri has a goal of universal access to high-speed Internet, with speeds of at least 100 Megabits per second (Mbps) download and 20 Mbps upload, for all Missouri citizens by 2028. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "MT",
@@ -445,12 +497,14 @@
         "2_note": "There is no evidence that Montana has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides two sites, Montana Works and Job Service Montana, which act as resource hubs for job seekers. ",
-        "4_YN": "no",
-        "4_note": "The Governor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The Governor did not deliver a 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
-        "6_note": "Montana is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions."
+        "6_note": "Montana is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
+        "4_YN": "no",
+        "4_note": "However, the funding available through the Incumbent Worker Training Program cannot be used for foundational skills. "
     },
     {
         "State": "NE",
@@ -460,14 +514,16 @@
         "2_note": "There is no evidence that Nebraska has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "NEworks offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.  ",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The current State broadband plan had as one of its goals to have 90% of households Statewide subscribe to broadband by 2020."
+        "7_note": "The current State broadband plan had as one of its goals to have 90% of households Statewide subscribe to broadband by 2020.",
+        "4_YN": "no",
+        "4_note": "However, the funds available through the Workforce Training Grants cannot be used for foundational skills. "
     },
     {
         "State": "NV",
@@ -477,14 +533,16 @@
         "2_note": "Nevada has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Employ NV offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The Governor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The Governor did not deliver a 2020 State of the State address.",
         "5_YN": "no",
         "5_note": "Nevada does not offer technology-related apprenticeship programs.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The Nevada Broadband Plan has several specific goals related to expanding boradband throughout the state."
+        "7_note": "The Nevada Broadband Plan has several specific goals related to expanding boradband throughout the state.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "NH",
@@ -494,14 +552,16 @@
         "2_note": "There is no evidence that New Hampshire has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "\r\nHowever, the State provides a site, NHWorks, which acts as a resource hub for job seekers. \r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State's Broadband Plan includes several steps to expand broadband including the establishment of a State Broadband Authority and State Broadband Council."
+        "7_note": "The State's Broadband Plan includes several steps to expand broadband including the establishment of a State Broadband Authority and State Broadband Council.",
+        "4_YN": "yes",
+        "4_note": "The funds available through the Job Training Fund can be used for foundational skills. "
     },
     {
         "State": "NJ",
@@ -511,14 +571,16 @@
         "2_note": "New Jersey has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "The New Jersey Career Center offers resources for job seekers and features a separate link to free online skilling courses which include GCF Global and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "New Jersey is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "New Jersey is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "The State's Broadband Plan includes several speific steps to increase household adoption of broadband.  Currently, New Jersey has 92 percent broadband coverage. "
+        "7_note": "The State's Broadband Plan includes several speific steps to increase household adoption of broadband.  Currently, New Jersey has 92 percent broadband coverage. ",
+        "4_YN": "yes",
+        "4_note": "It is possible to use the funds from the Upskill program for foundational skills, however they are mostly aimed at occupational skills. "
     },
     {
         "State": "NM",
@@ -528,14 +590,16 @@
         "2_note": "There is no evidence that New Mexico has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "New Mexico Workforce Connection offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "New Mexico released a Broadband Strategic Plan and Rural Broadband Assessment in July 2020 to prioritize fiber-based rural solutions for longevity and include broadband considerations in all COVID-19 recovery planning.  "
+        "7_note": "New Mexico released a Broadband Strategic Plan and Rural Broadband Assessment in July 2020 to prioritize fiber-based rural solutions for longevity and include broadband considerations in all COVID-19 recovery planning.  ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "NY",
@@ -545,14 +609,16 @@
         "2_note": "There is no evidence that New York has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Job Zone, which acts as a resource hub for job seekers. ",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "As part of its plan, New York announced a new Round of funding providing the last mile funding to ensure high-speed internet access for all New Yorkers."
+        "7_note": "As part of its plan, New York announced a new Round of funding providing the last mile funding to ensure high-speed internet access for all New Yorkers.",
+        "4_YN": "no",
+        "4_note": "However, it is unlikely that funding through either the Existing Employee Training Program (EET) or the Unemployed/Underemployed Training Program (UWT) can be used for foundational skills. "
     },
     {
         "State": "NC",
@@ -562,14 +628,16 @@
         "2_note": "There is no evidence that North Carolina has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": " NCworks offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The Governor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The Governor did not deliver a 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "North Carolina is a location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "North Carolina is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "The State Broadband Plan’s overarching goal is for every North Carolinian to have affordable access to broadband service – wireline or wireless – by June 2021."
+        "7_note": "The State Broadband Plan’s overarching goal is for every North Carolinian to have affordable access to broadband service – wireline or wireless – by June 2021.",
+        "4_YN": "yes",
+        "4_note": "NCWorks Incumbent Worker Training Grants can possibly be used for foundational skills. "
     },
     {
         "State": "ND",
@@ -579,12 +647,14 @@
         "2_note": "There is no evidence that North Carolina has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "North Dakota Workforce Connection offers resources for job seekers and features a separate link to free online skilling courses which include Alison and Microsoft 365.",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are being created in a wide range of industries, including in information technology.",
         "7_YN": "yes",
-        "7_note": "North Dakota’s 2019 broadband plan states that “boadband in the 21st century is akin to electricity in the 20th century.” The State aims to provide Gigabit broadband connectivity to the State while closing gaps for underserved communities. "
+        "7_note": "North Dakota’s 2019 broadband plan states that “boadband in the 21st century is akin to electricity in the 20th century.” The State aims to provide Gigabit broadband connectivity to the State while closing gaps for underserved communities. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "OH",
@@ -594,14 +664,16 @@
         "2_note": "Ohio has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "All Ohioans with a library card are able to take unlimited, free online training courses through Linkedin Learning on topics including like software development, data analytics, and cyber security.",
-        "4_YN": "no",
-        "4_note": "The Governor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The Governor did not deliver a 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Cincinnati and Central Ohio are both locations for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "Ohio is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "Ohio plans to expand internet access by improving infrastructure through InnovateOhio. ;"
+        "7_note": "Ohio plans to expand internet access by improving infrastructure through InnovateOhio. ;",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "OK",
@@ -611,14 +683,16 @@
         "2_note": "There is no evidence that Oklahoma has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Oklahoma Works offers 180 skills, an online skilling program that provides technical courses and certifications",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State has a 2019 broadband plan with several goals including giving nvestments in unserved areas."
+        "7_note": "The State has a 2019 broadband plan with several goals including giving nvestments in unserved areas.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "OR",
@@ -628,14 +702,16 @@
         "2_note": "Oregon has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "The Oregon Center for Digital Learning is a non-profit 501(c)3 that partners with Oregon State University to offer “digital micro-credentials and education technology innovations in Oregon”",
-        "4_YN": "no",
-        "4_note": "The Governor did not deliver a 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The Governor did not deliver a 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Oregon is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "The Oregon Broadband Office Strategic Plan of 2020  has a goal of this state to promote access to broadband services for all Oregonians."
+        "7_note": "The Oregon Broadband Office Strategic Plan of 2020  has a goal of this state to promote access to broadband services for all Oregonians.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "PA",
@@ -645,14 +721,16 @@
         "2_note": "There is no evidence that Pennsylvania has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "\r\nPennsylvania Career Link offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.\r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "Through the Restore Pennsylvania plan, Pennsylvania aims to “bridge the digital divide in every community across the commonwealth, ensuring that every Pennsylvanian has access to high speed, reliable, and affordable internet service”"
+        "7_note": "Through the Restore Pennsylvania plan, Pennsylvania aims to “bridge the digital divide in every community across the commonwealth, ensuring that every Pennsylvanian has access to high speed, reliable, and affordable internet service”",
+        "4_YN": "yes",
+        "4_note": "Funding through the Workforce and Economic Development Network of Pennsylvania (WEDnetPA) can only be used for math or digital literacy skilling. "
     },
     {
         "State": "RI",
@@ -662,14 +740,16 @@
         "2_note": "Rhode Island has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": " Employ RI offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The Special Legislative Commission to Broadband Service and Accessibility made an array of proposals on how to expand broadband in Rhode Island."
+        "7_note": "The Special Legislative Commission to Broadband Service and Accessibility made an array of proposals on how to expand broadband in Rhode Island.",
+        "4_YN": "yes",
+        "4_note": "$550,000 is available through the Incumbent Worker Training program, and these funds can be used for foundational skills. ; Additional funding is available through the Real Jobs Rhode Island program, and these funds can be used for foundational skills. "
     },
     {
         "State": "SC",
@@ -679,14 +759,16 @@
         "2_note": "There is no evidence that South Carolina has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "South Carolina Works offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "South Carolina is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "South Carolina used emergency stimulus funding to create a Broadband Infrastructure Program, which included a grant competition. The program identified approximately 550 areas in the State that have substantial need for broadband improvement, "
+        "7_note": "South Carolina used emergency stimulus funding to create a Broadband Infrastructure Program, which included a grant competition. The program identified approximately 550 areas in the State that have substantial need for broadband improvement, ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "SD",
@@ -696,14 +778,16 @@
         "2_note": "There is no evidence that South Carolina has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "SDSWorks offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "6_YN": "yes ",
         "6_note": "South Dakota is a member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes",
-        "7_note": "According to the State's broadband plan, \"The most important goal is for every South Dakota citizen, business and community institution to have access to the current broadband standard by 2022."
+        "7_note": "According to the State's broadband plan, \"The most important goal is for every South Dakota citizen, business and community institution to have access to the current broadband standard by 2022.",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "TN",
@@ -713,14 +797,16 @@
         "2_note": "There is no evidence that Tennessee has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "JOBS4TN offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes",
-        "7_note": "The State passed the Tennessee Broadband Accessibility Act to provide grant funding to encourage deployment to unserved homes and businesses. "
+        "7_note": "The State passed the Tennessee Broadband Accessibility Act to provide grant funding to encourage deployment to unserved homes and businesses. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "TX",
@@ -730,14 +816,16 @@
         "2_note": "There is no evidence that Texas has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Work in Texas offers resources for job seekers and features a separate link to free online courses which include Alison, Microsoft 365 and GCFLearnFree.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "Member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "No",
-        "7_note": "Texas does not have a State broadband plan.  However, in November, the Governor’s Broadband Development Council relased a final report with recommendation that the Texas Legislature take action to create a state broadband plan. "
+        "7_note": "Texas does not have a State broadband plan.  However, in November, the Governor’s Broadband Development Council relased a final report with recommendation that the Texas Legislature take action to create a state broadband plan. ",
+        "4_YN": "yes",
+        "4_note": "$24 million is available through the Skills Development Fund for Employers. Up to 10% of these funds can be used for foundational skills. ; Up to $2 million is available through the Skills for Small Businesses program, but it is unclear whether these funds can be used for foundational skills. "
     },
     {
         "State": "UT",
@@ -747,14 +835,16 @@
         "2_note": "There is no evidence that Utah has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Skill Up Utah offers both virtual and in-person training opportunities to upskill workers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes ",
-        "7_note": "“The state endorses a broadband plan to increase deployment, bandwidth, adoption, digital inclusion and literacy across the state to businesses, educational anchor institutions, libraries, healthcare centers, tribes and other entities.\""
+        "7_note": "“The state endorses a broadband plan to increase deployment, bandwidth, adoption, digital inclusion and literacy across the state to businesses, educational anchor institutions, libraries, healthcare centers, tribes and other entities.\"",
+        "4_YN": "yes",
+        "4_note": "The funding available through the Custom Fit Program can be used for foundational skills. "
     },
     {
         "State": "VT",
@@ -764,14 +854,16 @@
         "2_note": "There is no evidence that Vermont has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "However, the State provides a site, Vermont JobLink, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "no",
         "5_note": "Vermont does not offer technology-related apprenticeship programs.",
         "6_YN": "yes ",
         "6_note": "Member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes ",
-        "7_note": "The State Telecommunications Plan has the following goal: “Ensur[ing] that by the end of the year 2024, every E-911 business and residential location in Vermont has infrastructure capable of delivering Internet access with service that has a minimum download speed of 100 Mbps and is symmetrical.” "
+        "7_note": "The State Telecommunications Plan has the following goal: “Ensur[ing] that by the end of the year 2024, every E-911 business and residential location in Vermont has infrastructure capable of delivering Internet access with service that has a minimum download speed of 100 Mbps and is symmetrical.” ",
+        "4_YN": "yes",
+        "4_note": "The funding available through the Vermont Training Program can be used for foundational skills. "
     },
     {
         "State": "VA",
@@ -781,14 +873,16 @@
         "2_note": "There is no evidence that Virginia has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": " Virginia Workforce Connection offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "yes",
-        "4_note": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "yes",
+        "4_note_null": "The need for digital skilling was mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": " Location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships.",
         "6_YN": "yes ",
         "6_note": "Community colleges are engaged in several exemplary efforts to promote digital skills.",
         "7_YN": "yes ",
-        "7_note": "Virginia’s Commonwealth Connect plan outlines policy recommendations and a plan to work with local governments to identify gaps in coverage within localities and develop a plan to fill those gaps. The plan calls for a $35 million increase in funding for each successive year for the Virginia Telecommunications Initiative (VATI), which extends broadband service to currently unserved areas. "
+        "7_note": "Virginia’s Commonwealth Connect plan outlines policy recommendations and a plan to work with local governments to identify gaps in coverage within localities and develop a plan to fill those gaps. The plan calls for a $35 million increase in funding for each successive year for the Virginia Telecommunications Initiative (VATI), which extends broadband service to currently unserved areas. ",
+        "4_YN": "no",
+        "4_note": "The state does not have any dedicated incumbent worker training funds. "
     },
     {
         "State": "WA",
@@ -798,14 +892,16 @@
         "2_note": "There is no evidence that Washington has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "WorkSource offers resources for job seekers and features a separate link to free online courses which include Microsoft IT Academy and GCFLearnFree",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Location for Apprenti, a program that creates pathways to certification in technology roles through apprenticeships. ",
         "6_YN": "yes ",
         "6_note": "Member of the Reskilling and Recovery Network which works to provide people with modern jobs, particularly for technology positions.",
         "7_YN": "yes ",
-        "7_note": "Washington has a broadband plan that, among other goals, aims to provide 25 mps broadband access to all residences and businesses Statewide by 2024. "
+        "7_note": "Washington has a broadband plan that, among other goals, aims to provide 25 mps broadband access to all residences and businesses Statewide by 2024. ",
+        "4_YN": "yes",
+        "4_note": "A $150,000 revolving loan can be obtained through the Customized Training Program, and these funds can be used for foundational skills.; $5.45 million is available every two years through the Jobs Skills Program, and these funds can be used for foundational skills. "
     },
     {
         "State": "WV",
@@ -815,12 +911,14 @@
         "2_note": "There is no evidence that West Virginia has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": "\r\n However, the State provides a site, Workforce West Virginia, which acts as a resource hub for job seekers. \r\n",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "no",
         "5_note": "West Virginia does not offer technology-related apprenticeship programs.",
         "7_YN": "yes ",
-        "7_note": "West Virginia released a broadband plan in 2019 which outlines several goals, including “Improving broadband infrastructure, Improving information about broadband access and broadband availability and Increasing and improving broadband use."
+        "7_note": "West Virginia released a broadband plan in 2019 which outlines several goals, including “Improving broadband infrastructure, Improving information about broadband access and broadband availability and Increasing and improving broadband use.",
+        "4_YN": "no",
+        "4_note": "However, the funds available through the Governor's Guaranteed Workforce Program cannot be used for foundational skills. "
     },
     {
         "State": "WI",
@@ -830,12 +928,14 @@
         "2_note": "There is no evidence that Wisconsin has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "no",
         "3_note": " However, the State provides as site, Job Center of Wisconsin, which acts as a resource hub for job seekers.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
         "7_YN": "yes ",
-        "7_note": " The Wisconsin Broadband Plan aims to provide every Wisconsinite with affordable broadband access, if they so choose, by January 1, 2025. The State is also maintaining an interactive broadband access map."
+        "7_note": " The Wisconsin Broadband Plan aims to provide every Wisconsinite with affordable broadband access, if they so choose, by January 1, 2025. The State is also maintaining an interactive broadband access map.",
+        "4_YN": "yes",
+        "4_note": "$11.5 million is available through the FastForward Program. It is rare but possible to use these funds for foundational skills. ; $1.5 million is available through the Workforce Advancement Training program, but these funds cannot be used for foundational skills. "
     },
     {
         "State": "WY",
@@ -845,10 +945,12 @@
         "2_note": "There is no evidence that Wisconsin has developed a Statewide comprehensive digital skills plan.",
         "3_YN": "yes",
         "3_note": "Wyoming at Work offers resources for job seekers and features a separate link to free online courses which include Alison and Microsoft 365.",
-        "4_YN": "no",
-        "4_note": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
+        "4_YN_null": "no",
+        "4_note_null": "The need for digital skilling was not mentioned as one of the Governor’s leading priorities in the most recent 2020 State of the State address.",
         "5_YN": "yes",
         "5_note": "Apprenticeship opportunities are available in a wide range of industries, including in information technology.",
-        "7_YN": "yes "
+        "7_YN": "yes ",
+        "4_YN": "yes",
+        "4_note": "The funding available through the Workforce Development Training Fund can be used for foundational skills. "
     }
 ]
