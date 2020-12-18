@@ -339,7 +339,6 @@ a:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #AAAAAA;
   border-radius: 7px;
 }
 

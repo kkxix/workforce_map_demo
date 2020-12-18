@@ -1,183 +1,166 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap style  -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap style  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <!-- Cover template -->
-        <link href="css/cover.css" rel="stylesheet">
+    <!-- Cover template -->
+    <link href="/css/cover.css" rel="stylesheet">
 
-        <!-- Custom styles -->
-        <link rel="stylesheet" href="css/custom.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/landing.css">
 
 
 
-        <!-- jQuery -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-        <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
-        <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
 
-        <!-- jspdf -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script> -->
-        
-        <!-- PDF Maker -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"
-            integrity="sha512-gYUM+7JjtBqPPGOgwgOZ+NwjGl+11/EP124oB+ihjlBpLgP5LTh7R/Iwcdy//cgH+QzrjspBiJI5iUegTNww3w=="
-            crossorigin="anonymous"></script>
-        <script src='/js/vfs_fonts.js'></script>
+    <!-- jspdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
 
-        <!-- PDF Kit -->
-        <!-- <script src="https://cdn.jsdelivr.net/npm/pdfkit@0.11.0/js/pdfkit.min.js"></script> -->
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
 
 
-        <!-- Google fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
-        
-    </head>
-    <body class="text-center">
-        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-            <header class="masthead mb-auto">
-                <div class="inner">
-                    <h3 class="masthead-brand justify-content-center">Addressing Digital Skills Needs: a State-by-State Scorecard</h3>
-                    <nav class="nav nav-masthead justify-content-center">
-                        <a class="nav-link" href="/pages/us_map.html" id="US">US</a>
-                        <a class="nav-link" href="/pages/world_map.html" id="world">World</a>
-                        <a class="nav-link" href="/pages/more_info.html" id="More Info">More Info</a>
-                        <a class="nav-link inactive">(Beta Version)</a>
-                    </nav>
+</head>
+
+<body>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="wrapper">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="/pages/us_landing.html" id="US">US</a>
+                    <a class="nav-link" href="/pages/world_map.html" id="world">World</a>
+                    <a class="nav-link" href="/pages/more_info.html" id="More Info">More Info</a>
+                    <a class="nav-link inactive">(Beta Version)</a>
+                </nav>
+            </div>
+        </header>
+        <div class="index-container">
+            <!-- <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> -->
+            <div class="row justify-content-md-center">
+                <div class="col-6">
+                    <section id="page_1">
+                        <h1>Welcome to the Digital Skilling Scorecard</h1>
+                        <p class="lead">
+                            The changing global economy demands that more of today’s workers have at least basic digital skills in order to be
+                            employed.
+                            Many governments have risen to the challenge to skill up their citizens to meet this demand, but much more needs to be
+                            done.
+                            This Scorecard provides a glimpse into the extent to which States, as well as countries throughout the world, are
+                            addressing digital skill needs.
+                        </p>
+                        <!-- <p><a class="btn btn-primary btn-lg" href="/pages/us_landing.html" role="button">United States</a></p>
+                        <p><a class="btn btn-primary btn-lg" href="/pages/world_map.html" role="button">World</a></p> -->
+                    </section>
                 </div>
-            </header>
-
-            <main role="main" class="inner cover">
-
-                <h1 class="cover-heading" id="welcome">
-                    Welcome to the Digital Skilling Scorecard.
-                </h1>
-                
-                <!-- US MAP -->
-
-                <!-- <div class="row">
-                    <div class="col-6">
-                        <h1 class="cover-heading">USA</h1>
-                        <div class="pdf-holder">
+                <div class="col-6">
+                    <section id="select-map">
+                        <div class="wrapper clearfix">
+                        
+                            <a href='/pages/us_landing.html'>
+                                <figure class="gallery-item">
+                                    <img src="/img/us.png">
+                                    <figcaption class="img-title">
+                                        <h5>US Map</h5>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            
+                            <a href="/pages/world_map.html">
+                                <figure class="gallery-item">
+                                    <img src="img/world.png">
+                                    <figcaption class="img-title">
+                                        <h5>World Map</h5>
+                                    </figcaption>
+                                </figure>
+                            </a>
                             
                         </div>
-                    </div>
-                </div> -->
-<!-- 
-                <div class="row">
-                    <div class="col-6" id="map_col">
-                        <div class="map" id="us_map">
-                            
-                        </div>
-                        <div class="row ">
-                            <div class="col">
-                                <h1 id="demand">Number</h1>
-                                <p id="demand-type">Demand</p>
-                            </div>
-                            <div class="col">
-                                <h1 id="supply">Number</h1>
-                                <p id="supply-type">Supply</p>
-                            </div>
-                            <div class="col">
-                                <h1 id="dollars">Number</h1>
-                                <p id="dollar-type">Dollars</p>
-                            </div>
-                       </div>
-                    </div>
-                    <div id="card_col_1">
-                        
-                    </div>
-                    <div id="card_col_2">
-                        
-                    </div>
-                </div> -->
-
-                <!-- <div class="row "> -->
-                    <!-- <div class="row"> -->
+                    </section>
                     
-                    
-                
-                <!-- </div> -->
-
-                <!-- WORLD MAP -->
-                <!-- <div class="map" id="world_map">
-                </div> -->
-                
-
-                <!-- NOTES SECTION -->
-                <!-- <div class="container" id="notes_div">
-                    <h1>Notes: </h1>
-                    <h3>Key:</h3>
-                    <ul>
-                
-                        <li id="MD">Mentions Digital Literacy/Computer Skills</li>
-                        <li id="PJ">Projected Job Growth/Occupation Outlook</li>
-                        <li id="DB">Digital Badging, Skilling-type website offered by State or State Programs in place</li>
-                        <li id="VP">Veterans population or prison population</li>
-                        <li id="DM">Direct mention of Microsoft</li>
-                        <li id="DD">Digital Divide</li>
-                    </ul>
-                    <div class="container" id="state_notes">
-                    </div>
-                </div> -->
-
-            </main>
-            <footer>
-                <!-- <div>Icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a
-                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-
-            </footer>
-
+                </div>
+            </div>
+            
+            <!-- <section id="about">
+                <h1>About</h1>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+            </section>
+            <section id="service">
+                <h1>Service</h1>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+            </section>
+            <section id="contact">
+                <h1>Contact</h1>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+            </section> -->
         </div>
-
-        
-        
-        
-        
+    </div>
 
 
-        <!-- Bootstrap Scripts -->
-        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script> -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script> -->
+    
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Bootstrap Scripts -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous"></script> -->
 
-        <!-- jspdf -->
-        <!-- <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script> -->
-        
-        <!-- Core theme JS-->
-        <script src="js/maps.js"></script>
-        <script src="js/index.js"></script>
-        <script src="js/maps.js"></script>
-        <script src="js/filter.js"></script>
-        <script src="js/cards.js"></script>
-        <script src="js/pdf.js"></script>
-        
-    </body>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 
-</html>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <script type="module" src="/js/load_charts.js">
+
+    </script>
+
+
+    <script>
+        (function () {
+            $(document).ready(function () {
+
+                $('.gallery-item').hover(function () {
+                    $(this).find('.img-title').fadeIn(300);
+                }, function () {
+                    $(this).find('.img-title').fadeOut(100);
+                });
+
+            });
+        })(jQuery);
+    </script>
+
+    <script src="/js/mount_us_map.js"></script>
+    <!-- <script src="/js/index.js"></script> -->
+    <script src="/js/filter.js"></script>
+    <script src="/js/cards.js"></script>
+    <script src="/js/pdf.js"></script>
+    <script src="/js/new_map_interaction.js"></script>
+    <!-- <script src="/js/doTimeout.js"></script> -->
+    <script src="/js/jquery.hoverIntent.js"></script>
+    <script src="/js/hover.js"></script>
+
+</body>

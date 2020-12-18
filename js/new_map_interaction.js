@@ -63,7 +63,7 @@
     var yes_headings =[
         '<span class="strong-yes">Tracks data </span>on digital skills needs.',
         '<span class="strong-yes">Developed comprehensive plan </span>to address digital skills needs.', 
-        '<span class="strong-yes">Provides online training </span>tool(s).',
+        '<span class="strong-yes">Provides direct access to free virtual digital skills training</span> through State workforce website.',
         // '<span class="strong-yes">Governor prioritizes digital skills </span>training.', 
         '<span class="strong-yes">Allows incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-yes">Provides technology-related apprenticeship</span> opportunities.',
@@ -73,7 +73,7 @@
     var no_headings = [
         '<span class="strong-no">Does not track data </span>on digital skills needs.',
         '<span class="strong-no">Has not developed comprehensive plan </span>to address digital skills needs.',
-        '<span class="strong-no">Does not provide online training </span>tool(s).',
+        '<span class="strong-no">Does not provide direct access to free virtual digital skills training</span> through State workforce website.',
         // '<span class="strong-no">Governor does not prioritize digital skills</span> training.',
         '<span class="strong-no">Does not allow incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-no">Does not provide technology-related apprenticeship</span> opportunities.',
