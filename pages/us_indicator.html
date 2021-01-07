@@ -31,6 +31,7 @@
 
 
 </head>
+
 <body>
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="wrapper">
         <header class="masthead mb-auto">
@@ -52,23 +53,23 @@
             <div class="h-100 row">
                 <!-- Left Column  -->
                 <div class="col-6">
-                    <h1 class="cover-heading" id="state_name">Select a state.</h1>
                     <div class="map" id="us_map">
-                    
+
                     </div>
                     <div class="container" id='opportunity-gap' style="display: none;">
                         <div class="row">
                             <div class="col">
-                                <h3>The <span class="strong-no">digital opportunity gap</span> in <span class="state-name">State</span>:</h3>
-                                There are an estimated 
+                                <h3>The <span class="strong-no">digital opportunity gap</span> in <span
+                                        class="state-name">State</span>:</h3>
+                                There are an estimated
                                 <span class="inline-number" id="supply">0</span>
-                                unemployed who may not even begin to compete for an estimated 
+                                unemployed who may not even begin to compete for an estimated
                                 <span class="inline-number" id="demand">0</span>
-                                open jobs because they lack digital skills. 
+                                open jobs because they lack digital skills.
 
-                                There is only 
+                                There is only
                                 <span class="inline-number" id="dollars">$ 0</span>
-                                in federal dislocated worker funding available for 
+                                in federal dislocated worker funding available for
                                 each unemployed person in <span class="state-name">State</span>.
                             </div>
                         </div>
@@ -109,7 +110,7 @@
                                 <h3 class="number" id="iwt-dollars">$ 0</h3>
                                 <p class="number-type" id="iwt-dollar-type">Annual state funding for incumbent worker training</p>
                             </div> -->
-                            <!-- <div class="col">
+                        <!-- <div class="col">
                                                     <h3 class="number" id="EL">Number</h3>
                                                     <p class="number-type" id="EL-type">Total LinkedIn and Microsoft Learn "engaged learners."</p>
                                                 </div>
@@ -117,7 +118,7 @@
                                                     <h3 class="number" id="LP">Number</h3>
                                                     <p class="number-type" id="LP-type">Total LinkedIn and Microsoft Learn learning paths completed.</p>
                                                 </div> -->
-                            <!-- <div class="col">
+                        <!-- <div class="col">
                                                     <a type="button" href="#explore_data" class="js-scroll-trigger" id="explore_data"><h1>Explore Data</h1></a>
                                                 </div> -->
                         <!-- </div> -->
@@ -130,7 +131,7 @@
                         <tbody id="indicators">
                             <tr>
                                 <td>
-                                    <h3>Indicators</h3>
+                                    <h1 class="cover-heading" id="state_name">Select an Indicator.</h1>
                                 </td>
                             </tr>
                             <tr>
@@ -140,7 +141,8 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Has the State developed a comprehensive plan to address digital skills needs?</h5>
+                                    <h5>Has the State developed a comprehensive plan to address digital skills needs?
+                                    </h5>
                                 </td>
                             </tr>
                             <tr>
@@ -176,14 +178,14 @@
                         </tbody>
                     </table>
                     <!-- <div class="row" id="data_tabs"> -->
-                        
-                        <!-- <div class="col-auto mr-auto no_padding">
+
+                    <!-- <div class="col-auto mr-auto no_padding">
                             <div class="data_tab active" id="plan"> <h3>State plans</h3> </div>
                         </div> -->
-                        <!-- <div class="col-auto no_padding">
+                    <!-- <div class="col-auto no_padding">
                             <div class="data_tab active " id="programs"> <h3>State actions</h3> </div>
                         </div> -->
-                        <!-- <div class="col-md-auto">
+                    <!-- <div class="col-md-auto">
                             <a type="button" id="pdf"> <h1>Factsheet</h1> </a>
                         </div> -->
                     <!-- </div> -->
@@ -200,27 +202,29 @@
                                     <div class="GSI-chart">
                             
                                     </div> -->
-                    <!-- </div> -->
-                <!-- </div> --> 
+                <!-- </div> -->
+                <!-- </div> -->
                 <div class="col-6">
                     <h3>Full Report</h3>
                     <div>
                         <select>
                             <option>Indicators</option>
                             <option value="1">Does the State track data on digital skills needs?</option>
-                            <option value="2">Has the State developed a comprehensive plan to address digital skills needs?</option>
+                            <option value="2">Has the State developed a comprehensive plan to address digital skills
+                                needs?</option>
                             <option value="3">Does the State provide online training tool(s)?</option>
                             <option value="4">Does the Governor prioritize digital skills training?</option>
-                            <option value="5">Does the State provide technology-related apprenticeship opportunities?</option>
+                            <option value="5">Does the State provide technology-related apprenticeship opportunities?
+                            </option>
                             <option value="6">Do community colleges drive digital skills?</option>
                             <option value="7">Has the State developed a broadband plan?</option>
                             <option value="8">Does the State provide incumbent worker training funds?</option>
                         </select>
                     </div>
                     <div class="container" id="full_indicator_analysis">
-            
+
                     </div>
-                    
+
                     <!-- <div class="1 box">You have selected <strong>red option</strong> so i am here</div>
                     <div class="2 box">You have selected <strong>green option</strong> so i am here</div>
                     <div class="3 box">You have selected <strong>blue option</strong> so i am here</div>
@@ -252,8 +256,8 @@
                 <div class="col-6 no_padding">
                     <div class="container" id="data_container">
                         <div class="row"> -->
-                            
-                            <!-- <div class="col-sm no_padding" id="plan_data_buttons">
+
+            <!-- <div class="col-sm no_padding" id="plan_data_buttons">
 
                             </div>
                             <div class="col-sm" id="content-col">
@@ -268,7 +272,7 @@
                             <div class="col-sm no_padding" id="program_data_buttons">
                             
                             </div> -->
-                        <!-- </div>
+            <!-- </div>
                     </div>
                 </div>
             </div> -->
@@ -283,18 +287,18 @@
 
             <!-- Container for GSI viz -->
             <!-- Explore Data section -->
-            
+
         </main>
         <section id="explore_data_section">
-            
+
         </section>
     </div>
 
-    
-    
+
+
     <!-- <p>Credit: <a href="https://observablehq.com/@kkxix/multi-line-chart">Multi-Line Chart by kkxix</a></p> -->
-    
-    
+
+
 
 
     <!-- Bootstrap Scripts -->
@@ -307,16 +311,16 @@
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
                 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
                 crossorigin="anonymous"></script> -->
-    
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
     <script type="module" src="/js/load_charts.js">
-        
+
     </script>
 
 
@@ -325,7 +329,7 @@
     <script src="/js/filter.js"></script>
     <script src="/js/cards.js"></script>
     <script src="/js/pdf.js"></script>
-    <script src="/js/new_map_interaction.js"></script>
+    <script src="/js/search_by_indicator.js"></script>
     <!-- <script src="/js/doTimeout.js"></script> -->
     <script src="/js/jquery.hoverIntent.js"></script>
     <script src="/js/hover.js"></script>

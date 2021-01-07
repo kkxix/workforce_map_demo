@@ -10,18 +10,35 @@
     //         });
     //     }).show();
     // });
-    $(document.body).on("click", 'svg path', function (e){
-        $.each($('svg').children(), function (i, element){
+    $(document.body).on("click", '.state', function (e) {
+        $.each($('.state-active'), function (i, element) {
             $(this).attr('class', 'state');
         });
         $(this).attr('class', 'state-active')
-        // $(this).attr('style', 'fill: #cc9c58');
     });
-    $(document.body).on("click", 'svg rect', function (e) {
-        $.each($('svg').children(), function (i, element) {
-            $(this).attr('class', 'state');
+    $("select").change(function () {
+        $(this).find("option:selected").each(function () {
+            var optionValue = $(this).attr("value");
+            if (optionValue) {
+                $(".box").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else {
+                $(".box").hide();
+            }
         });
-        $(this).attr('class', 'state-active')
-        // $(this).attr('style', 'fill: #cc9c58');
-    });
+    }).change();
+    // $(document.body).on("click", 'svg path', function (e){
+    //     $.each($('svg').children(), function (i, element){
+    //         $(this).attr('class', 'state');
+    //     });
+    //     $(this).attr('class', 'state-active')
+    //     // $(this).attr('style', 'fill: #cc9c58');
+    // });
+    // $(document.body).on("click", 'svg rect', function (e) {
+    //     $.each($('svg').children(), function (i, element) {
+    //         $(this).attr('class', 'state');
+    //     });
+    //     $(this).attr('class', 'state-active')
+    //     // $(this).attr('style', 'fill: #cc9c58');
+    // });
 })(jQuery);

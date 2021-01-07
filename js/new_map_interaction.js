@@ -80,30 +80,6 @@
         '<span class="strong-no">Community colleges are not driving digital skills</span>.',
         '<span class="strong-no">Has not developed broadband plan</span>.',
     ]
-    // URGENT TODO -- fix the order / generally fix the way the 'full content' is generated
-    // it's currently a maaaassssive mess 
-    var type_mappings = [
-        "State has identified in-demand digital skill needs using Statewide data? ",
-        "State has comprehensive plan to address digital skills needs?",
-        "Online skilling tool offered by State?",
-        "Digital Skilling Mentioned in State of State:",
-        "State has technology-related apprenticeship program planned or in place?",
-        "State has community college efforts promoting digital skills?",
-        "State has a plan for addressing digital divide (broadband)?",
-        "iwt_note",
-        "State has additional dedicated digital skills initiatives?"
-    ]
-    var link_mappings = [
-        "Identified in-demand skills using statewide data links",
-        "Comprehensive plan links",
-        "Skilling tool links",
-        "State of State Links",
-        "Apprenticeship Links",
-        "Community College Links",
-        "Digital Divide Links",
-        "iwt_links",
-        "Other initiatives links"
-    ]
     var number_of_indicators = 8;
 
     var state_is_selected = false; 
@@ -215,11 +191,13 @@
                         </tr>
                     `)
                     full_rows.push(`
-                        </br></br>
-                        <h5 class="indicator-heading">${heading}<h5>
-                            ${full_text.join("")}
-                        <span class="indicator-text">More resources: </span>
-                            ${all_links.join("")}
+                        <div class="${i} box">
+                            </br></br>
+                            <h5 class="indicator-heading">${heading}<h5>
+                                ${full_text.join("")}
+                            <span class="indicator-text">More resources: </span>
+                                ${all_links.join("")}
+                        </div>
                     `)
                 }
             }
