@@ -42,6 +42,20 @@ footer {
   opacity: 100;
 }
 
+.state-yes {
+  fill: #7FBC00;
+  stroke: white;
+  stroke-width: 1;
+  opacity: 100;
+}
+
+.state-no {
+  fill: #EF233C;
+  stroke: white;
+  stroke-width: 1;
+  opacity: 100;
+}
+
 #check {
   stroke: #7FBC00;
   fill: #7FBC00;

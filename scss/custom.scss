@@ -68,6 +68,24 @@ footer {
     opacity: 100;
     // color: white;
 }
+.state-yes {
+    // fill: $micro-blue-dark;
+    // stroke: "#ffffff" ;
+    fill: $micro-green; 
+    stroke: white; 
+    stroke-width: 1;
+    opacity: 100;
+    // color: white;
+}
+.state-no {
+    // fill: $micro-blue-dark;
+    // stroke: "#ffffff" ;
+    fill: $red3; 
+    stroke: white; 
+    stroke-width: 1;
+    opacity: 100;
+    // color: white;
+}
 #check{
     stroke: $micro-green; 
     fill: $micro-green;

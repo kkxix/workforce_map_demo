@@ -50,8 +50,65 @@
         <main role="main" class="inner cover">
 
             <!-- State title/ Data tabs row-->
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="cover-heading" id="state_name">Select an Indicator.</h1>
+                </div>
+            </div>
             <div class="h-100 row">
+                
                 <!-- Left Column  -->
+                <div class="col-6">
+                    <table class="table table-borderless">
+                        <tbody id="indicators">
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="1">
+                                        <h5>Does the State track data on digital skills needs?</h5>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="2">  
+                                        <h5>Has the State developed a comprehensive plan to address digital skills needs?
+                                        </h5>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="3">
+                                        <h5>Does the State provide online training tool(s)?</h5>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="5">
+                                        <h5>Does the State provide technology-related apprenticeship opportunities?</h5>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="6">
+                                        <h5>Do community colleges drive digital skills?</h5>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="button" class="w-100 btn btn-outline-dark btn-lg indicator" id="7">
+                                        <h5>Has the State developed a broadband plan?</h5>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Right Column -->
                 <div class="col-6">
                     <div class="map" id="us_map">
 
@@ -73,225 +130,10 @@
                                 each unemployed person in <span class="state-name">State</span>.
                             </div>
                         </div>
-                        <!-- <div class="row">
-                            <div class="col">
-                                <p class="number-type" id="demand-type">Estimate of job openings requiring digital skills</p>
-                                <div class="definition" id="demand-def-hover">
-                                    We determine the number of jobs that require digital skills by searching jobs listings using terms which
-                                    included
-                                    “computer, data, technology or cloud” on a state-by-state basis and extrapolating the percentage of such
-                                    jobs by the
-                                    overall percentage of jobs available in such state. This figure is likely an underestimate, because
-                                    Indeed does not
-                                    capture all job openings, and their method for determining the percentage of jobs that require digital
-                                    skills may not
-                                    capture many jobs which require other types of digital skills.
-                                </div>
-                            </div>
-                            <div class="col">
-                                <p class="number-type" id="supply-type">Estimate of unemployed workers without digital skills</p>
-                                <div class="definition" id="supply-def-hover">
-                                    We determine the number of unemployed workers without digital skills by taking the total number of
-                                    unemployed per state
-                                    (obtained from the Bureau of Labor Statistics) and take 62 percent, according to Programme for the
-                                    International
-                                    Assessment of Adult Competencies' (PIACC's) finding that 62 percent of unemployed workers lack
-                                    digital skills. This
-                                    number likely varies from state to state, but there is currently no data collection of skills using
-                                    common metrics at
-                                    the state level.
-                                </div>
-                            </div>
-                            <div class="col">
-                                
-                                <p class="number-type" id="dollar-type">Federal dislocated worker funding per unemployed person</p>
-                            </div>
-                            <div class="col">
-                                <h3 class="number" id="iwt-dollars">$ 0</h3>
-                                <p class="number-type" id="iwt-dollar-type">Annual state funding for incumbent worker training</p>
-                            </div> -->
-                        <!-- <div class="col">
-                                                    <h3 class="number" id="EL">Number</h3>
-                                                    <p class="number-type" id="EL-type">Total LinkedIn and Microsoft Learn "engaged learners."</p>
-                                                </div>
-                                                <div class="col">
-                                                    <h3 class="number" id="LP">Number</h3>
-                                                    <p class="number-type" id="LP-type">Total LinkedIn and Microsoft Learn learning paths completed.</p>
-                                                </div> -->
-                        <!-- <div class="col">
-                                                    <a type="button" href="#explore_data" class="js-scroll-trigger" id="explore_data"><h1>Explore Data</h1></a>
-                                                </div> -->
-                        <!-- </div> -->
                     </div>
-                </div>
-
-                <!-- Right Column -->
-                <div class="col-6">
-                    <table class="table table-borderless">
-                        <tbody id="indicators">
-                            <tr>
-                                <td>
-                                    <h1 class="cover-heading" id="state_name">Select an Indicator.</h1>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the State track data on digital skills needs?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Has the State developed a comprehensive plan to address digital skills needs?
-                                    </h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the State provide online training tool(s)?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the Governor prioritize digital skills training?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the State provide technology-related apprenticeship opportunities?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Do community colleges drive digital skills?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Has the State developed a broadband plan?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the State provide incumbent worker training funds?</h5>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- <div class="row" id="data_tabs"> -->
-
-                    <!-- <div class="col-auto mr-auto no_padding">
-                            <div class="data_tab active" id="plan"> <h3>State plans</h3> </div>
-                        </div> -->
-                    <!-- <div class="col-auto no_padding">
-                            <div class="data_tab active " id="programs"> <h3>State actions</h3> </div>
-                        </div> -->
-                    <!-- <div class="col-md-auto">
-                            <a type="button" id="pdf"> <h1>Factsheet</h1> </a>
-                        </div> -->
-                    <!-- </div> -->
                 </div>
             </div>
-            </br></br>
-            <div class=' h-100 row justify-content-md-center'>
-                <!-- DONT show for now , fix data and JS  -->
-                <!-- <div class="col-6">
-                    <h1>Explore the data</h1>
-                    <div class="container" id="explore_data_container">
-                        <h5>Coming soon...</h5>
-                        <h2>GSI Data</h2>
-                                    <div class="GSI-chart">
-                            
-                                    </div> -->
-                <!-- </div> -->
-                <!-- </div> -->
-                <div class="col-6">
-                    <h3>Full Report</h3>
-                    <div>
-                        <select>
-                            <option>Indicators</option>
-                            <option value="1">Does the State track data on digital skills needs?</option>
-                            <option value="2">Has the State developed a comprehensive plan to address digital skills
-                                needs?</option>
-                            <option value="3">Does the State provide online training tool(s)?</option>
-                            <option value="4">Does the Governor prioritize digital skills training?</option>
-                            <option value="5">Does the State provide technology-related apprenticeship opportunities?
-                            </option>
-                            <option value="6">Do community colleges drive digital skills?</option>
-                            <option value="7">Has the State developed a broadband plan?</option>
-                            <option value="8">Does the State provide incumbent worker training funds?</option>
-                        </select>
-                    </div>
-                    <div class="container" id="full_indicator_analysis">
-
-                    </div>
-
-                    <!-- <div class="1 box">You have selected <strong>red option</strong> so i am here</div>
-                    <div class="2 box">You have selected <strong>green option</strong> so i am here</div>
-                    <div class="3 box">You have selected <strong>blue option</strong> so i am here</div>
-                    <div class="4 box">You have selected <strong>blue option</strong> so i am here</div>
-                    <div class="5 box">You have selected <strong>blue option</strong> so i am here</div>
-                    <div class="6 box">You have selected <strong>blue option</strong> so i am here</div>
-                    <div class="7 box">You have selected <strong>blue option</strong> so i am here</div>
-                    <div class="8 box">You have selected <strong>blue option</strong> so i am here</div> -->
-                </div>
-
-            </div>
-            <!-- <div class="row">
-                <div class="col mx-auto">
-                    <h3>More Insight</h3>
-                    </br>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                        <path d="M0 0h24v24H0z" fill="none" />
-                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
-                    </svg>
-                </div>
-            </div> -->
-
-            <!-- Map, data container row -->
-            <!-- <div class="row">
-                <div class="col-6" id="map_col">
-                    
-                    
-                </div>
-                <div class="col-6 no_padding">
-                    <div class="container" id="data_container">
-                        <div class="row"> -->
-
-            <!-- <div class="col-sm no_padding" id="plan_data_buttons">
-
-                            </div>
-                            <div class="col-sm" id="content-col">
-                                <div id="data_content_header">
-
-                                </div>
-                                <div id="data_content">
-                                    Select an indicator.
-                                </div>
-                                
-                            </div>
-                            <div class="col-sm no_padding" id="program_data_buttons">
-                            
-                            </div> -->
-            <!-- </div>
-                    </div>
-                </div>
-            </div> -->
-
-
-            <!-- Numbers -->
-            <!-- <div class="row">
-                <div class="col-6">
-                    
-                </div>
-            </div> -->
-
-            <!-- Container for GSI viz -->
-            <!-- Explore Data section -->
-
         </main>
-        <section id="explore_data_section">
-
-        </section>
     </div>
 
 
@@ -326,7 +168,7 @@
 
     <script src="/js/mount_us_map.js"></script>
     <!-- <script src="/js/index.js"></script> -->
-    <script src="/js/filter.js"></script>
+    <!-- <script src="/js/filter.js"></script> -->
     <script src="/js/cards.js"></script>
     <script src="/js/pdf.js"></script>
     <script src="/js/search_by_indicator.js"></script>
