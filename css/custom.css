@@ -236,6 +236,10 @@ a:hover {
   color: #2D2D2D;
 }
 
+.indicator-heading {
+  color: #2D2D2D;
+}
+
 .inline-number {
   font-size: 1.25rem;
   font-weight: bold;

@@ -107,6 +107,7 @@
                 return d.State === element_state_id
             })
 
+            $('#unemployed').html(`${state_data['total_unemployed']}`)
             $('#supply').html(`${state_data['unemployed_without_ds']}`)
             $('#demand').html(`${state_data['jobs_with_ds']}`)
             $('#dollars').html(`${state_data['funding']}`)
@@ -175,7 +176,7 @@
                         $.each(links, function (j, l) {
                             if (j % 2 == 1) {
                                 all_links.push(`
-                                    <a class="indicator-link" href="${l}" target="_blank">${links[j - 1]}</a>,                                     
+                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>,                                     
                                 `)
                             };
                         });
@@ -185,13 +186,13 @@
                         <tr>
                             <td>${icon}</td>
                             <td>
-                                <h5 class="indicator-heading">${heading}<h5>
+                                <a href="#${i}"><h5 class="indicator-heading">${heading}<h5></a>
                                 <p class="indicator-text">${text}<p>
                             </td>
                         </tr>
                     `)
                     full_rows.push(`
-                        <div class="${i} box">
+                        <div class="${i} box" id="${i}">
                             </br></br>
                             <h5 class="indicator-heading">${heading}<h5>
                                 ${full_text.join("")}

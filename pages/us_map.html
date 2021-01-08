@@ -47,6 +47,13 @@
             </div>
         </header>
         <main role="main" class="inner cover">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/pages/us_landing.html">US Map</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Search by State</li>
+                </ol>
+            </nav>
 
             <!-- State title/ Data tabs row-->
             <div class="h-100 row">
@@ -61,8 +68,10 @@
                             <div class="col">
                                 <h3>The <span class="strong-no">digital opportunity gap</span> in <span class="state-name">State</span>:</h3>
                                 There are an estimated 
+                                <span class="inline-number" id="unemployed">0</span>
+                                unemployed, of which 
                                 <span class="inline-number" id="supply">0</span>
-                                unemployed who may not even begin to compete for an estimated 
+                                may not even begin to compete for an estimated 
                                 <span class="inline-number" id="demand">0</span>
                                 open jobs because they lack digital skills. 
 
@@ -150,7 +159,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Does the Governor prioritize digital skills training?</h5>
+                                    <h5>Does the State provide incumbent worker training funds?</h5>
                                 </td>
                             </tr>
                             <tr>
@@ -160,17 +169,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Do community colleges drive digital skills?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
                                     <h5>Has the State developed a broadband plan?</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Does the State provide incumbent worker training funds?</h5>
                                 </td>
                             </tr>
                         </tbody>
@@ -210,11 +209,10 @@
                             <option value="1">Does the State track data on digital skills needs?</option>
                             <option value="2">Has the State developed a comprehensive plan to address digital skills needs?</option>
                             <option value="3">Does the State provide online training tool(s)?</option>
-                            <option value="4">Does the Governor prioritize digital skills training?</option>
+                            <option value="4">Does the State provide incumbent worker training funds that can be used for digital skills?</option>
                             <option value="5">Does the State provide technology-related apprenticeship opportunities?</option>
                             <option value="6">Do community colleges drive digital skills?</option>
                             <option value="7">Has the State developed a broadband plan?</option>
-                            <option value="8">Does the State provide incumbent worker training funds?</option>
                         </select>
                     </div>
                     <div class="container" id="full_indicator_analysis">
