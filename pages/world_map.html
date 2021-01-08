@@ -51,101 +51,63 @@
 
             <!-- State title/ Data tabs row-->
             <div class="row">
-                <div class="col-7">
-                    <h3 class="cover-heading" id="country_name">Select a Country</h3>
-                </div>
-                <div class="col-5">
-                    <div class="row" id="data_tabs">
-                        <div class="col-auto mr-auto no_padding">
-                            <div class="data_tab active" id="plan" style="display:none;">
-                                <h3>State plans</h3>
-                            </div>
-                        </div>
-                        <div class="col-auto no_padding">
-                            <div class="data_tab active " id="programs">
-                                <h3>Indicators</h3>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-auto">
-                            <a type="button" id="pdf"> <h1>Factsheet</h1> </a>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Map, data container row -->
-            <div class="row">
-                <div class="col-7" id="map_col">
-                    <div class="map" id="world_map">
-
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <h3 class="number" id="individuals_have_digital_skills">0</h3>
-                                <p class="number-type" id="individuals_have_digital_skills_type"></p>
-                            </div>
-                            <div class="col">
-                                <h3 class="number" id="jobs_use_computer">0</h3>
-                                <p class="number-type" id="jobs_use_computer_type"></p>
-                            </div>
-                            <div class="col">
-                                <h3 class="number" id="individuals_self_improve_cities">0</h3>
-                                <p class="number-type" id="individuals_self_improve_type"></p>
-                            </div>
-                            <div class="col">
-                                <h3 class="number" id="individuals_self_improve_suburbs">0</h3>
-                                <p class="number-type" id="individuals_self_improve_suburbs_type"></p>
-                            </div>
-                            <div class="col">
-                                <h3 class="number" id="individuals_self_improve_rural">0</h3>
-                                <p class="number-type" id="individuals_self_improve_rural_type"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-5 no_padding">
-                    <div class="container" id="data_container">
-                        <div class="row">
-                            <div class="col-sm no_padding" id="plan_data_buttons">
-
-                            </div>
-                            <div class="col-sm" id="content-col">
-                                <div id="data_content_header">
-
-                                </div>
-                                <div id="data_content">
-                                </div>
-
-                            </div>
-                            <div class="col-sm no_padding" id="program_data_buttons">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Numbers -->
-            <!-- <div class="row">
                 <div class="col-6">
+                    <h3 class="cover-heading" id="country_name">Select a Country</h3>
+                    <div class="map" id="world_map">
                     
+                    </div>
                 </div>
-            </div> -->
-
-            <!-- Container for GSI viz -->
-            <!-- Explore Data section -->
-
-        </main>
-        <!-- <section id="explore_data_section">
-            <div class="container" id="explore_data_container">
-                <h2>GSI Data</h2>
-                <div class="GSI-chart">
-        
+                
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>Country Efforts to Track Digital Skills</h3>
+                            <p id="digital_skills_note">
+                            
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <h3>Country Efforts to Address Broadband Access</h3>
+                            <p id="broadband_note">
+                            
+                            </p>
+                        </div>
+                    </div>
+                    <table class="table table-borderless">
+                        <tbody id="indicators">
+                            <tr class="number">
+                                <td>
+                                    <span class="inline-number" id="unemployment"></span>
+                                </td>
+                                <td>
+                                    <span class="inline-number" id="ICT_rank"></span>
+                                </td>
+                                <td>
+                                    <span class="inline-number" id="internet_users"></span>
+                                </td>
+                                <td>
+                                    <span class="inline-number" id="internet_access"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="number-type" id="unemployment_type"></span>
+                                </td>
+                                <td>
+                                    <span class="number-type" id="ICT_rank_type"></span>
+                                </td>
+                                <td>
+                                    <span class="number-type" id="internet_users_type"></span>
+                                </td>
+                                <td>
+                                    <span class="number-type" id="internet_access_type"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-        </section> -->
+        </main>
     </div>
 
 
