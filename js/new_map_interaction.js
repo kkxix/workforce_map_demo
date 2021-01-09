@@ -67,8 +67,9 @@
         // '<span class="strong-yes">Governor prioritizes digital skills </span>training.', 
         '<span class="strong-yes">Allows incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-yes">Provides technology-related apprenticeship</span> opportunities.',
-        '<span class="strong-yes">Community colleges driving digital skills</span>.',
+        'Community colleges driving digital skills',
         '<span class="strong-yes">Developed broadband plan</span>.',
+        'Additional digital skills initiatives'
     ]
     var no_headings = [
         '<span class="strong-no">Does not track data </span>on digital skills needs.',
@@ -77,8 +78,9 @@
         // '<span class="strong-no">Governor does not prioritize digital skills</span> training.',
         '<span class="strong-no">Does not allow incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-no">Does not provide technology-related apprenticeship</span> opportunities.',
-        '<span class="strong-no">Community colleges are not driving digital skills</span>.',
+        'Community colleges driving digital skills',
         '<span class="strong-no">Has not developed broadband plan</span>.',
+        'Additional digital skills initiatives'
     ]
     var number_of_indicators = 8;
 
@@ -116,7 +118,8 @@
             var rows = []
             var full_rows = []
 
-            for(var i = 1; i <= number_of_indicators; i++){
+            var yn_rows = [1,2,3,4,5,7]
+            $.each(yn_rows, function(j, i){
 
                 var YN_val = ''
                 var yn_type = `${i}_YN`;
@@ -201,7 +204,73 @@
                         </div>
                     `)
                 }
-            }
+            })
+
+            nuetral_rows = [6, 8]
+            $.each(nuetral_rows, function (j, i) {
+
+                var note_type = `${i}_note`;
+                var full_note_type = `${i}_full_note`;
+                var link_type = `${i}_links`;
+
+                if (note_type in state_data) {
+                    var icon = '';
+                    var heading = '';
+                    var text = '';
+                   
+                    
+                    heading = `${yes_headings[i - 1]}`
+                    text = `${state_data[note_type]}`
+
+                    rows.push(`
+                        <tr>
+                            <td>${icon}</td>
+                            <td>
+                                <a href="#${i}"><h5 class="indicator-heading">${heading}<h5></a>
+                                <p class="indicator-text">${text}<p>
+                            </td>
+                        </tr>
+                    `)
+                }
+                
+                if (full_note_type in state_data){
+                    var heading = '';
+                    var full_text = [];
+                    var all_links = [];
+
+                    heading = `${yes_headings[i - 1]}`
+
+                    var note = state_data[full_note_type].split(";");
+                    $.each(note, function (j, n) {
+                        full_text.push(`
+                            <p class="indicator-text">
+                                ${n}
+                            </p>
+                        `)
+                    })
+                    if (link_type in state_data) {
+                        var links = state_data[link_type].split(";");
+                        $.each(links, function (j, l) {
+                            if (j % 2 == 1) {
+                                all_links.push(`
+                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>,                                     
+                                `)
+                            };
+                        });
+                    }
+
+                    
+                    full_rows.push(`
+                        <div class="${i} box" id="${i}">
+                            </br></br>
+                            <h5 class="indicator-heading">${heading}<h5>
+                                ${full_text.join("")}
+                            <span class="indicator-text">More resources: </span>
+                                ${all_links.join("")}
+                        </div>
+                    `)
+                }
+            })
 
             $(`#indicators`).html(`
                 ${rows.join("")}

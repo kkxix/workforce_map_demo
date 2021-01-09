@@ -17,7 +17,7 @@
 
     $(document.body).on('click', '.state', function(){
         state_is_selected = true;
-        var state_name = $(this).attr('data-name');
+        state_name = $(this).attr('data-name');
 
         $('#country_name').html(`${state_name}`)
 
