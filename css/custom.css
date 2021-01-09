@@ -263,19 +263,14 @@ a:hover {
   font-size: 0.95rem;
 }
 
+.number-link {
+  font-family: "Raleway", sans-serif;
+  color: #747474;
+}
+
 .number-definition {
-  visibility: hidden;
-  width: 320px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -160px;
-  /* Use half of the width (120/2 = 60), to center the tooltip */
+  font-size: x-small;
+  color: #AAAAAA;
 }
 
 .number:hover .number-definition {

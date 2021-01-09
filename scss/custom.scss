@@ -283,20 +283,28 @@ a:hover {
     color: $micro-gray-medium;
     font-size: .95rem;
 }
-.number-definition{
-    visibility: hidden;
-    width: 320px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
- 
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -160px; /* Use half of the width (120/2 = 60), to center the tooltip */
+.number-link{
+    font-family: 'Raleway', sans-serif;
+    color: $micro-gray-medium;
 }
+.number-definition{
+    font-size: x-small;
+    color: $micro-gray-light
+}
+// .number-definition{
+//     visibility: hidden;
+//     width: 320px;
+//     background-color: black;
+//     color: #fff;
+//     text-align: center;
+//     padding: 5px 0;
+//     border-radius: 6px;
+ 
+//     z-index: 1;
+//     bottom: 100%;
+//     left: 50%;
+//     margin-left: -160px; /* Use half of the width (120/2 = 60), to center the tooltip */
+// }
 .number:hover .number-definition {
   visibility: visible;
 }
