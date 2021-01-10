@@ -5,7 +5,7 @@
         $.getJSON("/data/skills_data_toy.json", function(data){
             $.each(data, function(i, d){
                 var state = d['State']
-                if(d[`${indicator_index}_YN`].toUpperCase() === 'YES'){
+                if(d[`${indicator_index}_YN`].toUpperCase().trim() === 'YES'){
                     $(`#${state}`).attr('class', 'state-yes')
                 } else {
                     $(`#${state}`).attr('class', 'state-no')
