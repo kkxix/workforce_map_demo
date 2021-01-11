@@ -87,9 +87,26 @@
     var state_is_selected = false; 
     var element_state_id = '';
 
+    // EXPERIMENT
+    var state_name_full = localStorage['objectToPass'];
+    if (typeof state_name_full != "undefined"){
+        localStorage.removeItem('objectToPass'); // Clear the localStorage
+        // var passed_state = myData[0].state
+        var state_acc = Object.keys(state_names).find(key =>
+            state_names[key] === state_name_full
+        ); 
+        // alert('State: ' + state_acc);
+        showState(state_acc);
+    }
+    
+
     $(document.body).on('click', '.state', function(){
         state_is_selected = true;
         element_state_id = this.id;
+        showState(element_state_id);
+    })
+
+    function showState(element_state_id){
         var state_name = state_names[element_state_id];
         icons = []
         notes = []
@@ -134,7 +151,7 @@
                     var full_text = [];
                     var all_links = [];
                     if(yn_type in state_data){
-                        if (state_data[yn_type].toUpperCase() == 'YES') {
+                        if (state_data[yn_type].toUpperCase().trim() == 'YES') {
                             // icon = `<img src="/img/success.png" style="width:2rem">`
                             icon =`
                                 <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 24" width="30">
@@ -179,8 +196,11 @@
                         $.each(links, function (j, l) {
                             if (j % 2 == 1) {
                                 all_links.push(`
-                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>,                                     
+                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>                                
                                 `)
+                                if (j < links.length-1) {
+                                    all_links.push(`,`)
+                                }
                             };
                         });
                     }
@@ -194,13 +214,17 @@
                             </td>
                         </tr>
                     `)
+                    var more_resources = ''
+                    if(all_links.length){
+                        more_resources = `<span class="indicator-text">More resources: </span>
+                                ${all_links.join("")}`
+                    }
                     full_rows.push(`
                         <div class="${i} box" id="${i}">
                             </br></br>
                             <h5 class="indicator-heading">${heading}<h5>
                                 ${full_text.join("")}
-                            <span class="indicator-text">More resources: </span>
-                                ${all_links.join("")}
+                                ${more_resources}
                         </div>
                     `)
                 }
@@ -253,20 +277,26 @@
                         $.each(links, function (j, l) {
                             if (j % 2 == 1) {
                                 all_links.push(`
-                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>,                                     
+                                    <a class="indicator-link" href="${l.trim()}" target="_blank">${links[j - 1].trim()}</a>                                 
                                 `)
+                                if (j < links.length -1 ) {
+                                    all_links.push(`,`)
+                                }
                             };
                         });
                     }
 
-                    
+                    var more_resources = ''
+                    if (all_links.length) {
+                        more_resources = `<span class="indicator-text">More resources: </span>
+                                ${all_links.join("")}`
+                    }
                     full_rows.push(`
                         <div class="${i} box" id="${i}">
                             </br></br>
                             <h5 class="indicator-heading">${heading}<h5>
                                 ${full_text.join("")}
-                            <span class="indicator-text">More resources: </span>
-                                ${all_links.join("")}
+                                ${more_resources}
                         </div>
                     `)
                 }
@@ -280,5 +310,5 @@
             `)
         })
 
-    })
+    }
 })(jQuery)

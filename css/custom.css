@@ -68,6 +68,21 @@ footer {
   stroke-width: 1;
 }
 
+#ribbon {
+  stroke: #01A6F0;
+  fill: #01A6F0;
+}
+
+.ribbon-state {
+  font-size: 1.5rem;
+}
+
+.card {
+  border-color: #01A6F0;
+  border-style: solid;
+  border-width: 1px;
+}
+
 .state:hover {
   cursor: pointer;
   fill: #747474;
