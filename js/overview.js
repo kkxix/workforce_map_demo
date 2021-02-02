@@ -35,7 +35,7 @@
                 total_jobs_ds += jds 
             }
 
-            var m = parseFloat(d['funding'].replaceAll(",", "").replaceAll("$", ""))
+            var m = parseFloat(d['funding'].replaceAll(",", "").replaceAll("$", "")) * total_unemployed
             total_spending += m
 
             $.each(yn_rows, function(j, r){
