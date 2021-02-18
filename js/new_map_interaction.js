@@ -68,7 +68,7 @@
         '<span class="strong-yes">Allows incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-yes">Provides technology-related apprenticeship</span> opportunities.',
         'Community colleges driving digital skills',
-        '<span class="strong-yes">Developed broadband plan</span>.',
+        '<span class="strong-yes">Developed broadband plan that addresses digital skills</span>.',
         'Additional digital skills initiatives'
     ]
     var no_headings = [
@@ -79,7 +79,7 @@
         '<span class="strong-no">Does not allow incumbent worker training funds</span> to be used for digital skills.',
         '<span class="strong-no">Does not provide technology-related apprenticeship</span> opportunities.',
         'Community colleges driving digital skills',
-        '<span class="strong-no">Has not developed broadband plan</span>.',
+        '<span class="strong-no">Has not developed broadband plan that addresses digital skills</span>.',
         'Additional digital skills initiatives'
     ]
     var number_of_indicators = 8;
