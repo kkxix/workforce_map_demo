@@ -126,10 +126,10 @@
                 return d.State === element_state_id
             })
 
-            $('#unemployed').html(`${state_data['total_unemployed'].trim()}`)
+            $('#unemployed').html(`${parseInt(state_data['total_unemployed'].replaceAll(",", "")).toLocaleString('en')}`)
             $('#supply').html(`${state_data['unemployed_without_ds'].trim()}`)
             $('#demand').html(`${state_data['jobs_with_ds'].trim()}`)
-            $('#dollars').html(`${state_data['funding'].trim()}`)
+            $('#dollars').html(`${state_data['funding_per_unemployed'].trim()}`)
 
 
             var rows = []

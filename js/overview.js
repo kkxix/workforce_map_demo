@@ -35,7 +35,7 @@
                 total_jobs_ds += jds 
             }
 
-            var m = parseFloat(d['funding'].replaceAll(",", "").replaceAll("$", "")) * total_unemployed
+            var m = parseFloat(d['funding'].replaceAll(",", "").replaceAll("$", ""));
             total_spending += m
 
             $.each(yn_rows, function(j, r){
@@ -50,8 +50,7 @@
         $('#unemployed').html(`${total_unemployed.toLocaleString("en")}`)
         $('#supply').html(`${total_unemployed_without_ds.toLocaleString("en")}`)
         $('#demand').html(`${total_jobs_ds.toLocaleString("en")}`)
-        $('#dollars').html(`${total_spending_per.toLocaleString("en")}`)
-
+        $('#dollars').html(`${total_spending_per.toLocaleString('en-US', {style: 'currency', currency: 'USD',})}`)
 
         $.each(yn_rows, function(i, r){
             var yeses = record[`yes_${r}`]
